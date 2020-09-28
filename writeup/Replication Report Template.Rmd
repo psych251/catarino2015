@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (200x, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of Study: 'Failing to Forget: Inhibitory-Control Deficits Compromise Memory Suppression in Posttraumatic Stress Disorder' by Catarino et al. (2015, Psychological Science)"
+author: "Emily Jusuf (ejusuf@stanford.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
   html_document:
@@ -10,11 +10,21 @@ output:
       collapsed: false
 ---
 
+##Project Proposal
+
+In their study, Catarino et al. examined individual ability to voluntarily suppress memories when confronted with a reminder -- known as suppression-induced forgetting -- in patients with PTSD and in controls. They conducted an experiment in three stages: first, participants learned object-scene pairs where a reminder object was paired with a distressing scene; second, participants were instructed to either suppress or recall the scenes associated with specific objects; finally, participants verbally described the scenes associated with each object. The verbal descriptions in the third phase were scored on three dependent measures: identification, gist, and details. Across all three dependent measures, controls showed greater suppression-induced forgetting than PTSD patients, confirming the authors' hypothesis that PTSD patients are compromised in their ability to suppress episodic retrieval.
+
+I chose to replicate this study because I am interested in conducting research involving clinical populations, an important subset of which is research on cognitive differences between clinical populations and non-clinical populations. Since my previous research experience is in HCI, I am also interested in replicating a psychological study that collects behavioral data without interaction with an intervention.
+
+I plan to replicate the three-stage task and analyze three dependent measures described above in order to reproduce Figure 3 of the original paper. I do not plan to replicate other analyses in the original study, including thought control ability, PTSD symptoms, depressive symptoms, etc. The authors have made all object-scene pairs available on OSF at https://osf.io/t9j8e/?view_only=f171281f212f4435917b16a9e581a73b. Participants will be recruited through Amazon Mechanical Turk, screened for PTSD, and given the three-stage task. To achieve 95% power, I will need a minimum of 7 participants in each group of PTSD and control.
+
+I anticipate the greatest challenge to be programming the three-stage task in a way that matches the original paper to a reasonable degree. The first stage requires presenting the object-scene pairs for 6 seconds each in a randomized order; the second stage requires creating red or green frames around the objects to indicate suppression or recall. I don't have experience with programming behavioral experiments or with Mechanical Turk, so it would be good to discuss what software to use at office hours. Other challenges of this replication project include (1) finding PTSD patients using Mechanical Turk; (b) manual work needed to encode participants' verbal descriptions in the third stage. I am familiar with the tidyverse and using R, but I have not had formal instruction in many of the statistical methods used in psychology (ANOVA, power analysis, etc.), so I hope this project will also be a good way to improve my understanding of statistics.
+
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
 ##Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.
 
 
 ##Methods
