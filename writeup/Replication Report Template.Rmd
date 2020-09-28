@@ -10,7 +10,7 @@ output:
       collapsed: false
 ---
 
-##Project Proposal
+## Project Proposal
 
 In their study, Catarino et al. examined individual ability to voluntarily suppress memories when confronted with a reminder -- known as suppression-induced forgetting -- in patients with PTSD and in controls. They conducted an experiment in three stages: first, participants learned object-scene pairs where a reminder object was paired with a distressing scene; second, participants were instructed to either suppress or recall the scenes associated with specific objects; finally, participants verbally described the scenes associated with each object. The verbal descriptions in the third phase were scored on three dependent measures: identification, gist, and details. Across all three dependent measures, controls showed greater suppression-induced forgetting than PTSD patients, confirming the authors' hypothesis that PTSD patients are compromised in their ability to suppress episodic retrieval.
 
@@ -20,38 +20,39 @@ I plan to replicate the three-stage task and analyze three dependent measures de
 
 I anticipate the greatest challenge to be programming the three-stage task in a way that matches the original paper to a reasonable degree. The first stage requires presenting the object-scene pairs for 6 seconds each in a randomized order; the second stage requires creating red or green frames around the objects to indicate suppression or recall. I don't have experience with programming behavioral experiments or with Mechanical Turk, so it would be good to discuss what software to use at office hours. Other challenges of this replication project include (1) finding PTSD patients using Mechanical Turk; (b) manual work needed to encode participants' verbal descriptions in the third stage. I am familiar with the tidyverse and using R, but I have not had formal instruction in many of the statistical methods used in psychology (ANOVA, power analysis, etc.), so I hope this project will also be a good way to improve my understanding of statistics.
 
+The GitHub repository for this replication project can be found at https://github.com/psych251/catarino2015.
+
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
-##Introduction
+## Introduction
 
 [No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.
 
+## Methods
 
-##Methods
-
-###Power Analysis
+### Power Analysis
 
 Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
 
-###Planned Sample
+### Planned Sample
 
 Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
 
-###Materials
+### Materials
 
 All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
 
-###Procedure	
+### Procedure	
 
 Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
 
-###Analysis Plan
+### Analysis Plan
 
 Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
 
 **Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
 
-###Differences from Original Study
+### Differences from Original Study
 
 Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
 
@@ -60,25 +61,23 @@ Explicitly describe known differences in sample, setting, procedure, and analysi
 You can comment this section out prior to final report with data collection.
 
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+Sample size, demographics, data exclusions based on rules spelled out in analysis plan
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
+Any differences from what was described as the original plan, or “none”.
 
-
-##Results
-
+## Results
 
 ### Data preparation
 
 Data preparation following the analysis plan.
 	
 ```{r include=F}
-###Data Preparation
+### Data Preparation
 
-####Load Relevant Libraries and Functions
+#### Load Relevant Libraries and Functions
 
-####Import data
+#### Import data
 
 #### Data exclusion / filtering
 
@@ -91,7 +90,7 @@ The analyses as specified in the analysis plan.
 
 *Side-by-side graph with original graph is ideal here*
 
-###Exploratory analyses
+### Exploratory analyses
 
 Any follow-up analyses desired (not required).  
 
