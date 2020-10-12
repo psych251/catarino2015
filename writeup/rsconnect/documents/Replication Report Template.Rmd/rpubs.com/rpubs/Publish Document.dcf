@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/674063/4e2367e2434d4b90aaf1fc54a8159d39
+bundleId: https://api.rpubs.com/api/v1/document/674063/4e2367e2434d4b90aaf1fc54a8159d39
+url: http://rpubs.com/ejusuf/674063/edit
+when: 1602473902.48358

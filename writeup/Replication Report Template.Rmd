@@ -1,16 +1,14 @@
 ---
 title: "Replication of Study: 'Failing to Forget: Inhibitory-Control Deficits Compromise Memory Suppression in Posttraumatic Stress Disorder' by Catarino et al. (2015, Psychological Science)"
 author: "Emily Jusuf (ejusuf@stanford.edu)"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
+date: "October 11, 2020"
 output:
   html_document:
     toc: yes
     toc_depth: 3
     toc_float:
-      collapsed: false
+      collapsed: no
 ---
-
-<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
 ## Introduction
 
@@ -79,32 +77,25 @@ The main difference of this replication project from the original study is that 
 You can comment this section out prior to final report with data collection.
 
 #### Actual Sample
+
 Sample size, demographics, data exclusions based on rules spelled out in analysis plan
 
 #### Differences from pre-data collection methods plan
+
 Any differences from what was described as the original plan, or “none”.
 
 ## Results
 
 ### Data preparation
 
-Data preparation following the analysis plan.
-
-```{r include=F}
+```{r include=FALSE}
 #### Loading libraries
-
 #### Import data
-
 #### Filter participants to be excluded
-
 #### Transform PTSD screen score into "Probable PTSD" and "Control"
-
 #### Transform set assignment data into single column with values Baseline/Suppress/Recall (possible values "ABC," "ACB," etc.)
-
 #### Create dataframe for confirmatory analysis. Include first 18 control participants
-
 #### Create dataframe for exploratory analysis. Include all PTSD participants, first N control participants
-
 ```
 
 ### Confirmatory analysis
