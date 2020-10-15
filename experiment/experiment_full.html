@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+        <script src="jspsych-6/jspsych.js"></script>
+        <script src="jspsych-6/css/jspsych.css"></script>
+        <script src="jspsych-6/plugins/jspsych-html-keyboard-response.js"></script>
+        <link href="jspsych-6/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body></body>
+    <script>
+
+    // initialize lists of objects and scenes
+    var list_A = [
+        {object: 'osf_files/Objects/belt.jpg', scene: 'osf_files/Scenes/drugs_overdosepills.jpg'},
+        {object: 'osf_files/Objects/duct.jpg', scene: 'osf_files/Scenes/death_corpsestape.jpg'},
+        {object: 'osf_files/Objects/bike.jpg', scene: 'osf_files/Scenes/animals_leopard.jpg'},
+        {object: 'osf_files/Objects/bench.jpg', scene: 'osf_files/Scenes/accident_planecrash2.jpg'},
+        {object: 'osf_files/Objects/suitcase.jpg', scene: 'osf_files/Scenes/disaster_couple.jpg'},
+        {object: 'osf_files/Objects/laundrybasket2.jpg', scene: 'osf_files/Scenes/fight_riot.jpg'},
+        {object: 'osf_files/Objects/star2.jpg', scene: 'osf_files/Scenes/fight_manbeatingwoman2.jpg'},
+        {object: 'osf_files/Objects/trafficsign.jpg', scene: 'osf_files/Scenes/death_hungbridge.jpg'},
+        {object: 'osf_files/Objects/ring.jpg', scene: 'osf_files/Scenes/injury_bandage.jpg'},
+        {object: 'osf_files/Objects/wheelbarrow.jpg', scene: 'osf_files/Scenes/injury_limps.jpg'},
+        {object: 'osf_files/Objects/bowl.jpg', scene: 'osf_files/Scenes/hospital_baby.jpg'},
+        {object: 'osf_files/Objects/framedpicture.jpg', scene: 'osf_files/Scenes/fight_manguns.jpg'},
+        {object: 'osf_files/Objects/brick.jpg', scene: 'osf_files/Scenes/war_capture.jpg'},
+        {object: 'osf_files/Objects/vase.jpg', scene: 'osf_files/Scenes/sad_childgrave.jpg'},
+        {object: 'osf_files/Objects/carton.jpg', scene: 'osf_files/Scenes/dirt_garbage.jpg'},
+        {object: 'osf_files/Objects/vest.jpg', scene: 'osf_files/Scenes/disaster_flood.jpg'}
+    ]
+    var list_B = [
+        {object: 'osf_files/Objects/sunglasses.jpg', scene: 'osf_files/Scenes/drugs_addictfloor.jpg'},
+        {object: 'osf_files/Objects/doll.jpg', scene: 'osf_files/Scenes/death_corpsesgirls.jpg'},
+        {object: 'osf_files/Objects/shoppingcart.jpg', scene: 'osf_files/Scenes/animals_deaddog.jpg'},
+        {object: 'osf_files/Objects/boot.jpg', scene: 'osf_files/Scenes/accident_horse.jpg'},
+        {object: 'osf_files/Objects/comb.jpg', scene: 'osf_files/Scenes/disaster_dust.jpg'},
+        {object: 'osf_files/Objects/garbagebin.jpg', scene: 'osf_files/Scenes/fight_demolish.jpg'},
+        {object: 'osf_files/Objects/watch.jpg', scene: 'osf_files/Scenes/fight_peoplegrabbingface.jpg'},
+        {object: 'osf_files/Objects/newspaper2.jpg', scene: 'osf_files/Scenes/death_hungman.jpg'},
+        {object: 'osf_files/Objects/socks.jpg', scene: 'osf_files/Scenes/injury_babyfire.jpg'},
+        {object: 'osf_files/Objects/camcorder.jpg', scene: 'osf_files/Scenes/hospital_camera.jpg'},
+        {object: 'osf_files/Objects/cigarette.jpg', scene: 'osf_files/Scenes/injury_beatenup.jpg'},
+        {object: 'osf_files/Objects/mug.jpg', scene: 'osf_files/Scenes/hospital_mangrievinghospital.jpg'},
+        {object: 'osf_files/Objects/rug.jpg', scene: 'osf_files/Scenes/death_policecorpse.jpg'},
+        {object: 'osf_files/Objects/bottle.jpg', scene: 'osf_files/Scenes/dirt_toilet.jpg'},
+        {object: 'osf_files/Objects/garbagebag.jpg', scene: 'osf_files/Scenes/war_skulls.jpg'},
+        {object: 'osf_files/Objects/tie.jpg', scene: 'osf_files/Scenes/disaster_peoplefleeing.jpg'}
+    ]
+    var list_C = [
+        {object: 'osf_files/Objects/handbag.jpg', scene: 'osf_files/Scenes/drugs_alcoholics.jpg'},
+        {object: 'osf_files/Objects/basket.jpg', scene: 'osf_files/Scenes/death_ditch.jpg'},
+        {object: 'osf_files/Objects/woolenhat.jpg', scene: 'osf_files/Scenes/animals_dogfight.jpg'},
+        {object: 'osf_files/Objects/microphone.jpg', scene: 'osf_files/Scenes/accident_sportscar.jpg'},
+        {object: 'osf_files/Objects/rockingchair.jpg', scene: 'osf_files/Scenes/disaster_fire.jpg'},
+        {object: 'osf_files/Objects/sneakers.jpg', scene: 'osf_files/Scenes/fight_gang.jpg'},
+        {object: 'osf_files/Objects/necklace.jpg', scene: 'osf_files/Scenes/fight_manthreatgirl.jpg'},
+        {object: 'osf_files/Objects/dress.jpg', scene: 'osf_files/Scenes/death_woman.jpg'},
+        {object: 'osf_files/Objects/juice.jpg', scene: 'osf_files/Scenes/sad_boycrying.jpg'},
+        {object: 'osf_files/Objects/redflag.jpg', scene: 'osf_files/Scenes/injury_doctors.jpg'},
+        {object: 'osf_files/Objects/clock.jpg', scene: 'osf_files/Scenes/injury_thin.jpg'},
+        {object: 'osf_files/Objects/tv.jpg', scene: 'osf_files/Scenes/sad_mantv.jpg'},
+        {object: 'osf_files/Objects/hanger.jpg', scene: 'osf_files/Scenes/fight_policestorming.jpg'},
+        {object: 'osf_files/Objects/broom.jpg', scene: 'osf_files/Scenes/fight_prisoncell.jpg'},
+        {object: 'osf_files/Objects/hat.jpg', scene: 'osf_files/Scenes/death_burrial.jpg'},
+        {object: 'osf_files/Objects/trafficlight.jpg', scene: 'osf_files/Scenes/fight_riotsstreetcorner.jpg'}
+    ]
+    var list_filler = [
+        {object: 'osf_files/Objects/skateboard.jpg', scene: 'osf_files/Scenes/fight_kidsfight.jpg'},
+        {object: 'osf_files/Objects/gardenhose.jpg', scene: 'osf_files/Scenes/animals_cow.jpg'},
+        {object: 'osf_files/Objects/lighter.jpg', scene: 'osf_files/Scenes/injury_brokenleg.jpg'},
+        {object: 'osf_files/Objects/leaves.jpg', scene: 'osf_files/Scenes/animals_starveddog.jpg'},
+        {object: 'osf_files/Objects/puzzle.jpg', scene: 'osf_files/Scenes/injury_selfinjury.jpg'},
+        {object: 'osf_files/Objects/cellphone.jpg', scene: 'osf_files/Scenes/death_takingpic.jpg'},
+        {object: 'osf_files/Objects/whitetowel.jpg', scene: 'osf_files/Scenes/sad_washcloth.jpg'},
+        {object: 'osf_files/Objects/ladder.jpg', scene: 'osf_files/Scenes/accident_railroad.jpg'},
+        {object: 'osf_files/Objects/scarf.jpg', scene: 'osf_files/Scenes/sad_womengrieving.jpg'},
+        {object: 'osf_files/Objects/lock.jpg', scene: 'osf_files/Scenes/fight_prisonhostage.jpg'},
+        {object: 'osf_files/Objects/socket.jpg', scene: 'osf_files/Scenes/fight_robbery.jpg'},
+        {object: 'osf_files/Objects/axe.jpg', scene: 'osf_files/Scenes/animals_whale.jpg'}
+    ]
+    var list_all = list_A.concat(list_B, list_C, list_filler)
+
+    </script>
+</html>

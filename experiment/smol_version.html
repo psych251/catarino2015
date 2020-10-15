@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+        <script src="jspsych-6/jspsych.js"></script>
+        <script src="jspsych-6/css/jspsych.css"></script>
+        <script src="jspsych-6/plugins/jspsych-html-keyboard-response.js"></script>
+        <script src="jspsych-6/plugins/jspsych-image-button-response.js"></script>
+        <script src="jspsych-6/plugins/jspsych-image-keyboard-response.js"></script>
+        <link href="jspsych-6/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body></body>
+    <script>
+
+    // initialize lists of objects and scenes
+    var list_A = [
+        {object: 'osf_files/Objects/belt.jpg', scene: 'osf_files/Scenes/drugs_overdosepills.jpg'},
+        {object: 'osf_files/Objects/duct.jpg', scene: 'osf_files/Scenes/death_corpsestape.jpg'}
+    ]
+    var list_B = [
+        {object: 'osf_files/Objects/sunglasses.jpg', scene: 'osf_files/Scenes/drugs_addictfloor.jpg'},
+        {object: 'osf_files/Objects/doll.jpg', scene: 'osf_files/Scenes/death_corpsesgirls.jpg'}
+    ]
+    var list_C = [
+        {object: 'osf_files/Objects/handbag.jpg', scene: 'osf_files/Scenes/drugs_alcoholics.jpg'},
+        {object: 'osf_files/Objects/basket.jpg', scene: 'osf_files/Scenes/death_ditch.jpg'}
+    ]
+    var list_filler = [
+        {object: 'osf_files/Objects/skateboard.jpg', scene: 'osf_files/Scenes/fight_kidsfight.jpg'},
+        {object: 'osf_files/Objects/gardenhose.jpg', scene: 'osf_files/Scenes/animals_cow.jpg'}
+    ]
+    var list_all = list_A.concat(list_B, list_C, list_filler)
+
+    // assign participant to 1 of 6 groups representing Baseline/Suppress/Recall conditions
+    var group = Math.floor(Math.random() * 6)
+    var list_suppress = []
+    var list_recall = []
+    switch(group) {
+    	case 0: // ABC (list_A = Baseline, list_B = Suppress, list_C = Recall)
+    		list_suppress = list_B
+    		list_recall = list_C
+    		break
+    	case 1: // ACB
+    		list_suppress = list_C
+    		list_recall = list_B
+    		break
+    	case 2: // BAC
+    		list_suppress = list_A
+    		list_recall = list_C
+    		break
+    	case 3: // BCA
+    		list_suppress = list_C
+    		list_recall = list_A
+    		break
+    	case 4: // CAB
+    		list_suppress = list_A
+    		list_recall = list_B
+    		break
+    	case 5: // CBA
+    		list_suppress = list_B
+    		list_recall = list_A
+    		break
+    }
+
+    var instructions_general = {
+        type: 'html-keyboard-response',
+        stimulus: '<p>In this study, you will be presented with and tested on pairings between objects and scenes.</p><p><b>Content Warning:</b> Please be aware that the images used in this study contain content that may be unpleasant or disturbing, including animal cruelty, bodily injury, death, disasters, drugs, illness, violence, and war. You may exit the study at any point if you wish to do so.</p><p>Press the spacebar to begin.</p>',
+        choices: ' '
+    }
+
+    var instructions_phase1_study = {
+        type: 'html-keyboard-response',
+        stimulus: '<p>In this part of the study, you will be presented with pairs of objects and scenes. Please do your best to remember the pairings.</p><p>Press the spacebar to continue.</p>',
+        choices: ' '
+    }
+
+    // present all 60 pairs in randomized order for 6 s each
+    var phase1_study = {
+	    timeline: [
+	        {
+	            type: 'html-keyboard-response',
+	            prompt: '<p>Study the following pairs of images.</p>',
+	            stimulus: function(){
+	                var html = '<img src="' + jsPsych.timelineVariable('object', true) + '" style="margin:20px" />'
+	                html += '<img src="' + jsPsych.timelineVariable('scene', true) + '" style="margin:20px" />'
+	                return html
+	            },
+	            choices: jsPsych.NO_KEYS,
+	            trial_duration: 6000
+	        }
+	    ],
+	    timeline_variables: list_all,
+	    randomize_order: true
+    }
+
+    var instructions_phase1_test = {
+        type: 'html-keyboard-response',
+        stimulus: '<p>In this part of the study, you will be tested on how well you remember the pairings that you just saw. Please answer the questions to the best of your ability.</p><p>Press the spacebar to continue.</p>',
+        choices: ' '
+    }
+
+    // helper function that returns an array containing 2 wrong button choices
+    function pick_wrong_choices(scene_correct) {
+    	var scenes_wrong = []
+    	var choices = Array.from(list_all)
+    	var index_correct = choices.map(function(item) {return item.scene}).indexOf(scene_correct)
+    	choices.splice(index_correct, 1) // remove correct answer from possible choices
+    	var index_wrong1 = Math.floor(Math.random() * choices.length)
+    	scenes_wrong.push(choices[index_wrong1].scene)
+    	choices.splice(index_wrong1, 1) // remove first wrong answer from possible choices
+    	scenes_wrong.push(choices[Math.floor(Math.random() * choices.length)].scene)
+    	return scenes_wrong
+    }
+
+    // run test on all 60 items with 3 choices per item and feedback on correct answer
+    var phase1_test_single = {
+	    timeline: [
+	    	{
+	    		type: 'image-button-response',
+	    		stimulus: jsPsych.timelineVariable('object'),
+	    		prompt: '<p>Select the scene associated with the object</p>',
+	    		choices: ['1', '2', '3'],
+	    		button_html: function(){
+	    			var button_html = []
+	    			var scene_correct = jsPsych.timelineVariable('scene', true)
+	    			var scenes_wrong = pick_wrong_choices(scene_correct)
+	    			var location = Math.floor(Math.random() * 3) // randomize order of buttons
+	    			switch(location) {
+	    				case 0:
+	    					button_html.push('<button class="jspsych-btn"><img src="' + scene_correct + '" style="height:250px" /></button>')
+	    					button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[0] + '" style="height:250px" /></button>')
+							button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[1] + '" style="height:250px" /></button>')
+							break
+						case 1:
+							button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[0] + '" style="height:250px" /></button>')
+	    					button_html.push('<button class="jspsych-btn"><img src="' + scene_correct + '" style="height:250px" /></button>')
+							button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[1] + '" style="height:250px" /></button>')
+							break
+						case 2:
+	    					button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[0] + '" style="height:250px" /></button>')
+							button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[1] + '" style="height:250px" /></button>')
+							button_html.push('<button class="jspsych-btn"><img src="' + scene_correct + '" style="height:250px" /></button>')
+							break
+	    			}
+	    			return button_html
+	    		}
+	    	},
+	    	{
+	    		type: 'image-keyboard-response',
+	            stimulus: jsPsych.timelineVariable('scene'),
+	            choices: jsPsych.NO_KEYS,
+	            trial_duration: 2500
+	    	}
+	    ],
+	    timeline_variables: list_all,
+	    randomize_order: true
+    }
+
+    var instructions_phase2_practice = {
+        type: 'html-keyboard-response',
+        stimulus: '<p>In this part of the study, you will be presented with objects from the pairings that you just studied. Objects will be surrounded with either a red or green frame.</p><p>When the frame around the object is red, please do your best to suppress your memory of the associated scene, and additionally prevent any distracting thoughts from coming into awareness.</p><p>When the frame around the object is green, please recall the associated scene in as much detail as possible.</p><p>Press the spacebar to <b>practice</b> conducting this task.</p>',
+        choices: ' '
+    }
+
+    // practice run of TNT task on 12 items
+    var phase2_practice = {
+	    timeline: [
+	        {
+	            type: 'html-keyboard-response',
+				stimulus: function(){
+	                var html = '<img src="' + jsPsych.timelineVariable('object', true) + '" style="padding:50px;border:20px '
+	                // assign red or green border with 0.5 probability
+	                var coin_flip = Math.floor(Math.random() * 2)
+	                if (coin_flip == 0) {
+	                	html += 'solid red" />'
+	                } else /* coin_flip == 1 */ {
+	                	html += 'solid green" />'
+	                }
+	                return html
+	            },
+	            choices: jsPsych.NO_KEYS,
+	            trial_duration: 3000
+	        },
+	        {
+	            type: 'html-keyboard-response',
+	            stimulus: '<div style="font-size:60px;">+</div>',
+	            choices: jsPsych.NO_KEYS,
+	            trial_duration: function() {
+	            	return Math.random() * 1200 + 1400 // random float between 1400 and 2600
+	            }
+	        }
+	    ],
+	    timeline_variables: list_filler // everyone sees same 12 items in same order
+    }
+
+    var instructions_phase2_real = {
+        type: 'html-keyboard-response',
+        stimulus: '<p>The practice portion has concluded. Press the spacebar to continue onto the task.</p><p><b>Instructions:</b> When the frame around the object is red, please do your best to suppress your memory of the associated scene, and additionally prevent any distracting thoughts from coming into awareness. When the frame around the object is green, please recall the associated scene in as much detail as possible.</p>',
+        choices: ' '
+    }
+
+    // TNT task: participants suppress or recall scenes depending on object frame color
+    var phase2_real = {
+	    timeline: [
+	        {
+	            type: 'html-keyboard-response',
+				stimulus: function(){
+	                var obj = jsPsych.timelineVariable('object', true)
+	                var html = '<img src="' + obj + '" style="padding:50px;border:20px '
+	                if (list_suppress.some(item => item.object === obj)) {
+	                	html += 'solid red" />' // red border if item is in list_suppress
+	                } else if (list_recall.some(item => item.object === obj)) {
+	                	html += 'solid green" />' // green border if item is in list_recall
+	                } else {
+	                	html += 'solid black" />' // for debugging; black border indicates error
+	                }
+	                return html
+	            },
+	            choices: jsPsych.NO_KEYS,
+	            trial_duration: 3000
+	        },
+	        {
+	            type: 'html-keyboard-response',
+	            stimulus: '<div style="font-size:60px;">+</div>',
+	            choices: jsPsych.NO_KEYS,
+	            trial_duration: function() {
+	            	return Math.random() * 1200 + 1400 // random float between 1400 and 2600
+	            }
+	        }
+	    ],
+	    // each object presented twice per block; 5 blocks (32 x 2 x 5)
+	    timeline_variables: list_suppress.concat(list_suppress, list_recall, list_recall),
+	    randomize_order: true,
+	    repetitions: 5
+    }
+
+    var instructions_phase3 = {
+        type: 'html-keyboard-response',
+        stimulus: '<p>In the final part of the study, you will be tested on how well you remember the pairings of objects and scenes. Objects will be presented to you along with a response box. For each object, you will have 30 seconds to type what you remember of the associated scene, in as much detail as possible, so that it can be uniquely identified. Feel free to disregard capitalization and punctuation.</p><p>Press the spacebar to continue.</p>',
+        choices: ' ',
+    }
+
+    // run experiment
+    jsPsych.init({
+        timeline: [
+            //instructions_general,
+            //instructions_phase1_study,
+            //phase1_study,
+            //instructions_phase1_test,
+            phase1_test_single,
+            //instructions_phase2_practice,
+            //phase2_practice,
+            //instructions_phase2_real,
+            //phase2_real,
+            //instructions_phase3
+        ],
+        show_progress_bar: true
+    })
+
+    </script>
+</html>
