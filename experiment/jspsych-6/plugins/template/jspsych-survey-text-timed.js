@@ -1,185 +1,134 @@
-/**
- * custom plugin: survey-text with trial_duration parameter and HTML preamble
- *
- */
-
-
 jsPsych.plugins['survey-text-timed'] = (function() {
-
   var plugin = {};
+
+  //jsPsych.pluginAPI.registerPreload('survey-text-timed', 'stimulus', 'image');
 
   plugin.info = {
     name: 'survey-text-timed',
     description: '',
     parameters: {
-      questions: {
-        type: jsPsych.plugins.parameterType.COMPLEX,
-        array: true,
-        pretty_name: 'Questions',
+      stimulus: {
+        type: jsPsych.plugins.parameterType.IMAGE,
+        pretty_name: 'Stimulus',
         default: undefined,
-        nested: {
-          prompt: {
-            type: jsPsych.plugins.parameterType.STRING,
-            pretty_name: 'Prompt',
-            default: undefined,
-            description: 'Prompt for the subject to response'
-          },
-          placeholder: {
-            type: jsPsych.plugins.parameterType.STRING,
-            pretty_name: 'Value',
-            default: "",
-            description: 'Placeholder text in the textfield.'
-          },
-          rows: {
-            type: jsPsych.plugins.parameterType.INT,
-            pretty_name: 'Rows',
-            default: 1,
-            description: 'The number of rows for the response text box.'
-          },
-          columns: {
-            type: jsPsych.plugins.parameterType.INT,
-            pretty_name: 'Columns',
-            default: 40,
-            description: 'The number of columns for the response text box.'
-          },
-          required: {
-            type: jsPsych.plugins.parameterType.BOOL,
-            pretty_name: 'Required',
-            default: false,
-            description: 'Require a response'
-          },
-          name: {
-            type: jsPsych.plugins.parameterType.STRING,
-            pretty_name: 'Question Name',
-            default: '',
-            description: 'Controls the name of data values associated with this question'
-          }
-        }
+        description: 'The image to be displayed'
       },
-      preamble: {
-        type: jsPsych.plugins.parameterType.HTML_STRING,
-        pretty_name: 'Preamble',
+      stimulus_height: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Image height',
         default: null,
-        description: 'HTML string to display at the top of the page above all the questions.'
+        description: 'Set the image height in pixels'
       },
-      button_label: {
+      stimulus_width: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Image width',
+        default: null,
+        description: 'Set the image width in pixels'
+      },
+      maintain_aspect_ratio: {
+        type: jsPsych.plugins.parameterType.BOOL,
+        pretty_name: 'Maintain aspect ratio',
+        default: true,
+        description: 'Maintain the aspect ratio after setting width or height'
+      },
+      prompt: {
         type: jsPsych.plugins.parameterType.STRING,
-        pretty_name: 'Button label',
-        default:  'Continue',
-        description: 'The text that appears on the button to finish the trial.'
+        pretty_name: 'Prompt',
+        default: null,
+        description: 'Any content here will be displayed below the stimulus.'
       },
       trial_duration: {
         type: jsPsych.plugins.parameterType.INT,
         pretty_name: 'Trial duration',
         default: null,
         description: 'How long to show trial before it ends.'
+      },
+      placeholder: {
+        type: jsPsych.plugins.parameterType.STRING,
+        pretty_name: 'Value',
+        default: "",
+        description: 'Placeholder text in the textfield.'
+      },
+      rows: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Rows',
+        default: 1,
+        description: 'The number of rows for the response text box.'
+      },
+      columns: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Columns',
+        default: 40,
+        description: 'The number of columns for the response text box.'
+      },
+      button_label: {
+        type: jsPsych.plugins.parameterType.STRING,
+        pretty_name: 'Button label',
+        default:  'Continue',
+        description: 'The text that appears on the button to finish the trial.'
       }
     }
   }
 
-  plugin.trial = function(display_element, trial) {
+  plugin.trial = function(display_element, trial){
 
-    for (var i = 0; i < trial.questions.length; i++) {
-      if (typeof trial.questions[i].rows == 'undefined') {
-        trial.questions[i].rows = 1;
+    // create image
+    var html = '<img src="'+trial.stimulus+'" id="jspsych-image-keyboard-response-stimulus" style="';
+    if(trial.stimulus_height !== null){
+      html += 'height:'+trial.stimulus_height+'px; '
+      if(trial.stimulus_width == null && trial.maintain_aspect_ratio){
+        html += 'width: auto; ';
       }
     }
-    for (var i = 0; i < trial.questions.length; i++) {
-      if (typeof trial.questions[i].columns == 'undefined') {
-        trial.questions[i].columns = 40;
+    if(trial.stimulus_width !== null){
+      html += 'width:'+trial.stimulus_width+'px; '
+      if(trial.stimulus_height == null && trial.maintain_aspect_ratio){
+        html += 'height: auto; ';
       }
     }
-    for (var i = 0; i < trial.questions.length; i++) {
-      if (typeof trial.questions[i].value == 'undefined') {
-        trial.questions[i].value = "";
-      }
-    }
+    html +='"></img>';
 
-    var html = '';
-    // show preamble text
-    if(trial.preamble !== null){
-      html += '<div id="jspsych-html-keyboard-response-stimulus">'+trial.preamble+'</div>';
-    }
-    // start form
+    // create question, textbox, and submit button
     html += '<form id="jspsych-survey-text-form">'
-
-    // generate question order
-    var question_order = [];
-    for(var i=0; i<trial.questions.length; i++){
-      question_order.push(i);
+    html += '<div id="jspsych-survey-text" class="jspsych-survey-text-question" style="margin: 2em 0em;">';
+    html += '<p class="jspsych-survey-text">' + trial.prompt + '</p>';
+    if(trial.rows == 1){
+      html += '<input type="text" name="#jspsych-survey-text-response" data-name="question" size="'+trial.columns+'" autofocus placeholder="'+trial.placeholder+'"></input>';
+    } else {
+      html += '<textarea name="#jspsych-survey-text-response" data-name="question_1" cols="' + trial.columns + '" rows="' + trial.rows + '" autofocus placeholder="'+trial.placeholder+'"></textarea>';
     }
-    if(trial.randomize_question_order){
-      question_order = jsPsych.randomization.shuffle(question_order);
-    }
-
-    // add questions
-    for (var i = 0; i < trial.questions.length; i++) {
-      var question = trial.questions[question_order[i]];
-      var question_index = question_order[i];
-      html += '<div id="jspsych-survey-text-'+question_index+'" class="jspsych-survey-text-question" style="margin: 2em 0em;">';
-      html += '<p class="jspsych-survey-text">' + question.prompt + '</p>';
-      var autofocus = i == 0 ? "autofocus" : "";
-      var req = question.required ? "required" : "";
-      if(question.rows == 1){
-        html += '<input type="text" id="input-'+question_index+'"  name="#jspsych-survey-text-response-' + question_index + '" data-name="'+question.name+'" size="'+question.columns+'" '+autofocus+' '+req+' placeholder="'+question.placeholder+'"></input>';
-      } else {
-        html += '<textarea id="input-'+question_index+'" name="#jspsych-survey-text-response-' + question_index + '" data-name="'+question.name+'" cols="' + question.columns + '" rows="' + question.rows + '" '+autofocus+' '+req+' placeholder="'+question.placeholder+'"></textarea>';
-      }
-      html += '</div>';
-    }
-
-    // add submit button
+    html += '</div>';
     html += '<input type="submit" id="jspsych-survey-text-next" class="jspsych-btn jspsych-survey-text" value="'+trial.button_label+'"></input>';
-
     html += '</form>'
+
+    // render
     display_element.innerHTML = html;
 
-    // backup in case autofocus doesn't work
-    display_element.querySelector('#input-'+question_order[0]).focus();
+    // called if user presses submit or times out
+    var end_trial = function(){
+      jsPsych.pluginAPI.clearAllTimeouts();
 
-    var wrap_up = function() {
-      // measure response time
-      var endTime = performance.now();
-      var response_time = endTime - startTime;
-
-      // create object to hold responses
-      var question_data = {};
-      
-      for(var index=0; index < trial.questions.length; index++){
-        var id = "Q" + index;
-        var q_element = document.querySelector('#jspsych-survey-text-'+index).querySelector('textarea, input'); 
-        var val = q_element.value;
-        var name = q_element.attributes['data-name'].value;
-        if(name == ''){
-          name = id;
-        }        
-        var obje = {};
-        obje[name] = val;
-        Object.assign(question_data, obje);
+      var q_element = document.querySelector('#jspsych-survey-text').querySelector('textarea, input'); 
+      var trial_data = {
+        "stimulus": trial.stimulus,
+        "response": JSON.stringify(q_element.value)
       }
-      // save data
-      var trialdata = {
-        "rt": response_time,
-        "responses": JSON.stringify(question_data)
-      };
 
       display_element.innerHTML = '';
 
-      // next trial
-      jsPsych.finishTrial(trialdata);
+      jsPsych.finishTrial(trial_data);
     }
 
+    // // listen for submit button
     display_element.querySelector('#jspsych-survey-text-form').addEventListener('submit', function(e) {
       e.preventDefault();
-      wrap_up();
+      end_trial();
     });
 
-    var startTime = performance.now();
-
-    // end trial if trial_duration is set
+    // // check for time out
     if (trial.trial_duration !== null) {
       jsPsych.pluginAPI.setTimeout(function() {
-        wrap_up();
+        end_trial();
       }, trial.trial_duration);
     }
   };
