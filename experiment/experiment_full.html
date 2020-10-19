@@ -1,85 +1,448 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Hello World</title>
-        <script src="jspsych-6/jspsych.js"></script>
-        <script src="jspsych-6/css/jspsych.css"></script>
-        <script src="jspsych-6/plugins/jspsych-html-keyboard-response.js"></script>
-        <link href="jspsych-6/css/jspsych.css" rel="stylesheet" type="text/css"></link>
-    </head>
-    <body></body>
-    <script>
+<head>
+    <title>Memory Experiment</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jspsych-6/jspsych.js"></script>
+    <script src="jspsych-6/css/jspsych.css"></script>
+    <script src="jspsych-6/plugins/jspsych-call-function.js"></script>
+    <script src="jspsych-6/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="jspsych-6/plugins/jspsych-image-button-response.js"></script>
+    <script src="jspsych-6/plugins/jspsych-image-keyboard-response.js"></script>
+    <script src="jspsych-6/plugins/jspsych-survey-multi-choice.js"></script>
+    <script src="jspsych-6/plugins/jspsych-survey-text-timed.js"></script>
+    <link href="jspsych-6/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+</head>
+<body></body>
+<script>
 
-    // initialize lists of objects and scenes
-    var list_A = [
-        {object: 'osf_files/Objects/belt.jpg', scene: 'osf_files/Scenes/drugs_overdosepills.jpg'},
-        {object: 'osf_files/Objects/duct.jpg', scene: 'osf_files/Scenes/death_corpsestape.jpg'},
-        {object: 'osf_files/Objects/bike.jpg', scene: 'osf_files/Scenes/animals_leopard.jpg'},
-        {object: 'osf_files/Objects/bench.jpg', scene: 'osf_files/Scenes/accident_planecrash2.jpg'},
-        {object: 'osf_files/Objects/suitcase.jpg', scene: 'osf_files/Scenes/disaster_couple.jpg'},
-        {object: 'osf_files/Objects/laundrybasket2.jpg', scene: 'osf_files/Scenes/fight_riot.jpg'},
-        {object: 'osf_files/Objects/star2.jpg', scene: 'osf_files/Scenes/fight_manbeatingwoman2.jpg'},
-        {object: 'osf_files/Objects/trafficsign.jpg', scene: 'osf_files/Scenes/death_hungbridge.jpg'},
-        {object: 'osf_files/Objects/ring.jpg', scene: 'osf_files/Scenes/injury_bandage.jpg'},
-        {object: 'osf_files/Objects/wheelbarrow.jpg', scene: 'osf_files/Scenes/injury_limps.jpg'},
-        {object: 'osf_files/Objects/bowl.jpg', scene: 'osf_files/Scenes/hospital_baby.jpg'},
-        {object: 'osf_files/Objects/framedpicture.jpg', scene: 'osf_files/Scenes/fight_manguns.jpg'},
-        {object: 'osf_files/Objects/brick.jpg', scene: 'osf_files/Scenes/war_capture.jpg'},
-        {object: 'osf_files/Objects/vase.jpg', scene: 'osf_files/Scenes/sad_childgrave.jpg'},
-        {object: 'osf_files/Objects/carton.jpg', scene: 'osf_files/Scenes/dirt_garbage.jpg'},
-        {object: 'osf_files/Objects/vest.jpg', scene: 'osf_files/Scenes/disaster_flood.jpg'}
-    ]
-    var list_B = [
-        {object: 'osf_files/Objects/sunglasses.jpg', scene: 'osf_files/Scenes/drugs_addictfloor.jpg'},
-        {object: 'osf_files/Objects/doll.jpg', scene: 'osf_files/Scenes/death_corpsesgirls.jpg'},
-        {object: 'osf_files/Objects/shoppingcart.jpg', scene: 'osf_files/Scenes/animals_deaddog.jpg'},
-        {object: 'osf_files/Objects/boot.jpg', scene: 'osf_files/Scenes/accident_horse.jpg'},
-        {object: 'osf_files/Objects/comb.jpg', scene: 'osf_files/Scenes/disaster_dust.jpg'},
-        {object: 'osf_files/Objects/garbagebin.jpg', scene: 'osf_files/Scenes/fight_demolish.jpg'},
-        {object: 'osf_files/Objects/watch.jpg', scene: 'osf_files/Scenes/fight_peoplegrabbingface.jpg'},
-        {object: 'osf_files/Objects/newspaper2.jpg', scene: 'osf_files/Scenes/death_hungman.jpg'},
-        {object: 'osf_files/Objects/socks.jpg', scene: 'osf_files/Scenes/injury_babyfire.jpg'},
-        {object: 'osf_files/Objects/camcorder.jpg', scene: 'osf_files/Scenes/hospital_camera.jpg'},
-        {object: 'osf_files/Objects/cigarette.jpg', scene: 'osf_files/Scenes/injury_beatenup.jpg'},
-        {object: 'osf_files/Objects/mug.jpg', scene: 'osf_files/Scenes/hospital_mangrievinghospital.jpg'},
-        {object: 'osf_files/Objects/rug.jpg', scene: 'osf_files/Scenes/death_policecorpse.jpg'},
-        {object: 'osf_files/Objects/bottle.jpg', scene: 'osf_files/Scenes/dirt_toilet.jpg'},
-        {object: 'osf_files/Objects/garbagebag.jpg', scene: 'osf_files/Scenes/war_skulls.jpg'},
-        {object: 'osf_files/Objects/tie.jpg', scene: 'osf_files/Scenes/disaster_peoplefleeing.jpg'}
-    ]
-    var list_C = [
-        {object: 'osf_files/Objects/handbag.jpg', scene: 'osf_files/Scenes/drugs_alcoholics.jpg'},
-        {object: 'osf_files/Objects/basket.jpg', scene: 'osf_files/Scenes/death_ditch.jpg'},
-        {object: 'osf_files/Objects/woolenhat.jpg', scene: 'osf_files/Scenes/animals_dogfight.jpg'},
-        {object: 'osf_files/Objects/microphone.jpg', scene: 'osf_files/Scenes/accident_sportscar.jpg'},
-        {object: 'osf_files/Objects/rockingchair.jpg', scene: 'osf_files/Scenes/disaster_fire.jpg'},
-        {object: 'osf_files/Objects/sneakers.jpg', scene: 'osf_files/Scenes/fight_gang.jpg'},
-        {object: 'osf_files/Objects/necklace.jpg', scene: 'osf_files/Scenes/fight_manthreatgirl.jpg'},
-        {object: 'osf_files/Objects/dress.jpg', scene: 'osf_files/Scenes/death_woman.jpg'},
-        {object: 'osf_files/Objects/juice.jpg', scene: 'osf_files/Scenes/sad_boycrying.jpg'},
-        {object: 'osf_files/Objects/redflag.jpg', scene: 'osf_files/Scenes/injury_doctors.jpg'},
-        {object: 'osf_files/Objects/clock.jpg', scene: 'osf_files/Scenes/injury_thin.jpg'},
-        {object: 'osf_files/Objects/tv.jpg', scene: 'osf_files/Scenes/sad_mantv.jpg'},
-        {object: 'osf_files/Objects/hanger.jpg', scene: 'osf_files/Scenes/fight_policestorming.jpg'},
-        {object: 'osf_files/Objects/broom.jpg', scene: 'osf_files/Scenes/fight_prisoncell.jpg'},
-        {object: 'osf_files/Objects/hat.jpg', scene: 'osf_files/Scenes/death_burrial.jpg'},
-        {object: 'osf_files/Objects/trafficlight.jpg', scene: 'osf_files/Scenes/fight_riotsstreetcorner.jpg'}
-    ]
-    var list_filler = [
-        {object: 'osf_files/Objects/skateboard.jpg', scene: 'osf_files/Scenes/fight_kidsfight.jpg'},
-        {object: 'osf_files/Objects/gardenhose.jpg', scene: 'osf_files/Scenes/animals_cow.jpg'},
-        {object: 'osf_files/Objects/lighter.jpg', scene: 'osf_files/Scenes/injury_brokenleg.jpg'},
-        {object: 'osf_files/Objects/leaves.jpg', scene: 'osf_files/Scenes/animals_starveddog.jpg'},
-        {object: 'osf_files/Objects/puzzle.jpg', scene: 'osf_files/Scenes/injury_selfinjury.jpg'},
-        {object: 'osf_files/Objects/cellphone.jpg', scene: 'osf_files/Scenes/death_takingpic.jpg'},
-        {object: 'osf_files/Objects/whitetowel.jpg', scene: 'osf_files/Scenes/sad_washcloth.jpg'},
-        {object: 'osf_files/Objects/ladder.jpg', scene: 'osf_files/Scenes/accident_railroad.jpg'},
-        {object: 'osf_files/Objects/scarf.jpg', scene: 'osf_files/Scenes/sad_womengrieving.jpg'},
-        {object: 'osf_files/Objects/lock.jpg', scene: 'osf_files/Scenes/fight_prisonhostage.jpg'},
-        {object: 'osf_files/Objects/socket.jpg', scene: 'osf_files/Scenes/fight_robbery.jpg'},
-        {object: 'osf_files/Objects/axe.jpg', scene: 'osf_files/Scenes/animals_whale.jpg'}
-    ]
-    var list_all = list_A.concat(list_B, list_C, list_filler)
+$(window).bind('beforeunload', function(){
+    return 'Are you sure you want to leave?';
+})
 
-    </script>
+// initialize lists of objects and scenes
+var list_A = [
+    {object: 'osf_files/Objects/belt.jpg', scene: 'osf_files/Scenes/drugs_overdosepills.jpg'},
+    {object: 'osf_files/Objects/duct.jpg', scene: 'osf_files/Scenes/death_corpsestape.jpg'},
+    {object: 'osf_files/Objects/bike.jpg', scene: 'osf_files/Scenes/animals_leopard.jpg'},
+    {object: 'osf_files/Objects/bench.jpg', scene: 'osf_files/Scenes/accident_planecrash2.jpg'},
+    {object: 'osf_files/Objects/suitcase.jpg', scene: 'osf_files/Scenes/disaster_couple.jpg'},
+    {object: 'osf_files/Objects/laundrybasket2.jpg', scene: 'osf_files/Scenes/fight_riot.jpg'},
+    {object: 'osf_files/Objects/star2.jpg', scene: 'osf_files/Scenes/fight_manbeatingwoman2.jpg'},
+    {object: 'osf_files/Objects/trafficsign.jpg', scene: 'osf_files/Scenes/death_hungbridge.jpg'},
+    {object: 'osf_files/Objects/ring.jpg', scene: 'osf_files/Scenes/injury_bandage.jpg'},
+    {object: 'osf_files/Objects/wheelbarrow.jpg', scene: 'osf_files/Scenes/injury_limps.jpg'},
+    {object: 'osf_files/Objects/bowl.jpg', scene: 'osf_files/Scenes/hospital_baby.jpg'},
+    {object: 'osf_files/Objects/framedpicture.jpg', scene: 'osf_files/Scenes/fight_manguns.jpg'},
+    {object: 'osf_files/Objects/brick.jpg', scene: 'osf_files/Scenes/war_capture.jpg'},
+    {object: 'osf_files/Objects/vase.jpg', scene: 'osf_files/Scenes/sad_childgrave.jpg'},
+    {object: 'osf_files/Objects/carton.jpg', scene: 'osf_files/Scenes/dirt_garbage.jpg'},
+    {object: 'osf_files/Objects/vest.jpg', scene: 'osf_files/Scenes/disaster_flood.jpg'}
+]
+var list_B = [
+    {object: 'osf_files/Objects/sunglasses.jpg', scene: 'osf_files/Scenes/drugs_addictfloor.jpg'},
+    {object: 'osf_files/Objects/doll.jpg', scene: 'osf_files/Scenes/death_corpsesgirls.jpg'},
+    {object: 'osf_files/Objects/shoppingcart.jpg', scene: 'osf_files/Scenes/animals_deaddog.jpg'},
+    {object: 'osf_files/Objects/boot.jpg', scene: 'osf_files/Scenes/accident_horse.jpg'},
+    {object: 'osf_files/Objects/comb.jpg', scene: 'osf_files/Scenes/disaster_dust.jpg'},
+    {object: 'osf_files/Objects/garbagebin.jpg', scene: 'osf_files/Scenes/fight_demolish.jpg'},
+    {object: 'osf_files/Objects/watch.jpg', scene: 'osf_files/Scenes/fight_peoplegrabbingface.jpg'},
+    {object: 'osf_files/Objects/newspaper2.jpg', scene: 'osf_files/Scenes/death_hungman.jpg'},
+    {object: 'osf_files/Objects/socks.jpg', scene: 'osf_files/Scenes/injury_babyfire.jpg'},
+    {object: 'osf_files/Objects/camcorder.jpg', scene: 'osf_files/Scenes/hospital_camera.jpg'},
+    {object: 'osf_files/Objects/cigarette.jpg', scene: 'osf_files/Scenes/injury_beatenup.jpg'},
+    {object: 'osf_files/Objects/mug.jpg', scene: 'osf_files/Scenes/hospital_mangrievinghospital.jpg'},
+    {object: 'osf_files/Objects/rug.jpg', scene: 'osf_files/Scenes/death_policecorpse.jpg'},
+    {object: 'osf_files/Objects/bottle.jpg', scene: 'osf_files/Scenes/dirt_toilet.jpg'},
+    {object: 'osf_files/Objects/garbagebag.jpg', scene: 'osf_files/Scenes/war_skulls.jpg'},
+    {object: 'osf_files/Objects/tie.jpg', scene: 'osf_files/Scenes/disaster_peoplefleeing.jpg'}
+]
+var list_C = [
+    {object: 'osf_files/Objects/handbag.jpg', scene: 'osf_files/Scenes/drugs_alcoholics.jpg'},
+    {object: 'osf_files/Objects/basket.jpg', scene: 'osf_files/Scenes/death_ditch.jpg'},
+    {object: 'osf_files/Objects/woolenhat.jpg', scene: 'osf_files/Scenes/animals_dogfight.jpg'},
+    {object: 'osf_files/Objects/microphone.jpg', scene: 'osf_files/Scenes/accident_sportscar.jpg'},
+    {object: 'osf_files/Objects/rockingchair.jpg', scene: 'osf_files/Scenes/disaster_fire.jpg'},
+    {object: 'osf_files/Objects/sneakers.jpg', scene: 'osf_files/Scenes/fight_gang.jpg'},
+    {object: 'osf_files/Objects/necklace.jpg', scene: 'osf_files/Scenes/fight_manthreatgirl.jpg'},
+    {object: 'osf_files/Objects/dress.jpg', scene: 'osf_files/Scenes/death_woman.jpg'},
+    {object: 'osf_files/Objects/juice.jpg', scene: 'osf_files/Scenes/sad_boycrying.jpg'},
+    {object: 'osf_files/Objects/redflag.jpg', scene: 'osf_files/Scenes/injury_doctors.jpg'},
+    {object: 'osf_files/Objects/clock.jpg', scene: 'osf_files/Scenes/injury_thin.jpg'},
+    {object: 'osf_files/Objects/tv.jpg', scene: 'osf_files/Scenes/sad_mantv.jpg'},
+    {object: 'osf_files/Objects/hanger.jpg', scene: 'osf_files/Scenes/fight_policestorming.jpg'},
+    {object: 'osf_files/Objects/broom.jpg', scene: 'osf_files/Scenes/fight_prisoncell.jpg'},
+    {object: 'osf_files/Objects/hat.jpg', scene: 'osf_files/Scenes/death_burrial.jpg'},
+    {object: 'osf_files/Objects/trafficlight.jpg', scene: 'osf_files/Scenes/fight_riotsstreetcorner.jpg'}
+]
+var list_filler = [
+    {object: 'osf_files/Objects/skateboard.jpg', scene: 'osf_files/Scenes/fight_kidsfight.jpg'},
+    {object: 'osf_files/Objects/gardenhose.jpg', scene: 'osf_files/Scenes/animals_cow.jpg'},
+    {object: 'osf_files/Objects/lighter.jpg', scene: 'osf_files/Scenes/injury_brokenleg.jpg'},
+    {object: 'osf_files/Objects/leaves.jpg', scene: 'osf_files/Scenes/animals_starveddog.jpg'},
+    {object: 'osf_files/Objects/puzzle.jpg', scene: 'osf_files/Scenes/injury_selfinjury.jpg'},
+    {object: 'osf_files/Objects/cellphone.jpg', scene: 'osf_files/Scenes/death_takingpic.jpg'},
+    {object: 'osf_files/Objects/whitetowel.jpg', scene: 'osf_files/Scenes/sad_washcloth.jpg'},
+    {object: 'osf_files/Objects/ladder.jpg', scene: 'osf_files/Scenes/accident_railroad.jpg'},
+    {object: 'osf_files/Objects/scarf.jpg', scene: 'osf_files/Scenes/sad_womengrieving.jpg'},
+    {object: 'osf_files/Objects/lock.jpg', scene: 'osf_files/Scenes/fight_prisonhostage.jpg'},
+    {object: 'osf_files/Objects/socket.jpg', scene: 'osf_files/Scenes/fight_robbery.jpg'},
+    {object: 'osf_files/Objects/axe.jpg', scene: 'osf_files/Scenes/animals_whale.jpg'}
+]
+var list_all = list_A.concat(list_B, list_C, list_filler)
+
+// assign participant to 1 of 6 groups representing Baseline/Suppress/Recall conditions
+var group = Math.floor(Math.random() * 6)
+var list_suppress = []
+var list_recall = []
+switch(group) {
+    case 0: // ABC (list_A = Baseline, list_B = Suppress, list_C = Recall)
+        list_suppress = list_B
+        list_recall = list_C
+        break
+    case 1: // ACB
+        list_suppress = list_C
+        list_recall = list_B
+        break
+    case 2: // BAC
+        list_suppress = list_A
+        list_recall = list_C
+        break
+    case 3: // BCA
+        list_suppress = list_C
+        list_recall = list_A
+        break
+    case 4: // CAB
+        list_suppress = list_A
+        list_recall = list_B
+        break
+    case 5: // CBA
+        list_suppress = list_B
+        list_recall = list_A
+        break
+}
+
+// save participant information
+var subj_ID = jsPsych.randomization.randomID(10)
+jsPsych.data.addProperties({
+    subj_ID: subj_ID,
+    group: group
+})
+
+var instructions_general = {
+    type: 'html-keyboard-response',
+    stimulus: '<p>In this study, you will be presented with and tested on pairings between objects and scenes.</p><p><b>Content Warning:</b> Please be aware that the images used in this study contain content that may be unpleasant or disturbing, including animal cruelty, bodily injury, death, disasters, drugs, illness, violence, and war. You may exit the study at any point if you wish to do so.</p><p>Press the spacebar to begin.</p>',
+    choices: ' '
+}
+
+var instructions_phase1_study = {
+    type: 'html-keyboard-response',
+    stimulus: '<p>You will be presented with pairs of objects and scenes. Please do your best to remember the pairings.</p><p>Press the spacebar to continue.</p>',
+    choices: ' '
+}
+
+// present all 60 pairs in randomized order for 6 s each
+var phase1_study = {
+timeline: [
+    {
+        type: 'html-keyboard-response',
+        prompt: '<p>Study the following pairs of images.</p>',
+        stimulus: function(){
+            var html = '<img src="' + jsPsych.timelineVariable('object', true) + '" style="margin:20px" />'
+            html += '<img src="' + jsPsych.timelineVariable('scene', true) + '" style="margin:20px" />'
+            return html
+        },
+        choices: jsPsych.NO_KEYS,
+        trial_duration: 6000
+    }
+],
+timeline_variables: list_all,
+randomize_order: true
+}
+
+var instructions_phase1_test = {
+    type: 'html-keyboard-response',
+    stimulus: '<p>You will be tested on how well you remember the pairings that you just saw. Please answer the questions to the best of your ability.</p><p>Press the spacebar to continue.</p>',
+    choices: ' '
+}
+
+// helper function that returns an array containing 2 wrong button choices
+function pick_wrong_choices(scene_correct){
+    var scenes_wrong = []
+    var choices = Array.from(list_all)
+    var index_correct = choices.map(function(item) {return item.scene}).indexOf(scene_correct)
+    choices.splice(index_correct, 1) // remove correct answer from possible choices
+    var index_wrong1 = Math.floor(Math.random() * choices.length)
+    scenes_wrong.push(choices[index_wrong1].scene)
+    choices.splice(index_wrong1, 1) // remove first wrong answer from possible choices
+    scenes_wrong.push(choices[Math.floor(Math.random() * choices.length)].scene)
+    return scenes_wrong
+}
+
+// helper function that returns location of correct button
+var randomize_buttons = function(){
+    var correct_answer = Math.floor(Math.random() * 3)
+    return correct_answer
+}
+
+// test an object with 3 choices of scene and record correct/incorrect responses
+var image_three_buttons = {
+    type: 'image-button-response',
+    stimulus: jsPsych.timelineVariable('object'),
+    prompt: '<p>Select the scene associated with the object.</p>',
+    choices: ['0', '1', '2'],
+    button_html: function(){
+        var button_html = []
+        var scene_correct = jsPsych.timelineVariable('scene', true)
+        var scenes_wrong = pick_wrong_choices(scene_correct)
+        var correct_answer = jsPsych.data.getLastTrialData().values()[0].value
+        switch(correct_answer) {
+            case 0: // correct answer is leftmost
+                button_html.push('<button class="jspsych-btn"><img src="' + scene_correct + '" style="height:250px" /></button>')
+                button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[0] + '" style="height:250px" /></button>')
+                button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[1] + '" style="height:250px" /></button>')
+                break
+            case 1: // correct answer is middle
+                button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[0] + '" style="height:250px" /></button>')
+                button_html.push('<button class="jspsych-btn"><img src="' + scene_correct + '" style="height:250px" /></button>')
+                button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[1] + '" style="height:250px" /></button>')
+                break
+            case 2: // correct answer is rightmost
+                button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[0] + '" style="height:250px" /></button>')
+                button_html.push('<button class="jspsych-btn"><img src="' + scenes_wrong[1] + '" style="height:250px" /></button>')
+                button_html.push('<button class="jspsych-btn"><img src="' + scene_correct + '" style="height:250px" /></button>')
+                break
+        }
+        return button_html
+    },
+    on_finish: function(data){
+        var correct_answer = jsPsych.data.get().last(2).values()[0].value
+        if (data.button_pressed == correct_answer) {
+            data.correct = true
+        } else {
+            data.correct = false
+        }
+    }
+}
+
+// run test on all 60 items with 3 choices per item and giving feedback on correct answer
+var phase1_test_single = {
+timeline: [
+    {
+        type: 'call-function',
+        func: randomize_buttons
+    },
+    image_three_buttons,
+    {
+        type: 'image-keyboard-response',
+        stimulus: jsPsych.timelineVariable('scene'),
+        choices: jsPsych.NO_KEYS,
+        trial_duration: 2500
+    },
+],
+timeline_variables: list_all,
+randomize_order: true,
+}
+
+// helper function that counts number of correct answers in last testing round
+function compute_correct_percentage(){
+    var num_qs = list_all.length
+    var frequencies = jsPsych.data.get().filter({trial_type: 'image-button-response'}).last(num_qs).select('correct').frequencies()
+    var correct_percentage = frequencies.true / num_qs
+    return correct_percentage
+}
+
+// loop test 4 times OR until 60% correct answers are given in one round
+var phase1_test_loop = {
+timeline: [phase1_test_single],
+loop_function: function(data){
+    var qs_answered = jsPsych.data.get().filter({trial_type: 'image-button-response'}).count()
+    if (qs_answered > list_all.length * 3 + 1) {
+        return false
+    }
+    if (compute_correct_percentage() >= 0.6) {
+        return false
+    }
+    return true
+}
+}
+
+var instructions_phase2_practice = {
+    type: 'html-keyboard-response',
+    stimulus: '<p>You will be presented with objects from the pairings that you just studied. Objects will be surrounded with either a red or green frame.</p><p>When the frame around the object is red, please do your best to suppress your memory of the associated scene, and additionally prevent any distracting thoughts from coming into awareness.</p><p>When the frame around the object is green, please recall the associated scene in as much detail as possible.</p><p>Press the spacebar to <b>practice</b> conducting this task.</p>',
+    choices: ' '
+}
+
+// practice run of TNT task on 12 items
+var phase2_practice = {
+timeline: [
+    {
+        type: 'html-keyboard-response',
+        stimulus: function(){
+            var html = '<img src="' + jsPsych.timelineVariable('object', true) + '" style="padding:50px;border:20px '
+            // assign red or green border with 0.5 probability
+            var coin_flip = Math.floor(Math.random() * 2)
+            if (coin_flip == 0) {
+                html += 'solid red" />'
+            } else /* coin_flip == 1 */ {
+                html += 'solid green" />'
+            }
+            return html
+        },
+        choices: jsPsych.NO_KEYS,
+        trial_duration: 3000
+    },
+    {
+        type: 'html-keyboard-response',
+        stimulus: '<div style="font-size:60px;">+</div>',
+        choices: jsPsych.NO_KEYS,
+        trial_duration: function() {
+            return Math.random() * 1200 + 1400 // random float between 1400 and 2600
+        }
+    }
+],
+timeline_variables: list_filler // everyone sees same 12 items in same order
+}
+
+var instructions_phase2_real = {
+    type: 'html-keyboard-response',
+    stimulus: '<p>The practice portion has concluded. Press the spacebar to continue onto the task.</p><p><b>Instructions:</b> When the frame around the object is red, please do your best to suppress your memory of the associated scene, and additionally prevent any distracting thoughts from coming into awareness. When the frame around the object is green, please recall the associated scene in as much detail as possible.</p>',
+    choices: ' '
+}
+
+// TNT task: participants suppress or recall scenes depending on object frame color
+var phase2_real = {
+timeline: [
+    {
+        type: 'html-keyboard-response',
+        stimulus: function(){
+            var obj = jsPsych.timelineVariable('object', true)
+            var html = '<img src="' + obj + '" style="padding:50px;border:20px '
+            if (list_suppress.some(item => item.object === obj)) {
+                html += 'solid red" />' // red border if item is in list_suppress
+            } else if (list_recall.some(item => item.object === obj)) {
+                html += 'solid green" />' // green border if item is in list_recall
+            } else {
+                html += 'solid black" />' // for debugging; black border indicates error
+            }
+            return html
+        },
+        choices: jsPsych.NO_KEYS,
+        trial_duration: 3000
+    },
+    {
+        type: 'html-keyboard-response',
+        stimulus: '<div style="font-size:60px;">+</div>',
+        choices: jsPsych.NO_KEYS,
+        trial_duration: function() {
+            return Math.random() * 1200 + 1400 // random float between 1400 and 2600
+        }
+    }
+],
+// each object presented twice per block; 5 blocks (32 x 2 x 5)
+timeline_variables: list_suppress.concat(list_suppress, list_recall, list_recall),
+randomize_order: true,
+repetitions: 5
+}
+
+var instructions_phase3 = {
+    type: 'html-keyboard-response',
+    stimulus: '<p>You will be tested on how well you remember the pairings of objects and scenes. Objects will be presented to you along with a response box. For each object, you will have 30 seconds to type what you remember of the associated scene, in as much detail as possible, so that it can be uniquely identified. Feel free to disregard capitalization and punctuation.</p><p>Press the spacebar to continue.</p>',
+    choices: ' '
+}
+
+// for all 60 objects, participants have 30 s to describe associated scene
+var phase3_finaltest = {
+timeline: [
+    {
+        type: 'survey-text-timed',
+        stimulus: jsPsych.timelineVariable('object'),
+        prompt: '<p>Describe what you remember of the scene associated with this object, in as much detail as possible, so that it can be uniquely identified.</p>',
+        trial_duration: 30000,
+        rows: 6,
+        columns: 50
+    }
+],
+timeline_variables: list_all
+}
+
+var instructions_screen = {
+    type: 'html-keyboard-response',
+    stimulus: '<p>There are two more questions in order to complete the study. Your responses to these questions will remain anonymous.</p><p>Press the spacebar to continue.</p>',
+    choices: ' '
+}
+
+var ptsd_screen_part1 = {
+    type: 'survey-multi-choice',
+    preamble: '<p>Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example:<ul><li>a serious accident or fire</li><li>a physical or sexual assault or abuse</li><li>an earthquake or flood</li><li>a war</li><li>seeing someone be killed or seriously injured</li><li>having a loved one die through homicide or suicide.</li></ul></p>',
+    questions: [
+        {prompt: "Have you ever experienced this kind of event?", options: ["Yes", "No"], required: true}
+    ],
+    button_label: "Submit"
+}
+
+// only display part 2 if the participant answered "yes" on PTSD screen part 1
+var ptsd_screen_part2 = {
+timeline: [
+    {
+        type: 'survey-multi-choice',
+        preamble: '<p>In the past month, have you...</p>',
+        questions: [
+            {prompt: "Had nightmares about the event(s) or thought about the event(s) when you did not want to?", options: ["Yes", "No"], required: true},
+            {prompt: "Tried hard not to think about the event(s) or went out of your way to avoid situations that reminded you of the event(s)?", options: ["Yes", "No"], required: true},
+            {prompt: "Been constantly on guard, watchful, or easily startled?", options: ["Yes", "No"], required: true},
+            {prompt: "Felt numb or detached from people, activities, or your surroundings?", options: ["Yes", "No"], required: true},
+            {prompt: "Felt guilty or unable to stop blaming yourself or others for the event(s) or any problems the event(s) may have caused?", options: ["Yes", "No"], required: true}
+        ],
+        button_label: "Submit"
+    }
+],
+conditional_function: function(){
+    var responses = jsPsych.data.getLastTrialData().values()[0].responses
+    if (JSON.parse(responses).Q0 == 'Yes') {
+        return true
+    } else {
+        return false
+    }
+}
+}
+
+function save_data() {
+    jQuery.ajax({
+        type: 'post',
+        cache: false,
+        url: 'https://stanford.edu/~ejusuf/cgi-bin/write_data.php',
+        data: {
+            data_dir: 'data',
+            file_name: 'hit_' + subj_ID + '.csv',
+            exp_data: jsPsych.data.get().csv()
+        }
+    })
+}
+
+jsPsych.init({
+    timeline: [
+        instructions_general,
+        instructions_phase1_study,
+        phase1_study,
+        instructions_phase1_test,
+        phase1_test_loop,
+        instructions_phase2_practice,
+        phase2_practice,
+        instructions_phase2_real,
+        phase2_real,
+        instructions_phase3,
+        phase3_finaltest,
+        instructions_screen,
+        ptsd_screen_part1,
+        ptsd_screen_part2
+    ],
+    show_progress_bar: true,
+    on_finish: function(){
+        save_data()
+        document.getElementsByTagName('body')[0].innerHTML = '<center><p>Thank you for completing the experiment!</p><p>Your code to submit to Mechanical Turk is: <b>' + subj_ID + '</b></p></center>'
+    }
+})
+
+</script>
 </html>
