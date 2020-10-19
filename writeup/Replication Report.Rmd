@@ -1,0 +1,122 @@
+---
+title: "Replication of Study: 'Failing to Forget: Inhibitory-Control Deficits Compromise Memory Suppression in Posttraumatic Stress Disorder' by Catarino et al. (2015, Psychological Science)"
+author: "Emily Jusuf (ejusuf@stanford.edu)"
+date: "October 11, 2020"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: no
+---
+
+## Introduction
+
+The original study by Catarino et al. examined suppression-induced forgetting, or the ability to voluntarily suppress memories when confronted with a reminder, in patients with PTSD and in controls. The authors conducted an experiment in three phases. In the first "Study Phase," participants learned object-scene pairs where a reminder object was paired with a distressing scene. In the second "TNT (Think/No-Think) Phase," participants were instructed to either suppress or recall the scenes associated with specific objects. In the third "Test Phase," participants described the scenes associated with each object. The descriptions in the third phase were scored on three dependent measures: identification, gist, and details. Across all three dependent measures, controls showed greater suppression-induced forgetting than PTSD patients, confirming the authors' hypothesis that PTSD patients are compromised in their ability to suppress episodic retrieval.
+
+I replicated Catarino et al.'s study on the control population using Amazon Mechanical Turk. I focused on the control condition because Mechanical Turk is not a reliable way to access patient populations with PTSD. The aim of my replication was to show that people without PTSD exhibit suppression-induced forgetting, as indicated by remembering significantly fewer items in the "suppress" condition compared to the "baseline" condition. All participants were screened for PTSD using the 5-question Primary Care PTSD Screen, with a cut-off point of 4. If a sufficient number of people with a score of 4 or greater on the PTSD screen participate in the study, a further exploratory analysis will be conducted aiming to replicate the original finding of a significant difference in suppression-induced forgetting between PTSD patients and controls.
+
+The GitHub repository for this replication project can be found at https://github.com/psych251/catarino2015. The link to the experimental paradigm can be found at http://stanford.edu/~ejusuf/experiment_full.html.
+
+## Methods
+
+### Power Analysis
+
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+
+### Planned Sample
+
+The original study had a sample size of 36, composed of 18 PTSD patients and 18 controls. I plan to first run the study on 25 participants without any preselection rules. After the first 25 participants, I will continue to run the study pre-selecting participants who score 4 or greater on the PTSD screen. I will stop running the study when at least 7 people with a score of 4 or greater on the PTSD screen have participated in the study, or upon surveying 100 people (including the first 30 and those who were pre-selected out afterwards).
+
+Participants will be excluded from the analysis who either (a) do not succeed in learning at least 60% of the object-scene pairs during the Study Phase within four testing cycles; or (b) provide at least 5 consecutive blank or nonsense responses during the Final Test Phase.
+
+### Materials
+
+From original paper: “The stimuli used were 60 object-scene pairs: 48 critical pairs and 12 fillers. The scenes for these pairs were emotionally negative images taken from the International Affective Picture System and online sources…The cue objects were colored photographs of familiar, neutral objects. Each cue object was chosen to resemble an item that was already naturally embedded as an incidental detail in its paired scene but not intrinsically related to the gist of the scene. This prevented guessing of the scenes during later recall. The 48 critical pairs were divided into three sets (referred to as sets A, B, and C) that were matched on salience of the cues, as well as the emotional valence and arousing nature of the scenes…Assignment of the sets to the three conditions (see the TNT Procedure section) was counterbalanced across participants.”
+
+The above materials were replicated precisely. The same 60 object-scene pairs were used, along with the same divisions into three sets of critical pairs A, B, and C and one set of fillers.
+
+### Procedure
+
+#### Phase 1 of 3: Study Phase
+
+From original paper: “Participants started by studying all 60 object-scene pairs, which were presented for 6 s each in a blocked randomized order. Test-feedback cycles then followed. On each test trial, participants were shown a cue object and indicated, by pressing the “yes” or “no” button, whether they could recall the scene with which it had been paired. If they answered “yes,” three scenes were presented, and they were asked to select the correct one. Participants then were shown the correct object-scene pair again for 2.5 s, as feedback to enhance encoding. The testing cycled through all items repeatedly until participants reached a set criterion of at least 60% correct recognition (all succeeded within four cycles). When they reached this criterion, a final test cycle (without feedback) including all pairs assessed which pairs had been learned.”
+
+The above procedure was replicated precisely, except that the object-scene pairs in the beginning were presented in a randomized order for each participant. (I am not sure what "blocked randomized order" means - I will consider adopting this after understanding what it means as long as it is feasible to implement.)
+
+#### Phase 2 of 3: TNT (Think/No-Think) Phase
+
+From original paper: “In this phase, participants were shown the cue objects alone. Each object appeared for 3 s in the center of the screen, surrounded by a colored frame, and was followed by a fixation cross of varying duration (interstimulus interval = 2 s ± 600 ms). Participants were asked to suppress the associated scene when an object was surrounded by a red frame (no-think trial) and to recall the associated scene when an object was surrounded by a green frame (think trial). At the start of this phase, participants were given direct suppression instructions for no-think trials, which requested them to suppress the associated scene and additionally avoid any distracting thoughts from coming into awareness…For recall trials, participants were instructed to recall the scene in as much detail as possible. Practice trials using filler items were presented to ensure that subjects understood the instructions. Following practice, participants were presented with 32 critical experimental cue objects: 16 in the recall condition and 16 in the suppress condition. The critical trials were split into five blocks, and each of these 32 objects was presented twice in each block. Thus, each associated scene was suppressed or recalled 10 times over the course of these trials. The remaining 16 critical object-scene pairs were baseline items; that is, they were learned in the study phase but were not presented in the TNT phase.”
+
+The above procedure was replicated precisely. Practice trials were conducted using 12 filler items presented in the same order. During critical trials, the order of cue objects was randomized in each block.
+
+#### Phase 3 of 3: Final Test Phase
+
+From original paper: “All cue objects (from the recall, suppress, and baseline conditions) were presented, one at a time and without a colored frame. On each trial, participants were given 15 s to verbally describe the associated scene in as much detail as possible, so that it could be uniquely identified. The descriptions were recorded for later transcription.”
+
+The above procedure was replicated precisely, except that instead of describing scenes verbally, participants were given 30 s to type a description of the associated scene into a text box below the cue object. They were instructed to ignore capitalization and punctuation, which were later removed before processing.
+
+#### Dependent Measures
+
+From original paper: "For the identification measure, a description was scored as correct if it included enough detail that the specific scene could be uniquely identified. For the details measure, each description was divided into small, meaningful segments conveying independent information, and the number of correct details was counted. Finally, gist was defined as any element pertaining to the central story of a scene that could not be changed or excluded without changing the main theme. Prior to the experiment, two independent judges determined two to four specific elements that contained the general gist of each scene. Descriptions were scored as correct on the gist measure if they included all necessary elements of the scene. All descriptions were scored by two independent raters who were blind to the conditions."
+
+The above procedure was followed precisely. The two independent raters were two of my acquaintances who were not informed of the conditions or the purpose of the study.
+
+### Analysis Plan
+
+The confirmatory analysis will be conducted on the first 18 participants to respond to the study who score less than 4 on the PTSD screen. The confirmatory analysis will be a mixed analysis of variance (ANOVA) with condition (baseline, suppress) as a within-subjects factor and set assignment as a between-subjects factor. ANOVAs will be performed separately for each dependent measure. We expect to see a significant main effect of condition on all three dependent measures, indicating that regardless of set assignment, participants without PTSD remembered fewer items in the "suppress" condition compared to the "baseline" condition.
+
+If at least 7 people with a score of 4 or greater on the PTSD screen participate in the study, the following exploratory analysis will be conducted. The exploratory analysis will be conducted on all participants with a score of 4 or greater on the PTSD screen (PTSD condition), as well as an equal number of participants with a score of less than 4 on the PTSD screen (control condition), taken in order from the first participants to respond to the study. From original paper: "Suppression-induced forgetting (lower memory performance for suppress compared with baseline items) was assessed using a mixed analysis of variance (ANOVA) with condition (baseline, suppress) as a within-subjects factor and group (PTSD, control) and set assignment (i.e., which of sets A, B, and C was assigned to each condition) as between-subject factors…ANOVAs were performed separately for each dependent measure (identification, gist, and details)." We expect to see a significant condition-by-group interaction on all three dependent measures, indicating that while controls remembered fewer items in the "suppress" condition compared to the "baseline" condition, PTSD patients did not.
+
+### Differences from Original Study
+
+The main difference of this replication project from the original study is that because of the difficulty of accessing patient populations with PTSD through Amazon Mechanical Turk, I am primarily aiming to replicate the control condition. If a sufficient number of people with a probable PTSD diagnosis participate in this study to conduct the exploratory analysis, it is important to note that the PTSD group will be based on probable diagnosis as assessed by the 5-question Primary Care PTSD Screen, and not on actual diagnosis. Besides the main analysis, I did not replicate other portions of the original study such as thought control ability or symptom severity.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+
+#### Actual Sample
+
+Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+#### Differences from pre-data collection methods plan
+
+Any differences from what was described as the original plan, or “none”.
+
+## Results
+
+### Data preparation
+
+```{r}
+#### Load pilot data
+data = read.csv("pilot_data.csv")
+```
+
+```{r include=FALSE}
+#### Loading libraries
+#### Import data
+#### Filter participants to be excluded
+#### Transform PTSD screen score into "Probable PTSD" and "Control"
+#### Transform set assignment data into single column with values Baseline/Suppress/Recall (possible values "ABC," "ACB," etc.)
+#### Create dataframe for confirmatory analysis. Include first 18 control participants
+#### Create dataframe for exploratory analysis. Include all PTSD participants, first N control participants
+```
+
+### Confirmatory analysis
+
+Mixed ANOVA with condition (baseline, suppress) as within-subjects factor and set assignment as between-subjects factor. Include side-by-side graphs with Figs. 3a, 3b, and 3c from original paper.
+
+### Exploratory analysis
+
+Mixed ANOVA with condition (baseline, suppress) as within-subjects factor and group (PTSD, control) and set assignment as between-subjects factor.
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
