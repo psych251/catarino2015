@@ -1,5 +1,7 @@
 ---
-title: "Replication of Study: 'Failing to Forget: Inhibitory-Control Deficits Compromise Memory Suppression in Posttraumatic Stress Disorder' by Catarino et al. (2015, Psychological Science)"
+title: 'Replication of Study: ''Failing to Forget: Inhibitory-Control Deficits Compromise
+  Memory Suppression in Posttraumatic Stress Disorder'' by Catarino et al. (2015,
+  Psychological Science)'
 author: "Emily Jusuf (ejusuf@stanford.edu)"
 date: "October 11, 2020"
 output:
@@ -8,6 +10,9 @@ output:
     toc_depth: 3
     toc_float:
       collapsed: no
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ## Introduction
@@ -16,25 +21,26 @@ The original study by Catarino et al. examined suppression-induced forgetting, o
 
 I replicated Catarino et al.'s study on the control population using Amazon Mechanical Turk. I focused on the control condition because Mechanical Turk is not a reliable way to access patient populations with PTSD. The aim of my replication was to show that people without PTSD exhibit suppression-induced forgetting, as indicated by remembering significantly fewer items in the "suppress" condition compared to the "baseline" condition. All participants were screened for PTSD using the 5-question Primary Care PTSD Screen, with a cut-off point of 4. If a sufficient number of people with a score of 4 or greater on the PTSD screen participate in the study, a further exploratory analysis will be conducted aiming to replicate the original finding of a significant difference in suppression-induced forgetting between PTSD patients and controls.
 
-The GitHub repository for this replication project can be found at https://github.com/psych251/catarino2015. The link to the experimental paradigm can be found at http://stanford.edu/~ejusuf/experiment_full.html.
+The GitHub repository for this replication project can be found at https://github.com/psych251/catarino2015. The project has been preregistered at https://osf.io/wsj2f. The link to the experimental paradigm can be found at http://stanford.edu/~ejusuf/experiment_full.html. A shortened version of the experimental paradigm can be found at http://stanford.edu/~ejusuf/smol_version.html.
 
 ## Methods
 
 ### Power Analysis
 
-Power analysis was based on consideration of effect sizes found in the original study as well as in Kupper et al. (2014)'s study, which used a similar experimental paradigm, materials, and dependent variables. The original study found large effect sizes of f = 1.215 (ηp2 = .596) and 1.495 (ηp2 = .691) in the control group for gist and details respectively. Kupper et al. found smaller effect sizes of f = 0.639 (ηp2 = .29) and 0.800 (ηp2 = .39) in non-PTSD participants for identification and gist respectively. The original study also found effect sizes of f = 0.502 (ηp2 = .201), 0.390 (ηp2 = .132), and 0.689 (ηp2 = .322) in comparing control and PTSD groups.
+Power analysis was based on consideration of effect sizes found in the original study as well as in Kupper et al. (2014)'s study, which used a similar experimental paradigm, materials, and dependent measures The original study found large effect sizes of f = 1.215 (ηp2 = .596) and 1.495 (ηp2 = .691) in the control group for gist and details respectively. Kupper et al. found smaller effect sizes of f = 0.639 (ηp2 = .29) and 0.800 (ηp2 = .39) in non-PTSD participants for identification and gist respectively. The original study also found effect sizes of f = 0.502 (ηp2 = .201), 0.390 (ηp2 = .132), and 0.689 (ηp2 = .322) in comparing control and PTSD groups.
 
 Based on past results from these two studies, power analyses were conducted with the aim of detecting an effect of f = 0.655 in the control group (i.e., confirmatory analysis) and f =  0.5 in comparing control and PTSD groups (i.e., exploratory analysis). For the confirmatory analysis, a sample size of 10 would be needed to detect an effect with 95% power. Sample size of 10 would be needed for 90% power, and sample size of 8 would be needed for 80% power. For the exploratory analysis, a sample size of 16 would be needed to detect an effect with 95% power. Sample size of 14 would be needed for 90% power, and sample size of 12 would be needed for 80% power.
 
 ### Planned Sample
 
-The original study had a sample size of 36, composed of 18 PTSD patients and 18 controls. I plan to first run the study on 15 participants without any preselection rules. After the first 15 participants, I will continue to run the study pre-selecting participants who score 4 or greater on the PTSD screen. I will stop running the study when at least 8 people with a score of 4 or greater on the PTSD screen have participated in the study (the minimum number needed to detect an effect with 95% power), or upon surveying 32 people in total.
+The original study had a sample size of 36, composed of 18 PTSD patients and 18 controls. I plan to first run the study on 15 participants without any preselection rules (Round 1). After the first 15 participants, I will continue to run the study pre-selecting participants who score 4 or greater on the PTSD screen (Round 2). I will stop running the study when at least 8 people with a score of 4 or greater on the PTSD screen have participated in the study (the minimum number needed to detect an effect with 95% power), or upon surveying 32 people in total.
 
 Participants will be excluded from the analysis who either (a) do not succeed in learning at least 60% of the object-scene pairs during the Study Phase within four testing cycles; (b) reported they were engaged for less than 75% of the time during the TNT Phase; or (c) provide at least 6 consecutive blank or nonsense responses during the Final Test Phase.
 
 ### Materials
 
-From original paper: “The stimuli used were 60 object-scene pairs: 48 critical pairs and 12 fillers. The scenes for these pairs were emotionally negative images taken from the International Affective Picture System and online sources…The cue objects were colored photographs of familiar, neutral objects. Each cue object was chosen to resemble an item that was already naturally embedded as an incidental detail in its paired scene but not intrinsically related to the gist of the scene. This prevented guessing of the scenes during later recall. The 48 critical pairs were divided into three sets (referred to as sets A, B, and C) that were matched on salience of the cues, as well as the emotional valence and arousing nature of the scenes…Assignment of the sets to the three conditions (see the TNT Procedure section) was counterbalanced across participants.”
+From original paper:
+> “The stimuli used were 60 object-scene pairs: 48 critical pairs and 12 fillers. The scenes for these pairs were emotionally negative images taken from the International Affective Picture System and online sources…The cue objects were colored photographs of familiar, neutral objects. Each cue object was chosen to resemble an item that was already naturally embedded as an incidental detail in its paired scene but not intrinsically related to the gist of the scene. This prevented guessing of the scenes during later recall. The 48 critical pairs were divided into three sets (referred to as sets A, B, and C) that were matched on salience of the cues, as well as the emotional valence and arousing nature of the scenes…Assignment of the sets to the three conditions (see the TNT Procedure section) was counterbalanced across participants.”
 
 The above materials were replicated precisely, except that 8 total object-scene pairs were removed (2 from each set) in order to reduce the length of the experiment. With the exception of the removed pairs, the same object-scene pairs were used, along with the same divisions into three sets of critical pairs A, B, and C and one set of fillers.
 
@@ -42,31 +48,35 @@ The above materials were replicated precisely, except that 8 total object-scene 
 
 #### Phase 1 of 3: Study Phase
 
-From original paper: “Participants started by studying all 60 object-scene pairs, which were presented for 6 s each in a blocked randomized order. Test-feedback cycles then followed. On each test trial, participants were shown a cue object and indicated, by pressing the “yes” or “no” button, whether they could recall the scene with which it had been paired. If they answered “yes,” three scenes were presented, and they were asked to select the correct one. Participants then were shown the correct object-scene pair again for 2.5 s, as feedback to enhance encoding. The testing cycled through all items repeatedly until participants reached a set criterion of at least 60% correct recognition (all succeeded within four cycles). When they reached this criterion, a final test cycle (without feedback) including all pairs assessed which pairs had been learned.”
+From original paper:
+> “Participants started by studying all 60 object-scene pairs, which were presented for 6 s each in a blocked randomized order. Test-feedback cycles then followed. On each test trial, participants were shown a cue object and indicated, by pressing the “yes” or “no” button, whether they could recall the scene with which it had been paired. If they answered “yes,” three scenes were presented, and they were asked to select the correct one. Participants then were shown the correct object-scene pair again for 2.5 s, as feedback to enhance encoding. The testing cycled through all items repeatedly until participants reached a set criterion of at least 60% correct recognition (all succeeded within four cycles). When they reached this criterion, a final test cycle (without feedback) including all pairs assessed which pairs had been learned.”
 
 The above procedure was replicated precisely, except that the object-scene pairs in the beginning were presented in a randomized order for each participant. (I am not sure what "blocked randomized order" means - I will consider adopting this after understanding what it means as long as it is feasible to implement.)
 
 #### Phase 2 of 3: TNT (Think/No-Think) Phase
 
-From original paper: “In this phase, participants were shown the cue objects alone. Each object appeared for 3 s in the center of the screen, surrounded by a colored frame, and was followed by a fixation cross of varying duration (interstimulus interval = 2 s ± 600 ms). Participants were asked to suppress the associated scene when an object was surrounded by a red frame (no-think trial) and to recall the associated scene when an object was surrounded by a green frame (think trial). At the start of this phase, participants were given direct suppression instructions for no-think trials, which requested them to suppress the associated scene and additionally avoid any distracting thoughts from coming into awareness…For recall trials, participants were instructed to recall the scene in as much detail as possible. Practice trials using filler items were presented to ensure that subjects understood the instructions. Following practice, participants were presented with 32 critical experimental cue objects: 16 in the recall condition and 16 in the suppress condition. The critical trials were split into five blocks, and each of these 32 objects was presented twice in each block. Thus, each associated scene was suppressed or recalled 10 times over the course of these trials. The remaining 16 critical object-scene pairs were baseline items; that is, they were learned in the study phase but were not presented in the TNT phase.”
+From original paper:
+> “In this phase, participants were shown the cue objects alone. Each object appeared for 3 s in the center of the screen, surrounded by a colored frame, and was followed by a fixation cross of varying duration (interstimulus interval = 2 s ± 600 ms). Participants were asked to suppress the associated scene when an object was surrounded by a red frame (no-think trial) and to recall the associated scene when an object was surrounded by a green frame (think trial). At the start of this phase, participants were given direct suppression instructions for no-think trials, which requested them to suppress the associated scene and additionally avoid any distracting thoughts from coming into awareness…For recall trials, participants were instructed to recall the scene in as much detail as possible. Practice trials using filler items were presented to ensure that subjects understood the instructions. Following practice, participants were presented with 32 critical experimental cue objects: 16 in the recall condition and 16 in the suppress condition. The critical trials were split into five blocks, and each of these 32 objects was presented twice in each block. Thus, each associated scene was suppressed or recalled 10 times over the course of these trials. The remaining 16 critical object-scene pairs were baseline items; that is, they were learned in the study phase but were not presented in the TNT phase.”
 
 The above procedure was replicated precisely, except that instead of presenting five blocks of 32 objects, we presented two blocks of 28 objects in order to limit the time of the experiment. In addition, since the experiment was conducted remotely, participants were asked afterwards to report during what percentage of the task they had been engaged. Practice trials were conducted using 10 filler items presented in the same order. During critical trials, the order of cue objects was randomized in each block.
 
 #### Phase 3 of 3: Final Test Phase
 
-From original paper: “All cue objects (from the recall, suppress, and baseline conditions) were presented, one at a time and without a colored frame. On each trial, participants were given 15 s to verbally describe the associated scene in as much detail as possible, so that it could be uniquely identified. The descriptions were recorded for later transcription.”
+From original paper:
+> “All cue objects (from the recall, suppress, and baseline conditions) were presented, one at a time and without a colored frame. On each trial, participants were given 15 s to verbally describe the associated scene in as much detail as possible, so that it could be uniquely identified. The descriptions were recorded for later transcription.”
 
 The above procedure was replicated precisely, except that instead of describing scenes verbally, participants were given 30 s to type a description of the associated scene into a text box below the cue object. They were instructed to ignore capitalization and punctuation, which were later removed before processing.
 
 #### Dependent Measures
 
-From original paper: "For the identification measure, a description was scored as correct if it included enough detail that the specific scene could be uniquely identified. For the details measure, each description was divided into small, meaningful segments conveying independent information, and the number of correct details was counted. Finally, gist was defined as any element pertaining to the central story of a scene that could not be changed or excluded without changing the main theme. Prior to the experiment, two independent judges determined two to four specific elements that contained the general gist of each scene. Descriptions were scored as correct on the gist measure if they included all necessary elements of the scene. All descriptions were scored by two independent raters who were blind to the conditions."
+From original paper:
+> "For the identification measure, a description was scored as correct if it included enough detail that the specific scene could be uniquely identified. For the details measure, each description was divided into small, meaningful segments conveying independent information, and the number of correct details was counted. Finally, gist was defined as any element pertaining to the central story of a scene that could not be changed or excluded without changing the main theme. Prior to the experiment, two independent judges determined two to four specific elements that contained the general gist of each scene. Descriptions were scored as correct on the gist measure if they included all necessary elements of the scene. All descriptions were scored by two independent raters who were blind to the conditions."
 
-The above procedure was followed precisely. The two independent raters were two of my acquaintances who were not informed of the conditions or the purpose of the study.
+The above procedure was followed precisely, except that I decided the gist elements myself based on pilot data. The two independent raters were two of my acquaintances, Edward Wijaya and Ignacio Blanco, who were blind to conditions.
 
 ### Analysis Plan
 
-The confirmatory analysis will be conducted on the first 18 participants to respond to the study who score less than 4 on the PTSD screen. The confirmatory analysis will be a mixed analysis of variance (ANOVA) with condition (baseline, suppress) as a within-subjects factor and set assignment as a between-subjects factor. ANOVAs will be performed separately for each dependent measure. We expect to see a significant main effect of condition on all three dependent measures, indicating that regardless of set assignment, participants without PTSD remembered fewer items in the "suppress" condition compared to the "baseline" condition.
+The confirmatory analysis will be conducted on the first 18 participants to respond to the study who score less than 4 on the PTSD screen. The key statistical analysis will be a mixed analysis of variance (ANOVA) with condition (baseline, suppress) as a within-subjects factor and set assignment as a between-subjects factor. ANOVAs will be performed separately for each dependent measure. We expect to see a significant main effect of condition on all three dependent measures, indicating that regardless of set assignment, participants without PTSD remembered fewer items in the "suppress" condition compared to the "baseline" condition.
 
 If at least 7 people with a score of 4 or greater on the PTSD screen participate in the study, the following exploratory analysis will be conducted. The exploratory analysis will be conducted on all participants with a score of 4 or greater on the PTSD screen (PTSD condition), as well as an equal number of participants with a score of less than 4 on the PTSD screen (control condition), taken in order from the first participants to respond to the study. From original paper: "Suppression-induced forgetting (lower memory performance for suppress compared with baseline items) was assessed using a mixed analysis of variance (ANOVA) with condition (baseline, suppress) as a within-subjects factor and group (PTSD, control) and set assignment (i.e., which of sets A, B, and C was assigned to each condition) as between-subject factors…ANOVAs were performed separately for each dependent measure (identification, gist, and details)." We expect to see a significant condition-by-group interaction on all three dependent measures, indicating that while controls remembered fewer items in the "suppress" condition compared to the "baseline" condition, PTSD patients did not.
 
@@ -76,49 +86,281 @@ The main difference of this replication project from the original study is that 
 
 ### Methods Addendum (Post Data Collection)
 
-You can comment this section out prior to final report with data collection.
-
 #### Actual Sample
 
-Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+After excluding participants according to the exclusion criteria described above, Round 1 yielded 12 participants with usable data, 11 in the control group and 1 in the probable PTSD group. Round 2, in which participants were preselected according to PTSD screen score, yielded 2 participants with usable data in the probable PTSD group. Because the number of participants in the probable PTSD group was not large enough to conduct the exploratory analysis with sufficient power, I did not conduct the exploratory analysis. Confirmatory analysis was conducted with the 11 control participants from Round 1, slightly greater than the number of participants needed to detect an effect with 95% power. Demographic information was not collected.
 
 #### Differences from pre-data collection methods plan
 
-Any differences from what was described as the original plan, or “none”.
+I only heard back from one of my two raters, so in the end ratings were decided by myself and Edward Wijaya, both blind to conditions.
 
 ## Results
 
 ### Data preparation
 
-```{r}
-#### Load pilot data
-data = read.csv("pilot_data.csv")
+```{r global-options, include=FALSE}
+knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='Figs/', warning=FALSE, message=FALSE)
+
 ```
 
-```{r include=FALSE}
-#### Loading libraries
-#### Import data
-#### Filter participants to be excluded
-#### Transform PTSD screen score into "Probable PTSD" and "Control"
-#### Transform set assignment data into single column with values Baseline/Suppress/Recall (possible values "ABC," "ACB," etc.)
-#### Create dataframe for confirmatory analysis. Include first 18 control participants
-#### Create dataframe for exploratory analysis. Include all PTSD participants, first N control participants
+```{r}
+#### Load libraries
+library(afex)
+library(dplyr)
+library(ggplot2)
+library(plotrix)
+library(psych)
+library(tidyverse)
+
+```
+
+The following code uploads the data for all valid Round 1 participants and assigns them to conditions.
+
+```{r}
+#### Load all Round 1 data in one dataframe
+filenames_round1 <- list.files(path = "data_DONOTUPLOAD/FinalDataCollection/round1", pattern = "*.csv", full.names = T)
+data_round1_raw <- sapply(filenames_round1, read_csv, simplify = FALSE) %>% 
+  bind_rows()
+
+#### Manually filter excluded participants
+to_exclude_round1 = c("d411vo3s7s", "j94qyroece", "y8mljf8336")
+data_round1_filtered <- data_round1_raw %>% 
+  filter(!subj_ID %in% to_exclude_round1)
+
+#### Filter relevant variables
+data_round1_cleaned <- data_round1_filtered %>% 
+  filter(trial_type == "survey-text-timed") %>% 
+  select(stimulus, trial_type, subj_ID, group, response)
+
+#### Manually assign Round 1 participants to conditions based on PTSD screen score
+to_examine_round1 <- data_round1_filtered %>% 
+  filter(trial_type == "survey-multi-choice") %>% 
+  select(subj_ID, responses)
+unique_subj_IDs_round1 <- distinct(to_examine_round1 %>% select(subj_ID))
+condition_round1 <- c("control", "control", "control", "PTSD", "control", "control", "control", "control", "control", "control", "control", "control")
+condition_info_round1 <- cbind(unique_subj_IDs_round1, condition_round1)
+data_round1_final <- merge(data_round1_cleaned, condition_info_round1, by = "subj_ID")
+
+```
+
+The following code uploads the data for all Round 2 participants who scored less than 4 on the PTSD screen. This data is combined with the data from Round 1 and downloaded as a .csv file for raters to fill out, with condition information removed.
+
+```{r}
+#### Load all Round 2 data in one dataframe
+filenames_round2 <- list.files(path = "data_DONOTUPLOAD/FinalDataCollection/round2_preselection", pattern = "*.csv", full.names = T)
+data_round2_raw <- sapply(filenames_round2, read_csv, simplify = FALSE) %>% 
+  bind_rows()
+
+#### Manually filter control participants and relevant variables
+control_round2 = c("0a45m97st2", "0te1hcshxy", "2wgj2qbm1k", "90myevv2fn", "694cb7us66", "aua0b0t7zk", "hnwclkn14g", "ku4v0em5qm", "m8vl9l7hg4", "mf459gxd28", "n4tnz1c2hr", "pc7fygf7ql", "ue7f6egjhe", "vauftt8d8p", "zwn4gqy185")
+data_round2_filtered <- data_round2_raw %>% 
+  filter(!subj_ID %in% control_round2)
+
+#### Filter relevant variables
+data_round2_cleaned <- data_round2_filtered %>% 
+  filter(trial_type == "survey-text-timed") %>% 
+  select(stimulus, trial_type, subj_ID, group, response)
+
+#### Manually assign Round 2 participants to conditions based on PTSD screen score
+unique_subj_IDs_round2 <- distinct(data_round2_filtered %>% select(subj_ID))
+condition_round2 <- c("PTSD", "PTSD")
+condition_info_round2 <- cbind(unique_subj_IDs_round2, condition_round2)
+data_round2_final <- merge(data_round2_cleaned, condition_info_round2, by = "subj_ID")
+
+#### Format dataframe to send to raters and download
+gist_guidelines <- read.csv("gist.csv")
+data_final <- bind_rows(data_round1_final, data_round2_final) %>% 
+  mutate(condition = coalesce(condition_round1, condition_round2)) %>% 
+  select(-condition_round1, -condition_round2)
+for_raters <- merge(select(data_final, -condition), gist_guidelines, by = "stimulus") %>% 
+  mutate(score_identification = NA, score_details = NA, score_gist = NA)
+#write_csv(for_raters, "ratings/edward_ratings_real.csv")
+#write_csv(for_raters, "ratings/ignacio_ratings_real.csv")
+#write_csv(for_raters, "ratings/emily_ratings_real.csv")
+
+```
+
+After receiving ratings in a .csv file, the following code averages the ratings of all the raters and combines the averaged ratings with the data.
+
+```{r}
+#### Load ratings
+ratings_edward <- read.csv("ratings/edward_ratings_real_filled.csv") %>% 
+  rename(c("score_identification_edward" = "score_identification",
+           "score_details_edward" = "score_details",
+           "score_gist_edward" = "score_gist")) %>% 
+  select(-gist)
+ratings_emily <- read.csv("ratings/emily_ratings_real_filled.csv") %>% 
+  rename(c("score_identification_emily" = "score_identification",
+           "score_details_emily" = "score_details",
+           "score_gist_emily" = "score_gist")) %>% 
+  select(-gist)
+
+#### Average ratings in a new column
+ratings_avg <- merge(ratings_edward, ratings_emily, all = TRUE) %>% 
+  mutate(score_identification = rowMeans(select(., c("score_identification_emily", "score_identification_edward"))),
+         score_details = rowMeans(select(., c("score_details_emily", "score_details_edward"))),
+         score_gist = rowMeans(select(., c("score_gist_emily", "score_gist_edward"))))
+
+#### Merge averaged ratings with data
+data_with_ratings <- merge(data_final, ratings_avg, by = c("subj_ID", "stimulus", "trial_type", "group", "response")) %>% 
+  select(-score_identification_emily, -score_identification_edward, -score_details_emily, -score_details_edward, -score_gist_emily, -score_gist_edward)
+
+```
+
+The following code uses participants' random group assignment as well as information on which scenes were in which list to create the "list" variable (called "set assignment" in the original paper). This variable contains information on whether a particular scene was assigned to the Baseline, Suppress, or Recall condition.
+
+```{r}
+#### Store baseline, suppress, recall, and filler lists
+list_A = c("drugs_overdosepills", "death_corpsestape", "animals_leopard", "accident_planecrash2", "disaster_couple", "fight_manbeatingwoman2", "death_hungbridge", "injury_bandage", "injury_limps", "hospital_baby", "war_capture", "sad_childgrave", "dirt_garbage", "disaster_flood")
+list_B = c("drugs_addictfloor", "death_corpsesgirls", "animals_deaddog", "disaster_dust", "fight_peoplegrabbingface", "death_hungman", "injury_babyfire", "hospital_camera", "injury_beatenup", "hospital_mangrievinghospital", "death_policecorpse", "dirt_toilet", "war_skulls", "disaster_peoplefleeing")
+list_C = c("drugs_alcoholics", "death_ditch", "animals_dogfight", "accident_sportscar", "disaster_fire", "fight_manthreatgirl", "death_woman", "sad_boycrying", "injury_doctors", "injury_thin", "fight_policestorming", "fight_prisoncell", "death_burrial", "fight_riotsstreetcorner")
+list_filler = c("fight_kidsfight", "animals_cow", "injury_brokenleg", "animals_starveddog", "death_takingpic", "sad_washcloth", "accident_railroad", "fight_prisonhostage", "fight_robbery", "animals_whale")
+scene = c(list_A, list_B, list_C, list_filler)
+list = c(rep("A", 14), rep("B", 14), rep("C", 14), rep("filler", 10))
+store_lists <- cbind(scene, list)
+
+#### Transform "scene" variable into baseline/suppress/recall
+data_for_analysis <- data_with_ratings %>% 
+  mutate(group = factor(group, levels = c("0", "1", "2", "3", "4", "5"), labels = c("ABC", "ACB", "BAC", "BCA", "CAB", "CBA"))) %>% 
+  merge(store_lists, by = "scene") %>% 
+  mutate(list = case_when(list == "A" & grepl("A..", group) ~ "Baseline",
+                          list == "A" & grepl(".A.", group) ~ "Suppress",
+                          list == "A" & grepl("..A", group) ~ "Recall",
+                          list == "B" & grepl("B..", group) ~ "Baseline",
+                          list == "B" & grepl(".B.", group) ~ "Suppress",
+                          list == "B" & grepl("..B", group) ~ "Recall",
+                          list == "C" & grepl("C..", group) ~ "Baseline",
+                          list == "C" & grepl(".C.", group) ~ "Suppress",
+                          list == "C" & grepl("..C", group) ~ "Recall",
+                          list == "filler" ~ "Filler")) %>% 
+  mutate(list = as.factor(list), subj_ID = as.factor(subj_ID)) %>% 
+  select(-stimulus, -trial_type)
+
+```
+
+### Explore data
+
+```{r}
+#### Histogram of scores
+hist(data_for_analysis$score_identification, xlab = "Identification: Scenes Correctly Recalled (%)", main = NULL)
+hist(data_for_analysis$score_details, xlab = "Details: Number of Details Recalled", main = NULL)
+hist(data_for_analysis$score_gist, xlab = "Gist: Scenes Correctly Recalled (%)", main = NULL)
+
+```
+
+```{r}
+#### Calculate inter-rater agreement
+cor.test(ratings_edward$score_identification, ratings_emily$score_identification, method = "pearson")
+cor.test(ratings_edward$score_details, ratings_emily$score_details, method = "pearson")
+cor.test(ratings_edward$score_gist, ratings_emily$score_gist, method = "pearson")
+
 ```
 
 ### Confirmatory analysis
 
-Mixed ANOVA with condition (baseline, suppress) as within-subjects factor and set assignment as between-subjects factor. Include side-by-side graphs with Figs. 3a, 3b, and 3c from original paper.
+The following code filters control participants and calculates means in preparation for the confirmatory analysis.
+
+```{r}
+#### Filter for control condition, relevant trials and variables
+data_confirmatory <- data_for_analysis %>% 
+  filter(condition == "control") %>% 
+  filter(list != "Filler") %>% 
+  select(subj_ID, group, score_identification, score_details, score_gist, list)
+
+#### Summarize data
+data_confirmatory_summary <- data_confirmatory %>% 
+  group_by(list) %>% 
+  summarize(avg_identification = mean(score_identification, na.rm = T),
+            avg_details = mean(score_details, na.rm = T),
+            avg_gist = mean(score_gist, na.rm = T),
+            SEM_identification = std.error(score_identification, na.rm = T),
+            SEM_details = std.error(score_details, na.rm = T),
+            SEM_gist = std.error(score_gist, na.rm = T))
+
+data_confirmatory_summary
+
+```
+
+The following code displays three bar graphs of scores for identification, details, and gist respectively across Baseline, Recall, and Suppress conditions. It includes side-by-side graphs with Figs. 3a, 3b, and 3c from original paper.
+
+```{r}
+#### Reproduce Figs. 3a, 3b, and 3c in control group
+confirmatory_plot_identification <- ggplot(data_confirmatory_summary, aes(x = list, y = avg_identification)) +
+  geom_bar(position = "dodge", stat = "identity", aes(fill = factor(list)), color = "black") +
+  xlab("Condition") +
+  ylab("Identification: Scenes Correctly Recalled (%)") +
+  coord_cartesian(ylim = c(0.3, 0.6)) +
+  theme_classic() +
+  scale_y_continuous(labels = function(x) paste0(x*100, "%")) +
+  theme(legend.title = element_blank(), legend.position = "none") +
+  scale_fill_manual(values = c("grey32", "grey73", "white")) +
+  geom_errorbar(aes(ymin = avg_identification - SEM_identification, ymax = avg_identification + SEM_identification), width = .2, position = position_dodge(.9))
+
+confirmatory_plot_gist <- ggplot(data_confirmatory_summary, aes(x = list, y = avg_gist)) +
+  geom_bar(position = "dodge", stat = "identity", aes(fill = factor(list)), color = "black") +
+  xlab("Condition") +
+  ylab("Gist: Scenes Correctly Recalled (%)") +
+  coord_cartesian(ylim = c(0.25, 0.5)) +
+  theme_classic() +
+  scale_y_continuous(labels = function(x) paste0(x*100, "%")) +
+  theme(legend.title = element_blank(), legend.position = "none") +
+  scale_fill_manual(values = c("grey32", "grey73", "white")) +
+  geom_errorbar(aes(ymin = avg_gist - SEM_gist, ymax = avg_gist + SEM_gist), width = .2, position = position_dodge(.9))
+
+confirmatory_plot_details <- ggplot(data_confirmatory_summary, aes(x = list, y = avg_details)) +
+  geom_bar(position = "dodge", stat = "identity", aes(fill = factor(list)), color = "black") +
+  xlab("Condition") +
+  ylab("Details: Number of Details Recalled") +
+  ylim(0, 4) +
+  theme_classic() +
+  theme(legend.title = element_blank(), legend.position = "none") +
+  scale_fill_manual(values = c("grey32", "grey73", "white")) +
+  geom_errorbar(aes(ymin = avg_details - SEM_details, ymax = avg_details + SEM_details), width = .2, position = position_dodge(.9))
+
+confirmatory_plot_identification
+confirmatory_plot_gist
+confirmatory_plot_details
+
+#### Display original plots
+knitr::include_graphics("catarino_fig3control.png")
+
+```
+
+The following code performs the key statistical analysis of mixed ANOVA with condition (baseline, suppress) as within-subjects factor and set assignment as between-subjects factor.
+
+```{r}
+#### Filter "list" variable to 2 values: Baseline and Suppress
+data_confirmatory_to_run <- data_confirmatory %>% 
+  filter(list != "Recall") %>% 
+  droplevels(list)
+str(data_confirmatory_to_run)
+
+#### Check structure of data
+knitr::kable(describe(data_confirmatory_to_run), digits = 2)
+
+#### Run ANOVA on all 3 dependent measures
+mixed_aov_identification <- aov_car(score_identification ~ group * list + Error(subj_ID / list), data = data_confirmatory_to_run)
+mixed_aov_gist <- aov_car(score_gist ~ group * list + Error(subj_ID / list), data = data_confirmatory_to_run)
+mixed_aov_details <- aov_car(score_details ~ group * list + Error(subj_ID / list), data = data_confirmatory_to_run)
+
+summary(mixed_aov_identification)
+summary(mixed_aov_gist)
+summary(mixed_aov_details)
+
+```
 
 ### Exploratory analysis
 
-Mixed ANOVA with condition (baseline, suppress) as within-subjects factor and group (PTSD, control) and set assignment as between-subjects factor.
+The planned exploratory analysis was mixed ANOVA with condition (baseline, suppress) as within-subjects factor and group (PTSD, control) and set assignment as between-subjects factor. Exploratory analysis was not conducted due to insufficient size of probable PTSD group.
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.
+For identification, the confirmatory analysis found a suppression-induced forgetting effect as indicated by significantly fewer "suppress" than "baseline" items being remembered. The original study did not find this effect, however, possibly due to ceiling effects. For gist, the confirmatory analysis found a significant interaction between condition (baseline, suppress) and set assignment, but it was in the opposite direction as a suppression-induced forgetting effect, with significantly more "suppress" than "baseline" items being remembered. For details, the confirmatory analysis did not find any significant interaction effect. In summary, none of the dependent variables were shown to replicate the original study.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+The means in the replication for all three dependent variables were much lower than the means in the original study. In the original study, the control group means for baseline items were 92% for identification, 10.27 for details, and 58% for gist; in the replication, the control group means for baseline items were 53% for identification, 2.71 for details, and 38% for gist. One possible reason for lower scores in the replication is that participants may have remembered less due to the TNT task consisting of 2 blocks of 28 objects instead of 5 blocks of 32 objects as in the original study. A second possible reason is that participants may have been less engaged with the TNT task in the replication than in the original study, because the cutoff for exclusion was the self-reported criterion of being engaged with the task 75% of the time. Finally, a third possible reason is that participants may have said less for the short answer in Phase 3 than they did in the original study. The original protocol had participants relay everything they remembered about the scene verbally to an experimenter in front of them. It is possible that the absence of a live experimenter as well as the substitution of typing for verbal communication reduced the amount of detail that participants were inclined to give in their responses.
+
+Agreement between the two independent raters was low compared to the original study. In the original study, inter-rater agreement was r = .99 for identification, r = .95 for details, and r = .93 for gist; in the replication, inter-rater agreement was r = .73 for identification, r = .87 for details, and r = .71 for gist. Low inter-rater agreement in the replication is possibly attributable to an insufficient amount of training and practice for the raters, and suggests that there may be aspects of the scoring process which were not properly standardized or followed. Because the confirmatory analysis is based on averages of the two raters' scores, any difference in how ratings were conducted between the replication and the original study will be reflected in the results (I did not receive guidance from the original authors on how to conduct ratings). Due to the low inter-rater agreement as well as other differences from the original study described above, the meaning of this study's failure to replicate should be taken with a grain of salt.
