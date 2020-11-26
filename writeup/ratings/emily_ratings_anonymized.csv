@@ -1,0 +1,729 @@
+﻿stimulus,trial_type,group,response,scene,gist,score_identification,score_details,score_gist
+osf_files/Objects/axe.jpg,survey-text-timed,3,"""""",animals_whale,whale (similar animals OK too) + killing,0,0,0
+osf_files/Objects/axe.jpg,survey-text-timed,1,"""People surrounding a whale.""",animals_whale,whale (similar animals OK too) + killing,1,2,0
+osf_files/Objects/axe.jpg,survey-text-timed,1,"""Meat cut with the person. """,animals_whale,whale (similar animals OK too) + killing,0,1,0
+osf_files/Objects/axe.jpg,survey-text-timed,5,"""Dead animal on the ground surrounded by people""",animals_whale,whale (similar animals OK too) + killing,1,3,1
+osf_files/Objects/axe.jpg,survey-text-timed,5,"""A shark being cut open.""",animals_whale,whale (similar animals OK too) + killing,1,2,1
+osf_files/Objects/axe.jpg,survey-text-timed,1,"""Axe is on top of a gutted whale""",animals_whale,whale (similar animals OK too) + killing,1,4,1
+osf_files/Objects/axe.jpg,survey-text-timed,2,"""There was a large fish, maybe a ahark?  There was an axe""",animals_whale,whale (similar animals OK too) + killing,1,2,0
+osf_files/Objects/axe.jpg,survey-text-timed,2,"""Used to cut a whale""",animals_whale,whale (similar animals OK too) + killing,1,2,1
+osf_files/Objects/axe.jpg,survey-text-timed,5,"""An animal being torn open by a group of men. An axe lays on the animal.""",animals_whale,whale (similar animals OK too) + killing,1,4,1
+osf_files/Objects/axe.jpg,survey-text-timed,1,"""I don't remember""",animals_whale,whale (similar animals OK too) + killing,0,0,0
+osf_files/Objects/axe.jpg,survey-text-timed,3,"""fireman in a burning building""",animals_whale,whale (similar animals OK too) + killing,0,0,0
+osf_files/Objects/axe.jpg,survey-text-timed,5,"""I don't remember.""",animals_whale,whale (similar animals OK too) + killing,0,0,0
+osf_files/Objects/axe.jpg,survey-text-timed,0,"""a black body bag with an axe on top.""",animals_whale,whale (similar animals OK too) + killing,0,1,0
+osf_files/Objects/axe.jpg,survey-text-timed,3,"""There was a narwhal, or a similar animal, on the beach, laying there badly hurt or dead.""",animals_whale,whale (similar animals OK too) + killing,1,2,1
+osf_files/Objects/basket.jpg,survey-text-timed,5,"""Dead person""",death_ditch,"boys (people, children, etc. OK too) + dead",0,1,0
+osf_files/Objects/basket.jpg,survey-text-timed,5,"""I don't remember.""",death_ditch,"boys (people, children, etc. OK too) + dead",0,0,0
+osf_files/Objects/basket.jpg,survey-text-timed,1,"""Nothing""",death_ditch,"boys (people, children, etc. OK too) + dead",0,0,0
+osf_files/Objects/basket.jpg,survey-text-timed,1,"""I don't remember.""",death_ditch,"boys (people, children, etc. OK too) + dead",0,0,0
+osf_files/Objects/basket.jpg,survey-text-timed,1,"""It is in the land near with the person. """,death_ditch,"boys (people, children, etc. OK too) + dead",0,2,0
+osf_files/Objects/basket.jpg,survey-text-timed,3,"""a baby shot laying on ground""",death_ditch,"boys (people, children, etc. OK too) + dead",0,3,0
+osf_files/Objects/basket.jpg,survey-text-timed,5,"""Two dead in a field. A wicker basket next to them. Looks like Vietnam war.""",death_ditch,"boys (people, children, etc. OK too) + dead",1,5,1
+osf_files/Objects/basket.jpg,survey-text-timed,5,"""I don't remember anything from this scene.""",death_ditch,"boys (people, children, etc. OK too) + dead",0,0,0
+osf_files/Objects/basket.jpg,survey-text-timed,3,"""There was a woman and a little girl, and they were sitting outside, and they had baskets beside them.""",death_ditch,"boys (people, children, etc. OK too) + dead",0,1,0
+osf_files/Objects/basket.jpg,survey-text-timed,1,"""I can't remember""",death_ditch,"boys (people, children, etc. OK too) + dead",0,0,0
+osf_files/Objects/basket.jpg,survey-text-timed,3,"""""",death_ditch,"boys (people, children, etc. OK too) + dead",0,0,0
+osf_files/Objects/basket.jpg,survey-text-timed,2,"""There were kids in this picture and a basket at the top.  I can't remember everything for some reason, but I think the kids were either hurt or dead, """,death_ditch,"boys (people, children, etc. OK too) + dead",1,3,1
+osf_files/Objects/basket.jpg,survey-text-timed,0,"""""",death_ditch,"boys (people, children, etc. OK too) + dead",0,0,0
+osf_files/Objects/basket.jpg,survey-text-timed,2,"""Basket was in d""",death_ditch,"boys (people, children, etc. OK too) + dead",0,1,0
+osf_files/Objects/belt.jpg,survey-text-timed,5,"""A guy on the floor with pills""",drugs_overdosepills,overdose + pills,0,2,0
+osf_files/Objects/belt.jpg,survey-text-timed,1,"""I think this was the lady who overdosed. She wa""",drugs_overdosepills,overdose + pills,1,2,0
+osf_files/Objects/belt.jpg,survey-text-timed,1,"""Lady fall on the floor""",drugs_overdosepills,overdose + pills,0,2,0
+osf_files/Objects/belt.jpg,survey-text-timed,3,"""""",drugs_overdosepills,overdose + pills,0,0,0
+osf_files/Objects/belt.jpg,survey-text-timed,0,"""A woman that was overdosing on the floor. """,drugs_overdosepills,overdose + pills,1,3,0
+osf_files/Objects/belt.jpg,survey-text-timed,1,"""Woman lying on the floor pills and spittle coming out of her mouth""",drugs_overdosepills,overdose + pills,1,4,1
+osf_files/Objects/belt.jpg,survey-text-timed,5,"""a person on the floor passed out with drugs around her.""",drugs_overdosepills,overdose + pills,1,4,1
+osf_files/Objects/belt.jpg,survey-text-timed,1,"""I person that is laying on the ground with foam coming out of their mouth. They have overdosed """,drugs_overdosepills,overdose + pills,1,4,0
+osf_files/Objects/belt.jpg,survey-text-timed,2,"""There was a woman who looked like she had od'ed.  She was laying on the floor and it looked as if she had vomited.  She was unconscious or perhaps dead.  She had a belt on""",drugs_overdosepills,overdose + pills,1,6,0
+osf_files/Objects/belt.jpg,survey-text-timed,2,"""Suicide a girl with ta""",drugs_overdosepills,overdose + pills,0,2,0
+osf_files/Objects/belt.jpg,survey-text-timed,3,"""A man was sitting on the floor, shooting up drugs with a needle""",drugs_overdosepills,overdose + pills,0,0,0
+osf_files/Objects/belt.jpg,survey-text-timed,5,"""person on floor in bathroom""",drugs_overdosepills,overdose + pills,0,3,0
+osf_files/Objects/belt.jpg,survey-text-timed,5,"""A person laying prone of drug over dose. Possibly female.""",drugs_overdosepills,overdose + pills,1,3,0
+osf_files/Objects/belt.jpg,survey-text-timed,3,"""man with syringe\n""",drugs_overdosepills,overdose + pills,0,0,0
+osf_files/Objects/bench.jpg,survey-text-timed,1,"""Room scenes""",accident_planecrash2,plane + accident/crash,0,0,0
+osf_files/Objects/bench.jpg,survey-text-timed,1,"""This one had an airplane that crashed and it look""",accident_planecrash2,plane + accident/crash,1,2,1
+osf_files/Objects/bench.jpg,survey-text-timed,5,"""The back half of a large plane from a crash. In front of the plane there was a wooden """,accident_planecrash2,plane + accident/crash,1,4,1
+osf_files/Objects/bench.jpg,survey-text-timed,1,"""Airplane crash into a house.  The plane or the house was blue.""",accident_planecrash2,plane + accident/crash,1,4,1
+osf_files/Objects/bench.jpg,survey-text-timed,5,"""An airplane crashed in a rural setting. One bench was near that seemed undamaged. """,accident_planecrash2,plane + accident/crash,1,5,1
+osf_files/Objects/bench.jpg,survey-text-timed,5,"""A plane crash and wreckage""",accident_planecrash2,plane + accident/crash,1,2,1
+osf_files/Objects/bench.jpg,survey-text-timed,3,"""An airplane had crashed into someone's house""",accident_planecrash2,plane + accident/crash,1,3,1
+osf_files/Objects/bench.jpg,survey-text-timed,2,"""Aeroplan accident place""",accident_planecrash2,plane + accident/crash,1,2,1
+osf_files/Objects/bench.jpg,survey-text-timed,2,"""There was a plane that crashed on what looked like a trailer home.  The plane was blue, I think.  There was a bench out front in the picture in front of the plane, untouched in the wreck""",accident_planecrash2,plane + accident/crash,1,6,1
+osf_files/Objects/bench.jpg,survey-text-timed,5,"""I don't remember.""",accident_planecrash2,plane + accident/crash,0,0,0
+osf_files/Objects/bench.jpg,survey-text-timed,3,"""a plane near the cha""",accident_planecrash2,plane + accident/crash,0,1,0
+osf_files/Objects/bench.jpg,survey-text-timed,0,"""A plane crash""",accident_planecrash2,plane + accident/crash,1,2,1
+osf_files/Objects/bench.jpg,survey-text-timed,3,"""a plane that had crashed and was open""",accident_planecrash2,plane + accident/crash,1,2,1
+osf_files/Objects/bench.jpg,survey-text-timed,1,"""It stand in a wreck of an airplane. """,accident_planecrash2,plane + accident/crash,1,2,1
+osf_files/Objects/bike.jpg,survey-text-timed,1,"""I forget which one this was for.""",animals_leopard,leopard (similar animals OK too) + man,0,0,0
+osf_files/Objects/bike.jpg,survey-text-timed,5,"""A man with his scalp partially torn off being attacked by an animal.""",animals_leopard,leopard (similar animals OK too) + man,1,3,1
+osf_files/Objects/bike.jpg,survey-text-timed,5,"""A lion attacking a man""",animals_leopard,leopard (similar animals OK too) + man,1,3,1
+osf_files/Objects/bike.jpg,survey-text-timed,1,"""Nothing""",animals_leopard,leopard (similar animals OK too) + man,0,0,0
+osf_files/Objects/bike.jpg,survey-text-timed,2,"""There was a bike at the bottom of the picture.  I don't remember that much about the picture itself unfortunately, not sure why.  I know there was something distressful and I remember""",animals_leopard,leopard (similar animals OK too) + man,0,2,0
+osf_files/Objects/bike.jpg,survey-text-timed,5,"""I don't remember.""",animals_leopard,leopard (similar animals OK too) + man,0,0,0
+osf_files/Objects/bike.jpg,survey-text-timed,1,"""Cycle driving.""",animals_leopard,leopard (similar animals OK too) + man,0,1,0
+osf_files/Objects/bike.jpg,survey-text-timed,2,"""disaster situ""",animals_leopard,leopard (similar animals OK too) + man,0,0,0
+osf_files/Objects/bike.jpg,survey-text-timed,3,"""a man leaning over near a tiger""",animals_leopard,leopard (similar animals OK too) + man,1,2,1
+osf_files/Objects/bike.jpg,survey-text-timed,3,"""a man near this cycle""",animals_leopard,leopard (similar animals OK too) + man,0,2,0
+osf_files/Objects/bike.jpg,survey-text-timed,3,"""I can't remember this one""",animals_leopard,leopard (similar animals OK too) + man,0,0,0
+osf_files/Objects/bike.jpg,survey-text-timed,0,"""A fight between two people in a garage""",animals_leopard,leopard (similar animals OK too) + man,0,0,0
+osf_files/Objects/bike.jpg,survey-text-timed,1,"""Jaguar clawing a mans scalp off.""",animals_leopard,leopard (similar animals OK too) + man,1,3,1
+osf_files/Objects/bike.jpg,survey-text-timed,5,"""A bike in front of some type of disaster. I don't really remember. You could see a bike. There may have been a riot or war or something.""",animals_leopard,leopard (similar animals OK too) + man,0,1,0
+osf_files/Objects/bottle.jpg,survey-text-timed,1,"""Dirty toilet""",dirt_toilet,toilet,1,2,1
+osf_files/Objects/bottle.jpg,survey-text-timed,3,"""a toilet filled with poop""",dirt_toilet,toilet,1,2,1
+osf_files/Objects/bottle.jpg,survey-text-timed,5,"""A toilet full of shit""",dirt_toilet,toilet,1,2,1
+osf_files/Objects/bottle.jpg,survey-text-timed,1,"""I don't remember this one.""",dirt_toilet,toilet,0,0,0
+osf_files/Objects/bottle.jpg,survey-text-timed,1,"""A dirty toilet with alcohol bottles lying on the floor around it.""",dirt_toilet,toilet,1,4,1
+osf_files/Objects/bottle.jpg,survey-text-timed,1,"""Toilet """,dirt_toilet,toilet,1,1,1
+osf_files/Objects/bottle.jpg,survey-text-timed,2,"""bathroom take place useless one""",dirt_toilet,toilet,0,1,0
+osf_files/Objects/bottle.jpg,survey-text-timed,5,"""I don't remember anything from this scene.""",dirt_toilet,toilet,0,0,0
+osf_files/Objects/bottle.jpg,survey-text-timed,5,"""a messy toilet bowl""",dirt_toilet,toilet,1,1,1
+osf_files/Objects/bottle.jpg,survey-text-timed,3,"""There was a nasty, dirty toilet with green water inside it. Surrounding the toilet was trash and bottles, and was really dirty. """,dirt_toilet,toilet,1,5,1
+osf_files/Objects/bottle.jpg,survey-text-timed,0,"""A couple of drunk men""",dirt_toilet,toilet,0,0,0
+osf_files/Objects/bottle.jpg,survey-text-timed,2,"""There was a very, very dirty toilet with nastiness inside.  There was a whiskey bottle to the side of the toilet, empty. """,dirt_toilet,toilet,1,5,1
+osf_files/Objects/bottle.jpg,survey-text-timed,3,"""""",dirt_toilet,toilet,0,0,0
+osf_files/Objects/bottle.jpg,survey-text-timed,5,"""A toilet filled with bodily fluids.""",dirt_toilet,toilet,1,2,1
+osf_files/Objects/bowl.jpg,survey-text-timed,2,"""baby take bath in it""",hospital_baby,baby + bowl,1,3,1
+osf_files/Objects/bowl.jpg,survey-text-timed,1,"""a baby in a bowl that was hooked up to something""",hospital_baby,baby + bowl,1,3,1
+osf_files/Objects/bowl.jpg,survey-text-timed,5,"""A baby in a bowl with water in it""",hospital_baby,baby + bowl,1,3,1
+osf_files/Objects/bowl.jpg,survey-text-timed,5,"""There was an extremely small baby being washed in a bowl.""",hospital_baby,baby + bowl,1,3,1
+osf_files/Objects/bowl.jpg,survey-text-timed,5,"""A baby in a bowl""",hospital_baby,baby + bowl,1,4,1
+osf_files/Objects/bowl.jpg,survey-text-timed,1,"""""",hospital_baby,baby + bowl,0,2,0
+osf_files/Objects/bowl.jpg,survey-text-timed,5,"""A baby, possibly born pre-mature, was being cleaned in a bowl. """,hospital_baby,baby + bowl,1,0,1
+osf_files/Objects/bowl.jpg,survey-text-timed,3,"""child sitting in this bowl""",hospital_baby,baby + bowl,1,4,1
+osf_files/Objects/bowl.jpg,survey-text-timed,3,"""A baby was sitting in a bathtub, and had a medical device on his nose. He appeared to b""",hospital_baby,baby + bowl,1,3,1
+osf_files/Objects/bowl.jpg,survey-text-timed,1,"""premature baby with tubes in his nose being bathed in a bowl""",hospital_baby,baby + bowl,1,6,1
+osf_files/Objects/bowl.jpg,survey-text-timed,2,"""There was what looked like a preemie baby in a red bowl.  It looked like the baby was being washed.  """,hospital_baby,baby + bowl,1,4,1
+osf_files/Objects/bowl.jpg,survey-text-timed,1,"""Premature baby being cleaned. """,hospital_baby,baby + bowl,1,3,1
+osf_files/Objects/bowl.jpg,survey-text-timed,0,"""""",hospital_baby,baby + bowl,0,0,0
+osf_files/Objects/bowl.jpg,survey-text-timed,3,"""a small baby """,hospital_baby,baby + bowl,0,2,0
+osf_files/Objects/brick.jpg,survey-text-timed,1,"""I forget what this was for.""",war_capture,wall + people + guns,0,0,0
+osf_files/Objects/brick.jpg,survey-text-timed,5,"""There were people against a wall, and the bricks were yellow or tan colored.""",war_capture,wall + people + guns,1,3,0
+osf_files/Objects/brick.jpg,survey-text-timed,2,"""There was a brick or block wall and people were all lined up there.  """,war_capture,wall + people + guns,1,3,0
+osf_files/Objects/brick.jpg,survey-text-timed,2,"""A man shotted """,war_capture,wall + people + guns,0,1,0
+osf_files/Objects/brick.jpg,survey-text-timed,5,"""A firing wall with men in handcuffs""",war_capture,wall + people + guns,1,4,1
+osf_files/Objects/brick.jpg,survey-text-timed,1,"""Men lined up against a wall.  A policeman standing off to the side""",war_capture,wall + people + guns,1,4,0
+osf_files/Objects/brick.jpg,survey-text-timed,5,"""I group of people lined up along a brick wall. Hands bound behind them. 2 armed men.""",war_capture,wall + people + guns,1,7,1
+osf_files/Objects/brick.jpg,survey-text-timed,5,"""Men facing a brick wall. """,war_capture,wall + people + guns,1,3,0
+osf_files/Objects/brick.jpg,survey-text-timed,1,"""Building Dismantle.""",war_capture,wall + people + guns,0,0,0
+osf_files/Objects/brick.jpg,survey-text-timed,0,"""People standing by a brick wall""",war_capture,wall + people + guns,1,2,0
+osf_files/Objects/brick.jpg,survey-text-timed,3,"""prisoners being led around jail""",war_capture,wall + people + guns,0,1,0
+osf_files/Objects/brick.jpg,survey-text-timed,3,"""a brick wall near this stone""",war_capture,wall + people + guns,0,1,0
+osf_files/Objects/brick.jpg,survey-text-timed,1,"""men standing face into a wall.""",war_capture,wall + people + guns,1,4,0
+osf_files/Objects/brick.jpg,survey-text-timed,3,"""There were a bunch of people with handcuffs standing and facing the wall. There was a guard with a gun next to them.""",war_capture,wall + people + guns,1,7,1
+osf_files/Objects/broom.jpg,survey-text-timed,1,"""washed.""",fight_prisoncell,prison/dirty room (anything along these lines works),0,0,0
+osf_files/Objects/broom.jpg,survey-text-timed,3,"""near the toilet setup room""",fight_prisoncell,prison/dirty room (anything along these lines works),0,2,0
+osf_files/Objects/broom.jpg,survey-text-timed,3,"""a prison cell""",fight_prisoncell,prison/dirty room (anything along these lines works),1,1,1
+osf_files/Objects/broom.jpg,survey-text-timed,1,"""Dirty jail cell.""",fight_prisoncell,prison/dirty room (anything along these lines works),1,2,1
+osf_files/Objects/broom.jpg,survey-text-timed,2,"""There was a prison cell.  There was a piece of a broom in the background.  It was odd because I think the broom was broken, I t""",fight_prisoncell,prison/dirty room (anything along these lines works),1,4,1
+osf_files/Objects/broom.jpg,survey-text-timed,1,"""I don't remember.""",fight_prisoncell,prison/dirty room (anything along these lines works),0,0,0
+osf_files/Objects/broom.jpg,survey-text-timed,5,"""A bed in a bathroom""",fight_prisoncell,prison/dirty room (anything along these lines works),1,2,0
+osf_files/Objects/broom.jpg,survey-text-timed,5,"""A dirty prison cell with broom near sink.""",fight_prisoncell,prison/dirty room (anything along these lines works),1,4,1
+osf_files/Objects/broom.jpg,survey-text-timed,3,"""This was associated with a dirty, unclean looking jail cell.""",fight_prisoncell,prison/dirty room (anything along these lines works),1,2,1
+osf_files/Objects/broom.jpg,survey-text-timed,0,"""""",fight_prisoncell,prison/dirty room (anything along these lines works),0,0,0
+osf_files/Objects/broom.jpg,survey-text-timed,1,"""Nothing""",fight_prisoncell,prison/dirty room (anything along these lines works),0,0,0
+osf_files/Objects/broom.jpg,survey-text-timed,5,"""A dirty bathroom. In the back against the wall, there was a broken broom.""",fight_prisoncell,prison/dirty room (anything along these lines works),1,6,1
+osf_files/Objects/broom.jpg,survey-text-timed,2,"""It was in he room""",fight_prisoncell,prison/dirty room (anything along these lines works),0,0,0
+osf_files/Objects/broom.jpg,survey-text-timed,5,"""I don't remember.""",fight_prisoncell,prison/dirty room (anything along these lines works),0,0,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,1,"""I can't remember""",hospital_camera,hospital + leg amputation + filming,0,0,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,5,"""Man in a hospital bed missing a leg""",hospital_camera,hospital + leg amputation + filming,1,4,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,3,"""a man with one leg cut at the knee and bandaged up""",hospital_camera,hospital + leg amputation + filming,1,4,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,2,"""Hospital shooting a patient""",hospital_camera,hospital + leg amputation + filming,1,3,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,1,"""a guy taking a video of someone""",hospital_camera,hospital + leg amputation + filming,0,3,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,5,"""A man recording someone on a hospital bed hurt and bandanged\n""",hospital_camera,hospital + leg amputation + filming,1,6,1
+osf_files/Objects/camcorder.jpg,survey-text-timed,1,"""Hospital room with video recorder""",hospital_camera,hospital + leg amputation + filming,1,2,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,1,"""A man lying in a hospital bed with the lower part of his right leg gone. Another man holding a camera and ap""",hospital_camera,hospital + leg amputation + filming,1,9,1
+osf_files/Objects/camcorder.jpg,survey-text-timed,5,"""I don't remember anything from this scene.""",hospital_camera,hospital + leg amputation + filming,0,0,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,3,"""There was someone in a hospital, with doctors surrounding him and one of them was carrying a video camera.""",hospital_camera,hospital + leg amputation + filming,1,3,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,0,"""a man filming a surgery. """,hospital_camera,hospital + leg amputation + filming,1,2,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,5,"""Injured man in hospital bed. Missing a leg. Another person with a camera pointing at man in bed.""",hospital_camera,hospital + leg amputation + filming,1,8,1
+osf_files/Objects/camcorder.jpg,survey-text-timed,3,"""a man shoot with this camera.\n""",hospital_camera,hospital + leg amputation + filming,0,3,0
+osf_files/Objects/camcorder.jpg,survey-text-timed,2,"""There was a man in a hospital bed who had a leg removed at the knee, I think.  Somebody was taking a video of him. """,hospital_camera,hospital + leg amputation + filming,1,7,1
+osf_files/Objects/carton.jpg,survey-text-timed,1,"""Shop""",dirt_garbage,women + garbage,0,0,0
+osf_files/Objects/carton.jpg,survey-text-timed,5,"""There was a woman and child walking in a city. On the sidewalk there were a lot of trash bags and garbage.""",dirt_garbage,women + garbage,1,7,1
+osf_files/Objects/carton.jpg,survey-text-timed,2,"""Waste putting place on road side""",dirt_garbage,women + garbage,1,2,0
+osf_files/Objects/carton.jpg,survey-text-timed,5,"""A woman walks along side trash with her child. They are wearing masks. She is carrying the child's toy.""",dirt_garbage,women + garbage,1,5,1
+osf_files/Objects/carton.jpg,survey-text-timed,1,"""filled with waste """,dirt_garbage,women + garbage,1,1,0
+osf_files/Objects/carton.jpg,survey-text-timed,5,"""A bunch of trash""",dirt_garbage,women + garbage,1,1,0
+osf_files/Objects/carton.jpg,survey-text-timed,1,"""Nothing""",dirt_garbage,women + garbage,0,0,0
+osf_files/Objects/carton.jpg,survey-text-timed,3,"""There was a girl bleeding and I think she was """,dirt_garbage,women + garbage,0,0,0
+osf_files/Objects/carton.jpg,survey-text-timed,0,"""A woman and a girl walking by a street with a lot of trash""",dirt_garbage,women + garbage,1,5,0
+osf_files/Objects/carton.jpg,survey-text-timed,1,"""Woman with two children walking by a bunch of trash.""",dirt_garbage,women + garbage,1,4,0
+osf_files/Objects/carton.jpg,survey-text-timed,2,"""There was a messy scene with trash.  There were boxes and trash, a white box for sure.  """,dirt_garbage,women + garbage,1,4,0
+osf_files/Objects/carton.jpg,survey-text-timed,3,"""lot of garbage items.\n""",dirt_garbage,women + garbage,1,1,0
+osf_files/Objects/carton.jpg,survey-text-timed,3,"""firemen putting out a fi""",dirt_garbage,women + garbage,0,0,0
+osf_files/Objects/carton.jpg,survey-text-timed,5,"""A woman and child surrounded by garbae""",dirt_garbage,women + garbage,1,3,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,3,"""a man shot on the street and a person standing near them with phone""",death_takingpic,body + photo,1,4,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,1,"""man taking a photo with his cell phone of a dead person.""",death_takingpic,body + photo,1,4,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,5,"""Racing accident""",death_takingpic,body + photo,0,0,0
+osf_files/Objects/cellphone.jpg,survey-text-timed,2,"""A man shooting a man died place""",death_takingpic,body + photo,1,4,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,2,"""There was a man taking a picture of a boy on the ground with a flip phone.  The boy was obviously dead. """,death_takingpic,body + photo,1,6,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,1,"""a guy was taking a picture of someone lying on the ground""",death_takingpic,body + photo,1,5,0
+osf_files/Objects/cellphone.jpg,survey-text-timed,5,"""A person on the ground, maybe dead. Another person taking a picture with a cell phone.""",death_takingpic,body + photo,1,6,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,1,"""Mobile""",death_takingpic,body + photo,0,1,0
+osf_files/Objects/cellphone.jpg,survey-text-timed,3,"""There was a man laying on the ground, bleeding, who appeared to be dead or badly hurt. A man was standing by him, with a camera faced towards the guy on the ground.""",death_takingpic,body + photo,1,7,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,5,"""A shirtless dead man laying prone. Another man takes pictures with his phone.""",death_takingpic,body + photo,1,7,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,5,"""a man taking a picture of his phone of a man on the ground""",death_takingpic,body + photo,1,5,0
+osf_files/Objects/cellphone.jpg,survey-text-timed,3,"""near the dead body""",death_takingpic,body + photo,0,1,0
+osf_files/Objects/cellphone.jpg,survey-text-timed,0,"""a man on the ground and another one taking a picture of him. The other man seems dead. """,death_takingpic,body + photo,1,5,1
+osf_files/Objects/cellphone.jpg,survey-text-timed,1,"""Nothing""",death_takingpic,body + photo,0,0,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,5,"""A woman with a black eye was holding a cigarette.""",injury_beatenup,beaten/black eye (anything along these lines works),1,3,1
+osf_files/Objects/cigarette.jpg,survey-text-timed,1,"""a lady was smoking a cigarette """,injury_beatenup,beaten/black eye (anything along these lines works),1,2,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,1,"""Woman who has been severely beat up is smoking. """,injury_beatenup,beaten/black eye (anything along these lines works),1,3,1
+osf_files/Objects/cigarette.jpg,survey-text-timed,3,"""a woman smoking a cigarette with a black eye """,injury_beatenup,beaten/black eye (anything along these lines works),1,3,1
+osf_files/Objects/cigarette.jpg,survey-text-timed,2,"""There was a person with a cigarette.  I can't remember much for some reason...I think the person was injured""",injury_beatenup,beaten/black eye (anything along these lines works),1,2,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,5,"""Can't remember""",injury_beatenup,beaten/black eye (anything along these lines works),0,0,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,2,"""A lady used it with some mark in her face""",injury_beatenup,beaten/black eye (anything along these lines works),1,4,1
+osf_files/Objects/cigarette.jpg,survey-text-timed,1,"""Nothing""",injury_beatenup,beaten/black eye (anything along these lines works),0,0,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,3,"""a guy smoke this cigarette""",injury_beatenup,beaten/black eye (anything along these lines works),1,1,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,5,"""A woman smoking with a black eye""",injury_beatenup,beaten/black eye (anything along these lines works),1,3,1
+osf_files/Objects/cigarette.jpg,survey-text-timed,0,"""a woman or man really sad, with a cigarette on his or her hand. The woman or man is wearing a yellow hoodie. """,injury_beatenup,beaten/black eye (anything along these lines works),1,3,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,5,"""""",injury_beatenup,beaten/black eye (anything along these lines works),0,0,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,1,"""Lady holding cigarette in hand""",injury_beatenup,beaten/black eye (anything along these lines works),1,2,0
+osf_files/Objects/cigarette.jpg,survey-text-timed,3,"""There was a girl, bleeding and sitting on the ground, and smoking a cigarette. She appeared kind of dirty and like she's unwell.""",injury_beatenup,beaten/black eye (anything along these lines works),1,4,1
+osf_files/Objects/clock.jpg,survey-text-timed,3,"""""",injury_thin,"woman, thin",0,0,0
+osf_files/Objects/clock.jpg,survey-text-timed,2,"""There was a bedroom, I think, and I can't remember everything.  I know there was a small clock in the picture. """,injury_thin,"woman, thin",0,2,0
+osf_files/Objects/clock.jpg,survey-text-timed,1,"""very skinny woman laying on a bed""",injury_thin,"woman, thin",1,4,1
+osf_files/Objects/clock.jpg,survey-text-timed,5,"""A very thin woman in bed.""",injury_thin,"woman, thin",1,3,1
+osf_files/Objects/clock.jpg,survey-text-timed,3,"""an anorexic woman laying on a bed""",injury_thin,"woman, thin",1,4,1
+osf_files/Objects/clock.jpg,survey-text-timed,5,"""A really skinny girl""",injury_thin,"woman, thin",1,2,1
+osf_files/Objects/clock.jpg,survey-text-timed,5,"""a woman on a bed sleeping or dead in front of a window""",injury_thin,"woman, thin",1,4,0
+osf_files/Objects/clock.jpg,survey-text-timed,1,"""Watch in the Wall. """,injury_thin,"woman, thin",0,1,0
+osf_files/Objects/clock.jpg,survey-text-timed,1,"""Nothing""",injury_thin,"woman, thin",0,0,0
+osf_files/Objects/clock.jpg,survey-text-timed,5,"""Clock in background. I think there was one injured person on the bed.""",injury_thin,"woman, thin",1,4,0
+osf_files/Objects/clock.jpg,survey-text-timed,2,"""A sick lady's room it was on the tablle""",injury_thin,"woman, thin",0,3,0
+osf_files/Objects/clock.jpg,survey-text-timed,3,"""There was a girl, who appeared to be anorexic, laying in bed with her shirt up showing her skinny stomach.""",injury_thin,"woman, thin",1,6,1
+osf_files/Objects/clock.jpg,survey-text-timed,1,"""a lady laying on a bed looking very sickly""",injury_thin,"woman, thin",1,4,0
+osf_files/Objects/clock.jpg,survey-text-timed,0,"""a really skinny woman laying on a bed. """,injury_thin,"woman, thin",1,4,1
+osf_files/Objects/comb.jpg,survey-text-timed,5,"""Men surrounding a man covered in sand""",disaster_dust,"digging/dirt, bodies",1,2,1
+osf_files/Objects/comb.jpg,survey-text-timed,5,"""a woman getting pulled out of dirt""",disaster_dust,"digging/dirt, bodies",1,3,1
+osf_files/Objects/comb.jpg,survey-text-timed,5,"""A buried person and red soil. People digging them up. A hair comb near by in """,disaster_dust,"digging/dirt, bodies",1,5,1
+osf_files/Objects/comb.jpg,survey-text-timed,1,"""""",disaster_dust,"digging/dirt, bodies",0,0,0
+osf_files/Objects/comb.jpg,survey-text-timed,1,"""I can't remember""",disaster_dust,"digging/dirt, bodies",0,0,0
+osf_files/Objects/comb.jpg,survey-text-timed,3,"""an old man on a bed""",disaster_dust,"digging/dirt, bodies",0,0,0
+osf_files/Objects/comb.jpg,survey-text-timed,1,"""Person with the comb""",disaster_dust,"digging/dirt, bodies",0,1,0
+osf_files/Objects/comb.jpg,survey-text-timed,0,"""what seemed like people under the sand.""",disaster_dust,"digging/dirt, bodies",1,3,1
+osf_files/Objects/comb.jpg,survey-text-timed,3,"""There were a group of men burying a woman into the dirt, and she was tied up""",disaster_dust,"digging/dirt, bodies",1,3,0
+osf_files/Objects/comb.jpg,survey-text-timed,1,"""Nothing""",disaster_dust,"digging/dirt, bodies",0,0,0
+osf_files/Objects/comb.jpg,survey-text-timed,3,"""""",disaster_dust,"digging/dirt, bodies",0,0,0
+osf_files/Objects/comb.jpg,survey-text-timed,2,"""Land slide place had it mother and child""",disaster_dust,"digging/dirt, bodies",1,3,1
+osf_files/Objects/comb.jpg,survey-text-timed,5,"""There was a comb on the floor, I think. I don't remember anything else.""",disaster_dust,"digging/dirt, bodies",0,1,0
+osf_files/Objects/comb.jpg,survey-text-timed,2,"""There was a scene with dead people on the ground, at least one woman, with a comb on the ground in front of her.""",disaster_dust,"digging/dirt, bodies",1,4,0
+osf_files/Objects/doll.jpg,survey-text-timed,1,"""a """,death_corpsesgirls,women (other terms OK too) + dead,0,0,0
+osf_files/Objects/doll.jpg,survey-text-timed,5,"""There was a doll on the floor. That's all I remember.""",death_corpsesgirls,women (other terms OK too) + dead,0,2,0
+osf_files/Objects/doll.jpg,survey-text-timed,5,"""A sad girl""",death_corpsesgirls,women (other terms OK too) + dead,0,1,0
+osf_files/Objects/doll.jpg,survey-text-timed,3,"""There was a woman and a little girl laying on the ground, and they appeared to be in a demolished building because they were laying in dirt.""",death_corpsesgirls,women (other terms OK too) + dead,1,6,1
+osf_files/Objects/doll.jpg,survey-text-timed,5,"""A dead child with a doll near by. One other person in scene.""",death_corpsesgirls,women (other terms OK too) + dead,1,4,1
+osf_files/Objects/doll.jpg,survey-text-timed,5,"""I don't remember.""",death_corpsesgirls,women (other terms OK too) + dead,0,0,0
+osf_files/Objects/doll.jpg,survey-text-timed,1,"""Toy shaped """,death_corpsesgirls,women (other terms OK too) + dead,0,0,0
+osf_files/Objects/doll.jpg,survey-text-timed,1,"""woman holding an injured child""",death_corpsesgirls,women (other terms OK too) + dead,1,4,0
+osf_files/Objects/doll.jpg,survey-text-timed,2,"""There was a scene with people and there was a doll in the background laying on the ground.  I remember it was negative but the details of th""",death_corpsesgirls,women (other terms OK too) + dead,0,3,0
+osf_files/Objects/doll.jpg,survey-text-timed,0,"""a dirty room with a doll on the ground""",death_corpsesgirls,women (other terms OK too) + dead,0,4,0
+osf_files/Objects/doll.jpg,survey-text-timed,2,"""two children laid down place""",death_corpsesgirls,women (other terms OK too) + dead,0,3,0
+osf_files/Objects/doll.jpg,survey-text-timed,3,"""people hiding and ducking in a house""",death_corpsesgirls,women (other terms OK too) + dead,0,1,0
+osf_files/Objects/doll.jpg,survey-text-timed,3,"""""",death_corpsesgirls,women (other terms OK too) + dead,0,0,0
+osf_files/Objects/doll.jpg,survey-text-timed,1,"""Doll laying next to a child and an adult that are dead.""",death_corpsesgirls,women (other terms OK too) + dead,1,5,1
+osf_files/Objects/dress.jpg,survey-text-timed,1,"""Dead woman in a yellow dress.""",death_woman,woman + bleeding,1,4,1
+osf_files/Objects/dress.jpg,survey-text-timed,2,"""A lady killed who wore t""",death_woman,woman + bleeding,1,2,1
+osf_files/Objects/dress.jpg,survey-text-timed,5,"""A person in a yellow dress was lying on the ground, probably dead. There was a crowd around her.""",death_woman,woman + bleeding,1,7,1
+osf_files/Objects/dress.jpg,survey-text-timed,3,"""a woman on ground with panties showing and blood all around her""",death_woman,woman + bleeding,1,4,1
+osf_files/Objects/dress.jpg,survey-text-timed,5,"""A dead woman on the ground with a lot of blood. She was wearing an orange blouse.""",death_woman,woman + bleeding,1,3,1
+osf_files/Objects/dress.jpg,survey-text-timed,5,"""Dead woman in a dress""",death_woman,woman + bleeding,1,3,1
+osf_files/Objects/dress.jpg,survey-text-timed,1,"""a lady laying on the ground """,death_woman,woman + bleeding,1,3,0
+osf_files/Objects/dress.jpg,survey-text-timed,5,"""A woman dead with some people around her, her dress split open""",death_woman,woman + bleeding,1,5,1
+osf_files/Objects/dress.jpg,survey-text-timed,3,"""some girl\n""",death_woman,woman + bleeding,0,1,0
+osf_files/Objects/dress.jpg,survey-text-timed,2,"""There was a dead woman wearing a yellow dress.  The dress was not exactly like this, but it was similar, and it was pulled up around her waiste. """,death_woman,woman + bleeding,1,5,1
+osf_files/Objects/dress.jpg,survey-text-timed,0,"""""",death_woman,woman + bleeding,0,0,0
+osf_files/Objects/dress.jpg,survey-text-timed,1,"""a dead woman on the ground with most of her clothes torn away""",death_woman,woman + bleeding,1,4,1
+osf_files/Objects/dress.jpg,survey-text-timed,1,"""""",death_woman,woman + bleeding,0,0,0
+osf_files/Objects/dress.jpg,survey-text-timed,3,"""There was a girl lying on the ground, bleeding, and her dress was pulled up to the top of her legs. It looked like she had been violentally raped. She was on the ground""",death_woman,woman + bleeding,1,6,1
+osf_files/Objects/duct.jpg,survey-text-timed,5,"""military man with dead people around""",death_corpsestape,bodies + taped,0,4,0
+osf_files/Objects/duct.jpg,survey-text-timed,1,"""Don't really remember this one too much.""",death_corpsestape,bodies + taped,0,0,0
+osf_files/Objects/duct.jpg,survey-text-timed,5,"""I do not remember""",death_corpsestape,bodies + taped,0,0,0
+osf_files/Objects/duct.jpg,survey-text-timed,1,"""Scene""",death_corpsestape,bodies + taped,0,0,0
+osf_files/Objects/duct.jpg,survey-text-timed,5,"""2 dead people on the side walk with one on looker. Their faces bound with tape and blood running down streets.""",death_corpsestape,bodies + taped,1,9,1
+osf_files/Objects/duct.jpg,survey-text-timed,3,"""There were two people bleeding and laying on the ground""",death_corpsestape,bodies + taped,1,5,0
+osf_files/Objects/duct.jpg,survey-text-timed,5,"""men on the ground with tape around their head. They were dead and there was a guy standing near them.""",death_corpsestape,bodies + taped,1,7,1
+osf_files/Objects/duct.jpg,survey-text-timed,1,"""2 men on the gruond with their hands and ankles taped.  A soldier or policeman standing of to the side.""",death_corpsestape,bodies + taped,1,8,0
+osf_files/Objects/duct.jpg,survey-text-timed,2,"""There were men laying on the ground with a man holding a gun above them.  The men had duct tape around their ankles, and they looked like th""",death_corpsestape,bodies + taped,1,8,1
+osf_files/Objects/duct.jpg,survey-text-timed,3,"""knot the hand person with this tape""",death_corpsestape,bodies + taped,0,3,0
+osf_files/Objects/duct.jpg,survey-text-timed,0,"""two men lying on the floor bleeding and with their eyes covered with tape. """,death_corpsestape,bodies + taped,1,6,1
+osf_files/Objects/duct.jpg,survey-text-timed,3,"""person who was bound with duct tape""",death_corpsestape,bodies + taped,0,4,0
+osf_files/Objects/duct.jpg,survey-text-timed,1,"""Two people with ducttape on their mount and eyes are dead. """,death_corpsestape,bodies + taped,1,6,6
+osf_files/Objects/duct.jpg,survey-text-timed,2,"""killing two persons.""",death_corpsestape,bodies + taped,0,3,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,1,"""A man picking human bones out of containers.""",war_skulls,soldier + bones,1,4,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,3,"""garbage thrown around outside""",war_skulls,soldier + bones,0,0,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,1,"""Man is removing human bones from a grave.""",war_skulls,soldier + bones,1,3,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,1,"""I don't remember...blue trashbag""",war_skulls,soldier + bones,0,1,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,5,"""dead military men""",war_skulls,soldier + bones,0,3,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,1,"""Dust bag in the place""",war_skulls,soldier + bones,0,1,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,2,"""man collecting something in this bag""",war_skulls,soldier + bones,0,3,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,5,"""I don't remember anything from this scene.""",war_skulls,soldier + bones,0,0,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,5,"""I don't remember.""",war_skulls,soldier + bones,0,0,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,5,"""Burned bodies reduced to ash and bone. One man looks on.""",war_skulls,soldier + bones,1,5,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,0,"""a man digging up a grave, two skeletons on boxes. """,war_skulls,soldier + bones,1,3,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,3,"""I think this one was a man who was cleaning up trash from a cemetery.""",war_skulls,soldier + bones,0,1,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,3,"""near lot of garbage\n""",war_skulls,soldier + bones,0,0,0
+osf_files/Objects/garbagebag.jpg,survey-text-timed,2,"""There was a man putting bones into a blue trash bag. """,war_skulls,soldier + bones,1,4,0
+osf_files/Objects/gardenhose.jpg,survey-text-timed,2,"""There was a hose...I can't remember what was happening with the hose now.  I remember seeing the picture but as """,animals_cow,cow + dead,0,1,0
+osf_files/Objects/gardenhose.jpg,survey-text-timed,3,"""a horse being gutted\n""",animals_cow,cow + dead,1,2,1
+osf_files/Objects/gardenhose.jpg,survey-text-timed,3,"""this type of hose near the fa""",animals_cow,cow + dead,0,1,0
+osf_files/Objects/gardenhose.jpg,survey-text-timed,1,"""Wire carrying in th""",animals_cow,cow + dead,0,1,0
+osf_files/Objects/gardenhose.jpg,survey-text-timed,1,"""Dead cow and someone is skinning it in the mud""",animals_cow,cow + dead,1,4,1
+osf_files/Objects/gardenhose.jpg,survey-text-timed,1,"""I don't remember.""",animals_cow,cow + dead,0,0,0
+osf_files/Objects/gardenhose.jpg,survey-text-timed,5,"""A cow being butchered. There was a long hose on the ground.""",animals_cow,cow + dead,1,4,1
+osf_files/Objects/gardenhose.jpg,survey-text-timed,1,"""A man butchering a cow""",animals_cow,cow + dead,1,3,1
+osf_files/Objects/gardenhose.jpg,survey-text-timed,5,"""An cow being butchered laying on its back. """,animals_cow,cow + dead,1,4,1
+osf_files/Objects/gardenhose.jpg,survey-text-timed,5,"""A dead animal""",animals_cow,cow + dead,1,2,1
+osf_files/Objects/gardenhose.jpg,survey-text-timed,3,"""I can't remember which one this is associated with.""",animals_cow,cow + dead,0,0,0
+osf_files/Objects/gardenhose.jpg,survey-text-timed,2,"""A animal killed and used this to wash""",animals_cow,cow + dead,1,3,1
+osf_files/Objects/gardenhose.jpg,survey-text-timed,5,"""A man butchering a cow in his yard""",animals_cow,cow + dead,1,4,1
+osf_files/Objects/gardenhose.jpg,survey-text-timed,0,"""""",animals_cow,cow + dead,0,0,0
+osf_files/Objects/handbag.jpg,survey-text-timed,3,"""a woman getting robbed of her purse""",drugs_alcoholics,people + bench + drinking,0,2,0
+osf_files/Objects/handbag.jpg,survey-text-timed,5,"""People on a bench""",drugs_alcoholics,people + bench + drinking,1,3,0
+osf_files/Objects/handbag.jpg,survey-text-timed,1,"""Nothing""",drugs_alcoholics,people + bench + drinking,0,0,0
+osf_files/Objects/handbag.jpg,survey-text-timed,1,"""Person carrying the bag""",drugs_alcoholics,people + bench + drinking,0,2,0
+osf_files/Objects/handbag.jpg,survey-text-timed,2,"""A lady had it aside total three persons was there""",drugs_alcoholics,people + bench + drinking,1,5,0
+osf_files/Objects/handbag.jpg,survey-text-timed,1,"""People on a bench are drinking.""",drugs_alcoholics,people + bench + drinking,1,3,1
+osf_files/Objects/handbag.jpg,survey-text-timed,1,"""a lady on a bench or something """,drugs_alcoholics,people + bench + drinking,0,2,0
+osf_files/Objects/handbag.jpg,survey-text-timed,5,"""I don't remember anything from this scene.""",drugs_alcoholics,people + bench + drinking,0,0,0
+osf_files/Objects/handbag.jpg,survey-text-timed,0,"""a purse on a bench, people on a bench""",drugs_alcoholics,people + bench + drinking,0,3,0
+osf_files/Objects/handbag.jpg,survey-text-timed,5,"""Three people on a bench. A woman, maybe asleep, with a bag next to her.""",drugs_alcoholics,people + bench + drinking,1,7,0
+osf_files/Objects/handbag.jpg,survey-text-timed,5,"""A woman and some people on a bench""",drugs_alcoholics,people + bench + drinking,1,3,0
+osf_files/Objects/handbag.jpg,survey-text-timed,3,"""this type of bags shows near the woman\n""",drugs_alcoholics,people + bench + drinking,0,2,0
+osf_files/Objects/handbag.jpg,survey-text-timed,3,"""There was 2 men sitting on a bench, and a girl was next to them sleeping. One of the men was pointing at her while look""",drugs_alcoholics,people + bench + drinking,1,6,0
+osf_files/Objects/handbag.jpg,survey-text-timed,2,"""There was a man and woman on a bench, I think they were arguing or fighting?  The woman had a black purse beside her on the bench. """,drugs_alcoholics,people + bench + drinking,1,5,0
+osf_files/Objects/hanger.jpg,survey-text-timed,3,"""a hanger near that person\n""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),0,2,0
+osf_files/Objects/hanger.jpg,survey-text-timed,2,"""This was that Gonzalez kid in Florida who was taken out of his uncle's home (I think it was his uncle) at gunpoint by federal agents""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),1,7,1
+osf_files/Objects/hanger.jpg,survey-text-timed,1,"""man holding a child while special forces are coming in the room with guns.""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),1,6,1
+osf_files/Objects/hanger.jpg,survey-text-timed,3,"""3 people sitting on a bench""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),0,0,0
+osf_files/Objects/hanger.jpg,survey-text-timed,5,"""A swat team""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),0,1,0
+osf_files/Objects/hanger.jpg,survey-text-timed,1,"""I don't remember.""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),0,0,0
+osf_files/Objects/hanger.jpg,survey-text-timed,1,"""Nothing""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),0,0,0
+osf_files/Objects/hanger.jpg,survey-text-timed,5,"""Armed law enforcement pointing gun at young child and adult man near closet. """,fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),1,7,1
+osf_files/Objects/hanger.jpg,survey-text-timed,1,"""Shirts holded in the beauro """,fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),0,1,0
+osf_files/Objects/hanger.jpg,survey-text-timed,2,"""police man was tried to shoot a man and child""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),1,4,1
+osf_files/Objects/hanger.jpg,survey-text-timed,5,"""Some indoor scene, you could see the inside of a closet.""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),0,2,0
+osf_files/Objects/hanger.jpg,survey-text-timed,0,"""A soldier pointing a gun at a man and a child. The man is holding the child in arms. Inside a house. """,fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),1,6,1
+osf_files/Objects/hanger.jpg,survey-text-timed,5,"""I don't remember.""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),0,0,0
+osf_files/Objects/hanger.jpg,survey-text-timed,3,"""There was a man and his son standing in a bedroom, while looking very scared. And there were men with guns, and one of them had the gun pointed at the man and the boy.""",fight_policestorming,soldiers + guns + people being threatened (many ways to describe this),1,6,1
+osf_files/Objects/hat.jpg,survey-text-timed,2,"""There were men in a struggle of some sort.  One of the men wore a hat similar to this one.  """,death_burrial,burial,0,2,0
+osf_files/Objects/hat.jpg,survey-text-timed,3,"""a man this type of cap""",death_burrial,burial,0,1,0
+osf_files/Objects/hat.jpg,survey-text-timed,3,"""wild dogs outside""",death_burrial,burial,0,0,0
+osf_files/Objects/hat.jpg,survey-text-timed,1,"""man is digging a hole and a dead body is in it.""",death_burrial,burial,1,5,1
+osf_files/Objects/hat.jpg,survey-text-timed,1,"""a guy wearing a hat""",death_burrial,burial,0,1,0
+osf_files/Objects/hat.jpg,survey-text-timed,5,"""Cannot remember""",death_burrial,burial,0,0,0
+osf_files/Objects/hat.jpg,survey-text-timed,1,"""Nothing""",death_burrial,burial,0,0,0
+osf_files/Objects/hat.jpg,survey-text-timed,3,"""I can't remember which one this was associated with.""",death_burrial,burial,0,0,0
+osf_files/Objects/hat.jpg,survey-text-timed,1,"""Person hold cap""",death_burrial,burial,0,2,0
+osf_files/Objects/hat.jpg,survey-text-timed,2,"""A man digging the land wore this""",death_burrial,burial,0,1,0
+osf_files/Objects/hat.jpg,survey-text-timed,5,"""A man with a hat burying another man in a grave using a .""",death_burrial,burial,1,5,1
+osf_files/Objects/hat.jpg,survey-text-timed,5,"""I don't remember anything from this scene.""",death_burrial,burial,0,0,0
+osf_files/Objects/hat.jpg,survey-text-timed,0,"""a farmer taking care of a field.""",death_burrial,burial,0,2,0
+osf_files/Objects/hat.jpg,survey-text-timed,5,"""I don't remember.""",death_burrial,burial,0,0,0
+osf_files/Objects/juice.jpg,survey-text-timed,2,"""There were children with a woman who might be their mother, black and white picture.  One boy was crying and I thinkt he woman was hittin ghim, the other ch""",sad_boycrying,boy + crying/in pain,1,4,1
+osf_files/Objects/juice.jpg,survey-text-timed,3,"""a boy by himself""",sad_boycrying,boy + crying/in pain,0,1,0
+osf_files/Objects/juice.jpg,survey-text-timed,3,"""the small kid drink this type of juice""",sad_boycrying,boy + crying/in pain,0,3,0
+osf_files/Objects/juice.jpg,survey-text-timed,2,"""baby drunk thin in bad situation""",sad_boycrying,boy + crying/in pain,0,2,0
+osf_files/Objects/juice.jpg,survey-text-timed,1,"""a little girl drinking from a juice carton""",sad_boycrying,boy + crying/in pain,1,4,0
+osf_files/Objects/juice.jpg,survey-text-timed,5,"""A girl drinking juice with another little kid who has blood on his arm""",sad_boycrying,boy + crying/in pain,1,6,1
+osf_files/Objects/juice.jpg,survey-text-timed,5,"""""",sad_boycrying,boy + crying/in pain,0,0,0
+osf_files/Objects/juice.jpg,survey-text-timed,1,"""child is drinking juice from a carton. """,sad_boycrying,boy + crying/in pain,0,4,0
+osf_files/Objects/juice.jpg,survey-text-timed,1,"""Juices. """,sad_boycrying,boy + crying/in pain,0,1,0
+osf_files/Objects/juice.jpg,survey-text-timed,1,"""A women and two children.  One is drinking from a container similar to this one and the other child is crying""",sad_boycrying,boy + crying/in pain,1,5,1
+osf_files/Objects/juice.jpg,survey-text-timed,5,"""Cannot remember""",sad_boycrying,boy + crying/in pain,0,0,0
+osf_files/Objects/juice.jpg,survey-text-timed,5,"""Two kids that looked malnourished. The little girl was drinking from a juice carton.""",sad_boycrying,boy + crying/in pain,1,7,0
+osf_files/Objects/juice.jpg,survey-text-timed,0,"""two kids with their mom, one of them drinking juice from the box""",sad_boycrying,boy + crying/in pain,1,6,0
+osf_files/Objects/juice.jpg,survey-text-timed,3,"""There was a woman with two children; a girl and a boy. The boy was looking at the camera and the girl was drinking something from a carton.""",sad_boycrying,boy + crying/in pain,1,6,0
+osf_files/Objects/ladder.jpg,survey-text-timed,2,"""There was a train crash and people were being rescued.  You could see that some rescuers were using ladders. """,accident_railroad,train + accident/tipped over,1,5,1
+osf_files/Objects/ladder.jpg,survey-text-timed,3,"""a ladder near that guy\n""",accident_railroad,train + accident/tipped over,0,1,0
+osf_files/Objects/ladder.jpg,survey-text-timed,1,"""I don't remember.""",accident_railroad,train + accident/tipped over,0,0,0
+osf_files/Objects/ladder.jpg,survey-text-timed,3,"""a truck overturned sideways on the road""",accident_railroad,train + accident/tipped over,0,2,0
+osf_files/Objects/ladder.jpg,survey-text-timed,1,"""carry""",accident_railroad,train + accident/tipped over,0,0,0
+osf_files/Objects/ladder.jpg,survey-text-timed,1,"""Train that has turned over on its side""",accident_railroad,train + accident/tipped over,1,3,1
+osf_files/Objects/ladder.jpg,survey-text-timed,5,"""A disaster, maybe a train. There was a ladder in the back for people to reach the victims.""",accident_railroad,train + accident/tipped over,1,4,1
+osf_files/Objects/ladder.jpg,survey-text-timed,5,"""Indians by a train""",accident_railroad,train + accident/tipped over,0,2,0
+osf_files/Objects/ladder.jpg,survey-text-timed,3,"""There was an airplane, and people were climbing on it. The airplane looked like it had possibly crashed.""",accident_railroad,train + accident/tipped over,0,2,0
+osf_files/Objects/ladder.jpg,survey-text-timed,1,"""Nothing""",accident_railroad,train + accident/tipped over,0,0,0
+osf_files/Objects/ladder.jpg,survey-text-timed,5,"""A derailed train with many people looking for survivors. Some carry a ladder to access train.""",accident_railroad,train + accident/tipped over,1,5,1
+osf_files/Objects/ladder.jpg,survey-text-timed,2,"""Train crash place used this""",accident_railroad,train + accident/tipped over,1,3,1
+osf_files/Objects/ladder.jpg,survey-text-timed,0,"""a crowded place full with junk. An open space.""",accident_railroad,train + accident/tipped over,0,2,0
+osf_files/Objects/ladder.jpg,survey-text-timed,5,"""I don't remember.""",accident_railroad,train + accident/tipped over,0,0,0
+osf_files/Objects/leaves.jpg,survey-text-timed,1,"""I remember the guy had a shirt with leaves on it""",animals_starveddog,dog + starved/thin,0,3,0
+osf_files/Objects/leaves.jpg,survey-text-timed,2,"""There was a man wearing a shirt with leaves on it, colorful.  The man was fighting somebody. """,animals_starveddog,dog + starved/thin,0,4,0
+osf_files/Objects/leaves.jpg,survey-text-timed,5,"""A very sickly dog. A woman near the dog with a floral pattern on clothing.""",animals_starveddog,dog + starved/thin,1,5,1
+osf_files/Objects/leaves.jpg,survey-text-timed,1,"""I can't remember""",animals_starveddog,dog + starved/thin,0,0,0
+osf_files/Objects/leaves.jpg,survey-text-timed,1,"""two people and a starving dog""",animals_starveddog,dog + starved/thin,1,4,1
+osf_files/Objects/leaves.jpg,survey-text-timed,5,"""A super skinny dog""",animals_starveddog,dog + starved/thin,1,2,1
+osf_files/Objects/leaves.jpg,survey-text-timed,3,"""a skinny dog with bones showing""",animals_starveddog,dog + starved/thin,1,3,1
+osf_files/Objects/leaves.jpg,survey-text-timed,1,"""Dog injury.""",animals_starveddog,dog + starved/thin,0,2,0
+osf_files/Objects/leaves.jpg,survey-text-timed,0,"""""",animals_starveddog,dog + starved/thin,0,0,0
+osf_files/Objects/leaves.jpg,survey-text-timed,3,"""""",animals_starveddog,dog + starved/thin,0,0,0
+osf_files/Objects/leaves.jpg,survey-text-timed,5,"""I don't remember.""",animals_starveddog,dog + starved/thin,0,0,0
+osf_files/Objects/leaves.jpg,survey-text-timed,2,"""Dog was very danger situation""",animals_starveddog,dog + starved/thin,0,1,0
+osf_files/Objects/leaves.jpg,survey-text-timed,5,"""A man had leaves on his shirt, that's all I remember.""",animals_starveddog,dog + starved/thin,0,3,0
+osf_files/Objects/leaves.jpg,survey-text-timed,3,"""There was a man looking at and petting a very skinny, unwell looking dog. The man was wearing a shirt with leaves on it.""",animals_starveddog,dog + starved/thin,1,7,1
+osf_files/Objects/lighter.jpg,survey-text-timed,2,"""There was a man? woman? laying on the ground, and you could see a lighter.  I think it was a man, and I think he was dead.  There might have been shotgun shells around him, if """,injury_brokenleg,legs + bleeding,0,3,0
+osf_files/Objects/lighter.jpg,survey-text-timed,5,"""Cannot remember""",injury_brokenleg,legs + bleeding,0,0,0
+osf_files/Objects/lighter.jpg,survey-text-timed,3,"""a person with leg bleeding""",injury_brokenleg,legs + bleeding,1,3,1
+osf_files/Objects/lighter.jpg,survey-text-timed,1,"""Person sitting on the pavement and their leg is injured.""",injury_brokenleg,legs + bleeding,1,5,1
+osf_files/Objects/lighter.jpg,survey-text-timed,1,"""a lady laying on the ground or sitting up or something""",injury_brokenleg,legs + bleeding,0,2,0
+osf_files/Objects/lighter.jpg,survey-text-timed,5,"""I don't remember.""",injury_brokenleg,legs + bleeding,0,0,0
+osf_files/Objects/lighter.jpg,survey-text-timed,1,"""""",injury_brokenleg,legs + bleeding,0,0,0
+osf_files/Objects/lighter.jpg,survey-text-timed,1,"""Nothing""",injury_brokenleg,legs + bleeding,0,0,0
+osf_files/Objects/lighter.jpg,survey-text-timed,5,"""A boy with a very badly injured leg.""",injury_brokenleg,legs + bleeding,1,3,1
+osf_files/Objects/lighter.jpg,survey-text-timed,5,"""A woman on the ground, injured. Her belongings were scattered, and there may have been a lighter among the items.""",injury_brokenleg,legs + bleeding,1,5,0
+osf_files/Objects/lighter.jpg,survey-text-timed,2,"""A man used along this""",injury_brokenleg,legs + bleeding,0,0,0
+osf_files/Objects/lighter.jpg,survey-text-timed,3,"""""",injury_brokenleg,legs + bleeding,0,0,0
+osf_files/Objects/lighter.jpg,survey-text-timed,3,"""There was a girl sitting on a floor, and she had some trash surrounding her.""",injury_brokenleg,legs + bleeding,0,3,0
+osf_files/Objects/lighter.jpg,survey-text-timed,0,"""a man sitting on the ground with bleeding legs and drugs around him. """,injury_brokenleg,legs + bleeding,1,5,1
+osf_files/Objects/lock.jpg,survey-text-timed,2,"""It was in the door""",fight_prisonhostage,prison + men + knife/weapon,0,0,0
+osf_files/Objects/lock.jpg,survey-text-timed,2,"""There were jail cells with padlocks, if I remember correctly.  """,fight_prisonhostage,prison + men + knife/weapon,0,2,0
+osf_files/Objects/lock.jpg,survey-text-timed,1,"""I think it was a jail cell or something.""",fight_prisonhostage,prison + men + knife/weapon,0,1,0
+osf_files/Objects/lock.jpg,survey-text-timed,5,"""Don't know""",fight_prisonhostage,prison + men + knife/weapon,0,0,0
+osf_files/Objects/lock.jpg,survey-text-timed,3,"""prisoner trying to escape jail""",fight_prisonhostage,prison + men + knife/weapon,1,3,1
+osf_files/Objects/lock.jpg,survey-text-timed,3,"""""",fight_prisonhostage,prison + men + knife/weapon,0,0,0
+osf_files/Objects/lock.jpg,survey-text-timed,5,"""A lock on a prison cell. A guard choking one of the people.""",fight_prisonhostage,prison + men + knife/weapon,1,5,1
+osf_files/Objects/lock.jpg,survey-text-timed,5,"""a man behind held in prison""",fight_prisonhostage,prison + men + knife/weapon,1,3,1
+osf_files/Objects/lock.jpg,survey-text-timed,1,"""Lock with room.""",fight_prisonhostage,prison + men + knife/weapon,0,2,0
+osf_files/Objects/lock.jpg,survey-text-timed,1,"""Man being held back in a prison""",fight_prisonhostage,prison + men + knife/weapon,1,3,1
+osf_files/Objects/lock.jpg,survey-text-timed,5,"""A man holding a shiv to another man's throat in a prison.""",fight_prisonhostage,prison + men + knife/weapon,1,5,1
+osf_files/Objects/lock.jpg,survey-text-timed,3,"""There was a police officer, holding a man in a chokehold next to a jail cell.""",fight_prisonhostage,prison + men + knife/weapon,1,4,1
+osf_files/Objects/lock.jpg,survey-text-timed,1,"""People in the doorway of a cell. The""",fight_prisonhostage,prison + men + knife/weapon,0,3,0
+osf_files/Objects/lock.jpg,survey-text-timed,0,"""A man in a jailcell. The man is without a shirt. """,fight_prisonhostage,prison + men + knife/weapon,1,3,0
+osf_files/Objects/microphone.jpg,survey-text-timed,3,"""a car crash in the road""",accident_sportscar,car + accident,1,3,1
+osf_files/Objects/microphone.jpg,survey-text-timed,1,"""Formula one accident """,accident_sportscar,car + accident,1,2,1
+osf_files/Objects/microphone.jpg,survey-text-timed,1,"""Racing Track tragedy. """,accident_sportscar,car + accident,1,2,1
+osf_files/Objects/microphone.jpg,survey-text-timed,5,"""Can't remember""",accident_sportscar,car + accident,0,0,0
+osf_files/Objects/microphone.jpg,survey-text-timed,5,"""There was a large crowd, and there might have been a crash. I think there were lots of reporters with cameras.""",accident_sportscar,car + accident,0,4,0
+osf_files/Objects/microphone.jpg,survey-text-timed,1,"""Nothing""",accident_sportscar,car + accident,0,0,0
+osf_files/Objects/microphone.jpg,survey-text-timed,5,"""Car crash near spectators. Debris flying all over.""",accident_sportscar,car + accident,1,5,1
+osf_files/Objects/microphone.jpg,survey-text-timed,1,"""a fire broke out""",accident_sportscar,car + accident,0,0,0
+osf_files/Objects/microphone.jpg,survey-text-timed,3,"""I can't remember which one this is associated with.""",accident_sportscar,car + accident,0,0,0
+osf_files/Objects/microphone.jpg,survey-text-timed,2,"""A road crash takes place """,accident_sportscar,car + accident,1,2,1
+osf_files/Objects/microphone.jpg,survey-text-timed,5,"""Some kind of crash""",accident_sportscar,car + accident,0,1,0
+osf_files/Objects/microphone.jpg,survey-text-timed,2,"""There was a train crash and the scene around thi8s was chaotic.  I think it was a train that had crashed, but could be something else""",accident_sportscar,car + accident,0,2,0
+osf_files/Objects/microphone.jpg,survey-text-timed,0,"""""",accident_sportscar,car + accident,0,0,0
+osf_files/Objects/microphone.jpg,survey-text-timed,3,"""""",accident_sportscar,car + accident,0,0,0
+osf_files/Objects/mug.jpg,survey-text-timed,1,"""Man is sitting on a hospital bed.""",hospital_mangrievinghospital,man + bed/hospital,1,4,1
+osf_files/Objects/mug.jpg,survey-text-timed,5,"""Man in a hospital""",hospital_mangrievinghospital,man + bed/hospital,0,2,1
+osf_files/Objects/mug.jpg,survey-text-timed,3,"""older man laying in a bed""",hospital_mangrievinghospital,man + bed/hospital,0,3,1
+osf_files/Objects/mug.jpg,survey-text-timed,1,"""Hotel""",hospital_mangrievinghospital,man + bed/hospital,0,0,0
+osf_files/Objects/mug.jpg,survey-text-timed,1,"""A man sitting on a bed with bloody bandages and his head in his hands""",hospital_mangrievinghospital,man + bed/hospital,1,7,1
+osf_files/Objects/mug.jpg,survey-text-timed,1,"""a man sitting on his bed """,hospital_mangrievinghospital,man + bed/hospital,1,3,1
+osf_files/Objects/mug.jpg,survey-text-timed,2,"""In a house along a old man it in the table""",hospital_mangrievinghospital,man + bed/hospital,0,4,0
+osf_files/Objects/mug.jpg,survey-text-timed,0,"""A room with a red mug on a desk""",hospital_mangrievinghospital,man + bed/hospital,0,4,0
+osf_files/Objects/mug.jpg,survey-text-timed,2,"""There was a person in a bed with coffee cups on a table in the background.  But, it was disposable types of cups, not like this one. """,hospital_mangrievinghospital,man + bed/hospital,1,5,1
+osf_files/Objects/mug.jpg,survey-text-timed,5,"""The scene was some hospital, and there was a cup next to the person in the bed.""",hospital_mangrievinghospital,man + bed/hospital,1,4,1
+osf_files/Objects/mug.jpg,survey-text-timed,5,"""I don't remember.""",hospital_mangrievinghospital,man + bed/hospital,0,0,0
+osf_files/Objects/mug.jpg,survey-text-timed,5,"""An elderly man in a small room with head in hands. """,hospital_mangrievinghospital,man + bed/hospital,1,5,1
+osf_files/Objects/mug.jpg,survey-text-timed,3,"""I can't remember which one this is associated with.""",hospital_mangrievinghospital,man + bed/hospital,0,0,0
+osf_files/Objects/mug.jpg,survey-text-timed,3,"""i saw this type of""",hospital_mangrievinghospital,man + bed/hospital,0,0,0
+osf_files/Objects/necklace.jpg,survey-text-timed,5,"""A woman near a door with a man holding her with a knife to her throat.""",fight_manthreatgirl,man + woman + knife,1,6,1
+osf_files/Objects/necklace.jpg,survey-text-timed,1,"""Woman is being threated by a man with a knife.""",fight_manthreatgirl,man + woman + knife,1,3,1
+osf_files/Objects/necklace.jpg,survey-text-timed,3,"""a woman being held at knifepoint and she is wearing a necklace also\n""",fight_manthreatgirl,man + woman + knife,1,3,1
+osf_files/Objects/necklace.jpg,survey-text-timed,5,"""A person holding a woman with a necklace at knifepoint""",fight_manthreatgirl,man + woman + knife,1,4,1
+osf_files/Objects/necklace.jpg,survey-text-timed,1,"""a man holding a knife up to a womans throat""",fight_manthreatgirl,man + woman + knife,1,4,1
+osf_files/Objects/necklace.jpg,survey-text-timed,1,"""A man holding a knife to the throat of a woman""",fight_manthreatgirl,man + woman + knife,1,4,1
+osf_files/Objects/necklace.jpg,survey-text-timed,3,"""There is a man holding a knife to a womans neck and the woman looks terrified. They appeared to be in an apartment building.""",fight_manthreatgirl,man + woman + knife,1,5,1
+osf_files/Objects/necklace.jpg,survey-text-timed,5,"""I don't remember.""",fight_manthreatgirl,man + woman + knife,0,0,0
+osf_files/Objects/necklace.jpg,survey-text-timed,5,"""All I remember is that a woman had on a bead or wood necklace.""",fight_manthreatgirl,man + woman + knife,0,3,0
+osf_files/Objects/necklace.jpg,survey-text-timed,2,"""A lady snatching her chain by a man""",fight_manthreatgirl,man + woman + knife,0,3,0
+osf_files/Objects/necklace.jpg,survey-text-timed,1,"""Girl wearing it. """,fight_manthreatgirl,man + woman + knife,0,2,0
+osf_files/Objects/necklace.jpg,survey-text-timed,2,"""There was a woman being attacked by a man.  The man had a knife to her neck, and she was wearing this necklace. """,fight_manthreatgirl,man + woman + knife,1,6,1
+osf_files/Objects/necklace.jpg,survey-text-timed,0,"""a dead person on the ground""",fight_manthreatgirl,man + woman + knife,0,0,0
+osf_files/Objects/necklace.jpg,survey-text-timed,3,"""the girl wear this type of chain""",fight_manthreatgirl,man + woman + knife,0,3,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,3,"""a man looking at a paper""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,3,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,1,"""Man hanged on a pole and he is dead. """,death_hungman,dead man/bleeding/tied to pole (many ways to describe this),1,4,1
+osf_files/Objects/newspaper2.jpg,survey-text-timed,1,"""paper was laying on the ground""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,2,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,5,"""Just a black man""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,2,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,5,"""A dead bound man tied to a stake. Papers on ground.""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),1,6,1
+osf_files/Objects/newspaper2.jpg,survey-text-timed,5,"""There was a man tied to a post. He could have been dead. There was a newspaper in front of him on the ground.""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),1,7,1
+osf_files/Objects/newspaper2.jpg,survey-text-timed,2,"""A man hanged in tree place""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,1,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,1,"""a hanged man and a newspaper off to the side""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),1,4,1
+osf_files/Objects/newspaper2.jpg,survey-text-timed,3,"""I can't remember which one this was associated with.""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,0,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,5,"""a man tied to a poll """,death_hungman,dead man/bleeding/tied to pole (many ways to describe this),1,3,1
+osf_files/Objects/newspaper2.jpg,survey-text-timed,1,"""Newspaper covered""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,0,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,2,"""There was a black man who looked injured and very thin looking at a newspaper on the ground.  He had a gash on his head for sure, and it was on some kind of rur""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,2,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,0,"""A room with newspapers on the ground, a jailcell. """,death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,2,0
+osf_files/Objects/newspaper2.jpg,survey-text-timed,3,"""""",death_hungman,dead man/bleeding/tied to pole (many ways to describe this),0,0,0
+osf_files/Objects/redflag.jpg,survey-text-timed,2,"""There was a flag on the ground in the background.  I can't remember all the details of this picture but it was pretty negative. """,injury_doctors,boy + bleeding + carried,0,4,0
+osf_files/Objects/redflag.jpg,survey-text-timed,3,"""a child shot in the chest""",injury_doctors,boy + bleeding + carried,0,3,0
+osf_files/Objects/redflag.jpg,survey-text-timed,3,"""flag near the man""",injury_doctors,boy + bleeding + carried,0,2,0
+osf_files/Objects/redflag.jpg,survey-text-timed,5,"""Some chaotic scene, people might have been injured. There was a flag on the floor in the back. The flag was red I think.""",injury_doctors,boy + bleeding + carried,1,7,0
+osf_files/Objects/redflag.jpg,survey-text-timed,1,"""I don't remember.""",injury_doctors,boy + bleeding + carried,0,0,0
+osf_files/Objects/redflag.jpg,survey-text-timed,1,"""I can't remember""",injury_doctors,boy + bleeding + carried,0,0,0
+osf_files/Objects/redflag.jpg,survey-text-timed,5,"""A man, possible medical personal, helping an injured person with red flags on grou""",injury_doctors,boy + bleeding + carried,1,8,1
+osf_files/Objects/redflag.jpg,survey-text-timed,5,"""I don't remember.""",injury_doctors,boy + bleeding + carried,0,0,0
+osf_files/Objects/redflag.jpg,survey-text-timed,1,"""Flag with the Road.""",injury_doctors,boy + bleeding + carried,0,2,0
+osf_files/Objects/redflag.jpg,survey-text-timed,1,"""""",injury_doctors,boy + bleeding + carried,0,0,0
+osf_files/Objects/redflag.jpg,survey-text-timed,5,"""An injured Asian man""",injury_doctors,boy + bleeding + carried,0,3,0
+osf_files/Objects/redflag.jpg,survey-text-timed,3,"""There were women in a country that looks impoverished and dirty, and there were a lot of trash on the ground.""",injury_doctors,boy + bleeding + carried,0,1,0
+osf_files/Objects/redflag.jpg,survey-text-timed,2,"""The Flag was on the road""",injury_doctors,boy + bleeding + carried,0,3,0
+osf_files/Objects/redflag.jpg,survey-text-timed,0,"""a temple with a lot of people """,injury_doctors,boy + bleeding + carried,0,1,0
+osf_files/Objects/ring.jpg,survey-text-timed,1,"""I don't remember.""",injury_bandage,child/baby + bandaged/injured,0,0,0
+osf_files/Objects/ring.jpg,survey-text-timed,5,"""A dead woman with a ring""",injury_bandage,child/baby + bandaged/injured,0,2,0
+osf_files/Objects/ring.jpg,survey-text-timed,3,"""a baby with head bandaged and one eye covered """,injury_bandage,child/baby + bandaged/injured,1,5,1
+osf_files/Objects/ring.jpg,survey-text-timed,5,"""A woman was holding a child. The child could have been dead or injured. She was wearing several rings.""",injury_bandage,child/baby + bandaged/injured,1,6,1
+osf_files/Objects/ring.jpg,survey-text-timed,2,"""lady's finger with child""",injury_bandage,child/baby + bandaged/injured,0,3,0
+osf_files/Objects/ring.jpg,survey-text-timed,1,"""Child with head wrapped""",injury_bandage,child/baby + bandaged/injured,1,3,1
+osf_files/Objects/ring.jpg,survey-text-timed,5,"""A young boy with gauss covering face. A woman's hands with rings were tou""",injury_bandage,child/baby + bandaged/injured,1,7,1
+osf_files/Objects/ring.jpg,survey-text-timed,5,"""A woman holding her child""",injury_bandage,child/baby + bandaged/injured,0,3,0
+osf_files/Objects/ring.jpg,survey-text-timed,1,"""Lady""",injury_bandage,child/baby + bandaged/injured,0,1,0
+osf_files/Objects/ring.jpg,survey-text-timed,0,"""a woman with her face covered with a white blanket""",injury_bandage,child/baby + bandaged/injured,1,6,0
+osf_files/Objects/ring.jpg,survey-text-timed,2,"""There was a baby in bandages.  The bandages around the baby's head reminded me of the shape of this pearl.  The baby looked to be in really bad shape.  """,injury_bandage,child/baby + bandaged/injured,1,3,1
+osf_files/Objects/ring.jpg,survey-text-timed,3,"""""",injury_bandage,child/baby + bandaged/injured,0,0,0
+osf_files/Objects/ring.jpg,survey-text-timed,3,"""There was a woman and a little boy, and the boy was bleeding so the woman was bandaging him up.""",injury_bandage,child/baby + bandaged/injured,1,4,1
+osf_files/Objects/ring.jpg,survey-text-timed,1,"""Injured child being held by someone. You can only see the child.""",injury_bandage,child/baby + bandaged/injured,1,4,1
+osf_files/Objects/rockingchair.jpg,survey-text-timed,3,"""prisoners going to jail""",disaster_fire,fire/burned down location (many ways to describe this),0,0,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,1,"""I don't remember.""",disaster_fire,fire/burned down location (many ways to describe this),0,0,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,1,"""Firefighters walking around a burned down house.""",disaster_fire,fire/burned down location (many ways to describe this),1,4,1
+osf_files/Objects/rockingchair.jpg,survey-text-timed,5,"""I don't remember.""",disaster_fire,fire/burned down location (many ways to describe this),0,0,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,1,"""Chair with moving. """,disaster_fire,fire/burned down location (many ways to describe this),0,1,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,5,"""I dont know""",disaster_fire,fire/burned down location (many ways to describe this),0,0,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,5,"""Ruins of a burned down building. First responders putting out fire.""",disaster_fire,fire/burned down location (many ways to describe this),1,6,1
+osf_files/Objects/rockingchair.jpg,survey-text-timed,5,"""Some disaster scene. All I remember is part of a wooden chair was visible in the front.""",disaster_fire,fire/burned down location (many ways to describe this),0,5,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,2,"""In a disaster take place was it""",disaster_fire,fire/burned down location (many ways to describe this),0,1,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,1,"""Nothing""",disaster_fire,fire/burned down location (many ways to describe this),0,0,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,3,"""There are firefighters spraying big hoses of water, in a smoky neighborhood and demolished buildings.""",disaster_fire,fire/burned down location (many ways to describe this),1,6,1
+osf_files/Objects/rockingchair.jpg,survey-text-timed,0,"""""",disaster_fire,fire/burned down location (many ways to describe this),0,0,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,2,"""I can only remember a little bit of the chair at the corner of the picture.  I remember seeing this and searching so hard for a way to associate the picture to the chair that I muse o""",disaster_fire,fire/burned down location (many ways to describe this),0,3,0
+osf_files/Objects/rockingchair.jpg,survey-text-timed,3,"""""",disaster_fire,fire/burned down location (many ways to describe this),0,0,0
+osf_files/Objects/rug.jpg,survey-text-timed,3,"""a person with a gunshot wound""",death_policecorpse,police + body,0,3,0
+osf_files/Objects/rug.jpg,survey-text-timed,1,"""Dead man in a house and a female police officer is standing near him. """,death_policecorpse,police + body,1,6,1
+osf_files/Objects/rug.jpg,survey-text-timed,1,"""a man or woman laying on the ground""",death_policecorpse,police + body,0,3,0
+osf_files/Objects/rug.jpg,survey-text-timed,1,"""Room dismantle. """,death_policecorpse,police + body,0,1,0
+osf_files/Objects/rug.jpg,survey-text-timed,1,"""Nothing\n""",death_policecorpse,police + body,0,0,0
+osf_files/Objects/rug.jpg,survey-text-timed,2,"""There was a person on the ground, I think, perhaps dead, and there was a red rug on the ground as well.  """,death_policecorpse,police + body,0,5,0
+osf_files/Objects/rug.jpg,survey-text-timed,5,"""I don't remember anything from this scene except there was a rug on the floor.""",death_policecorpse,police + body,0,1,0
+osf_files/Objects/rug.jpg,survey-text-timed,2,"""Policeman watching a house it on the floor""",death_policecorpse,police + body,0,3,0
+osf_files/Objects/rug.jpg,survey-text-timed,5,"""A man on a rug dead as someone comes through a door""",death_policecorpse,police + body,1,6,0
+osf_files/Objects/rug.jpg,survey-text-timed,5,"""A body on the floor in a small corridor near door.""",death_policecorpse,police + body,1,5,0
+osf_files/Objects/rug.jpg,survey-text-timed,5,"""A cop at a murder scene""",death_policecorpse,police + body,1,2,1
+osf_files/Objects/rug.jpg,survey-text-timed,3,"""I can't remember which one this is associated with.""",death_policecorpse,police + body,0,0,0
+osf_files/Objects/rug.jpg,survey-text-timed,0,"""a man laying on  the floor with another man standing next to him. """,death_policecorpse,police + body,0,5,0
+osf_files/Objects/rug.jpg,survey-text-timed,3,"""the item near the dead body""",death_policecorpse,police + body,0,3,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,5,"""A shopping cart with a bunch of trash around it""",animals_deaddog,cart + dead dog (similar animals OK too),1,3,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,1,"""""",animals_deaddog,cart + dead dog (similar animals OK too),0,0,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,2,"""Waste had in it in a building""",animals_deaddog,cart + dead dog (similar animals OK too),0,2,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,3,"""There was a bunch of coats inside a shopping cart, and the shopping carts were filled to the brim.""",animals_deaddog,cart + dead dog (similar animals OK too),0,3,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,5,"""A dead dog piled atop refuse in a shopping cart. Blood on ground below dog's """,animals_deaddog,cart + dead dog (similar animals OK too),1,8,1
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,5,"""A dog dead on a basket full of trash""",animals_deaddog,cart + dead dog (similar animals OK too),1,4,1
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,2,"""There was a shopping cart in the picture, I remember that, but most of the details aren't coming to me.  I think a person was in the basket?  """,animals_deaddog,cart + dead dog (similar animals OK too),0,2,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,1,"""two full shopping baskets with a dog lying on top of one.""",animals_deaddog,cart + dead dog (similar animals OK too),1,7,1
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,1,"""carried in shop""",animals_deaddog,cart + dead dog (similar animals OK too),0,1,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,0,"""a room filled with junk and with a cart covered with plastic bags""",animals_deaddog,cart + dead dog (similar animals OK too),0,4,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,5,"""There was a shopping cart in the city with junk in it.""",animals_deaddog,cart + dead dog (similar animals OK too),0,3,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,3,"""a cart with a dog laying in it""",animals_deaddog,cart + dead dog (similar animals OK too),1,3,1
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,3,"""lot of items stored in this trol""",animals_deaddog,cart + dead dog (similar animals OK too),0,2,0
+osf_files/Objects/shoppingcart.jpg,survey-text-timed,1,"""dead dog laying on top of shopping cart""",animals_deaddog,cart + dead dog (similar animals OK too),1,5,1
+osf_files/Objects/skateboard.jpg,survey-text-timed,3,"""the skate board near that guy""",fight_kidsfight,kids + fallen/fighting,0,2,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,1,"""kids and one of them had a skateboard laying on the gr""",fight_kidsfight,kids + fallen/fighting,1,3,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,2,"""There was a boy on the ground and his skateboard nearby.  I couldn't tell what the person was holding, but some kind of box.  It looked like he would hit the boy with it. """,fight_kidsfight,kids + fallen/fighting,1,5,1
+osf_files/Objects/skateboard.jpg,survey-text-timed,1,"""Kid of the ground while other kids seems to be robbing him""",fight_kidsfight,kids + fallen/fighting,1,4,1
+osf_files/Objects/skateboard.jpg,survey-text-timed,5,"""A boy laying on the ground with 3 others tending to him.""",fight_kidsfight,kids + fallen/fighting,1,6,1
+osf_files/Objects/skateboard.jpg,survey-text-timed,5,"""A person holding a man down""",fight_kidsfight,kids + fallen/fighting,0,3,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,3,"""an old man laying on the ground with skateboard next to him and a couple of young men helping him\n""",fight_kidsfight,kids + fallen/fighting,1,5,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,1,"""Nothing""",fight_kidsfight,kids + fallen/fighting,0,0,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,5,"""a skateboarder that has fallen""",fight_kidsfight,kids + fallen/fighting,1,2,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,1,"""Person carrying. """,fight_kidsfight,kids + fallen/fighting,0,1,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,2,"""A boy got accident on the road""",fight_kidsfight,kids + fallen/fighting,0,3,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,3,"""There was a man on the ground by a stairwell, like he had gotten hurt, with a skateboard next to him. """,fight_kidsfight,kids + fallen/fighting,0,3,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,0,"""two men robbing another man. """,fight_kidsfight,kids + fallen/fighting,0,1,0
+osf_files/Objects/skateboard.jpg,survey-text-timed,5,"""A skateboard was on the ground. And there might have been some type of accident/someone injured.""",fight_kidsfight,kids + fallen/fighting,0,3,0
+osf_files/Objects/socket.jpg,survey-text-timed,5,"""Two people against a wall. There was an outlet between them. A guy with a gun pointed at one of them.""",fight_robbery,men + naked + gun,1,9,0
+osf_files/Objects/socket.jpg,survey-text-timed,2,"""There were men lined up against the wall.  One man was naked.  There was a man standing beside them with a gun. """,fight_robbery,men + naked + gun,1,6,1
+osf_files/Objects/socket.jpg,survey-text-timed,3,"""a switch board near that guy""",fight_robbery,men + naked + gun,0,0,0
+osf_files/Objects/socket.jpg,survey-text-timed,1,"""guys in their underwear leaning against the wall""",fight_robbery,men + naked + gun,1,4,0
+osf_files/Objects/socket.jpg,survey-text-timed,3,"""not sure\n""",fight_robbery,men + naked + gun,0,0,0
+osf_files/Objects/socket.jpg,survey-text-timed,1,"""I can't remember""",fight_robbery,men + naked + gun,0,0,0
+osf_files/Objects/socket.jpg,survey-text-timed,5,"""Two men, naked, against a wall. A gun is pressed into the back of one man.""",fight_robbery,men + naked + gun,1,8,1
+osf_files/Objects/socket.jpg,survey-text-timed,2,"""One man without dress""",fight_robbery,men + naked + gun,0,2,0
+osf_files/Objects/socket.jpg,survey-text-timed,5,"""Running man""",fight_robbery,men + naked + gun,0,1,0
+osf_files/Objects/socket.jpg,survey-text-timed,1,"""A policeman and two men with their hands on the wall. """,fight_robbery,men + naked + gun,1,5,0
+osf_files/Objects/socket.jpg,survey-text-timed,5,"""I don't remember.""",fight_robbery,men + naked + gun,0,0,0
+osf_files/Objects/socket.jpg,survey-text-timed,1,"""Room.""",fight_robbery,men + naked + gun,0,1,0
+osf_files/Objects/socket.jpg,survey-text-timed,0,"""two men standing naked in front of a wall. """,fight_robbery,men + naked + gun,1,5,0
+osf_files/Objects/socket.jpg,survey-text-timed,3,"""There were 3 men being strip searched by law enforcement agents, and one of them h""",fight_robbery,men + naked + gun,1,4,1
+osf_files/Objects/socks.jpg,survey-text-timed,3,"""fireman in a building putting out a fire""",injury_babyfire,firefighter/man + carrying + baby,0,1,0
+osf_files/Objects/socks.jpg,survey-text-timed,1,"""a baby was in a guy's arms""",injury_babyfire,firefighter/man + carrying + baby,1,3,1
+osf_files/Objects/socks.jpg,survey-text-timed,1,"""Firefighter carrying a dead toddler """,injury_babyfire,firefighter/man + carrying + baby,1,4,1
+osf_files/Objects/socks.jpg,survey-text-timed,1,"""Socks""",injury_babyfire,firefighter/man + carrying + baby,0,1,0
+osf_files/Objects/socks.jpg,survey-text-timed,5,"""A child was being carried. You could see the child's legs, and she/he had socks on.""",injury_babyfire,firefighter/man + carrying + baby,1,4,1
+osf_files/Objects/socks.jpg,survey-text-timed,5,"""Cant' remember""",injury_babyfire,firefighter/man + carrying + baby,0,0,0
+osf_files/Objects/socks.jpg,survey-text-timed,0,"""a fireman holding a baby in his hands. """,injury_babyfire,firefighter/man + carrying + baby,1,4,1
+osf_files/Objects/socks.jpg,survey-text-timed,1,"""Nothing""",injury_babyfire,firefighter/man + carrying + baby,0,0,0
+osf_files/Objects/socks.jpg,survey-text-timed,5,"""A person carrying a baby.""",injury_babyfire,firefighter/man + carrying + baby,1,3,1
+osf_files/Objects/socks.jpg,survey-text-timed,2,"""A child was in a hand of man""",injury_babyfire,firefighter/man + carrying + baby,1,3,1
+osf_files/Objects/socks.jpg,survey-text-timed,3,"""There was a firefighter holding a little baby in his arms, as they left a burning building.""",injury_babyfire,firefighter/man + carrying + baby,1,4,1
+osf_files/Objects/socks.jpg,survey-text-timed,5,"""A baby being held but it looks dead""",injury_babyfire,firefighter/man + carrying + baby,1,3,1
+osf_files/Objects/socks.jpg,survey-text-timed,2,"""There was a child in the picture who was either injured or dead, and the child wore white socks.  Somebody was carrying the child. """,injury_babyfire,firefighter/man + carrying + baby,1,5,1
+osf_files/Objects/socks.jpg,survey-text-timed,3,"""a fire man associated with this picture""",injury_babyfire,firefighter/man + carrying + baby,0,1,0
+osf_files/Objects/star2.jpg,survey-text-timed,5,"""I woman being beaten by another man. Her dress had stars on it.""",fight_manbeatingwoman2,man + beating + woman,1,5,1
+osf_files/Objects/star2.jpg,survey-text-timed,1,"""A lady laying on the ground with an opened dress""",fight_manbeatingwoman2,man + beating + woman,0,2,0
+osf_files/Objects/star2.jpg,survey-text-timed,3,"""boy and a girl sitting next to each other hiding""",fight_manbeatingwoman2,man + beating + woman,0,2,0
+osf_files/Objects/star2.jpg,survey-text-timed,1,"""This is not associated""",fight_manbeatingwoman2,man + beating + woman,0,0,0
+osf_files/Objects/star2.jpg,survey-text-timed,1,"""Nothing.""",fight_manbeatingwoman2,man + beating + woman,0,0,0
+osf_files/Objects/star2.jpg,survey-text-timed,5,"""A black woman and a man""",fight_manbeatingwoman2,man + beating + woman,1,3,0
+osf_files/Objects/star2.jpg,survey-text-timed,5,"""a woman getting whipped by something""",fight_manbeatingwoman2,man + beating + woman,1,2,0
+osf_files/Objects/star2.jpg,survey-text-timed,2,"""fighting women dress""",fight_manbeatingwoman2,man + beating + woman,0,3,0
+osf_files/Objects/star2.jpg,survey-text-timed,0,"""Two African American males fighting""",fight_manbeatingwoman2,man + beating + woman,1,4,0
+osf_files/Objects/star2.jpg,survey-text-timed,1,"""Man hitting a woman with a broom.""",fight_manbeatingwoman2,man + beating + woman,1,4,1
+osf_files/Objects/star2.jpg,survey-text-timed,5,"""I don't remember this one.""",fight_manbeatingwoman2,man + beating + woman,0,0,0
+osf_files/Objects/star2.jpg,survey-text-timed,3,"""I can't remember this one""",fight_manbeatingwoman2,man + beating + woman,0,0,0
+osf_files/Objects/star2.jpg,survey-text-timed,2,"""There was a man wearing pants that were blue with gold stars on them in this picture.  There was something happening but I mostly remember the pants the man w""",fight_manbeatingwoman2,man + beating + woman,0,5,0
+osf_files/Objects/star2.jpg,survey-text-timed,3,"""""",fight_manbeatingwoman2,man + beating + woman,0,0,0
+osf_files/Objects/suitcase.jpg,survey-text-timed,5,"""people running from a building""",disaster_couple,man and woman + fleeing + destroyed building,0,3,1
+osf_files/Objects/suitcase.jpg,survey-text-timed,5,"""I don't remember.""",disaster_couple,man and woman + fleeing + destroyed building,0,0,0
+osf_files/Objects/suitcase.jpg,survey-text-timed,1,"""Room""",disaster_couple,man and woman + fleeing + destroyed building,0,0,0
+osf_files/Objects/suitcase.jpg,survey-text-timed,1,"""two people -  man and woman running out of a building.""",disaster_couple,man and woman + fleeing + destroyed building,1,4,1
+osf_files/Objects/suitcase.jpg,survey-text-timed,1,"""A couple running out of a building that was """,disaster_couple,man and woman + fleeing + destroyed building,1,3,1
+osf_files/Objects/suitcase.jpg,survey-text-timed,2,"""There were people coming out of a building, a man holding a black type of carrying ba""",disaster_couple,man and woman + fleeing + destroyed building,1,7,0
+osf_files/Objects/suitcase.jpg,survey-text-timed,5,"""A man and a woman walking out of some building in an earthquake or accident. He was holding a messenger bag.""",disaster_couple,man and woman + fleeing + destroyed building,1,8,1
+osf_files/Objects/suitcase.jpg,survey-text-timed,2,"""escaping man and women place""",disaster_couple,man and woman + fleeing + destroyed building,1,4,1
+osf_files/Objects/suitcase.jpg,survey-text-timed,5,"""Two people in the ruins of an building. 1 man and 1 woman. The man was holding a briefcase.""",disaster_couple,man and woman + fleeing + destroyed building,1,7,1
+osf_files/Objects/suitcase.jpg,survey-text-timed,1,"""Two people coming out of a collapsed building. """,disaster_couple,man and woman + fleeing + destroyed building,1,5,1
+osf_files/Objects/suitcase.jpg,survey-text-timed,3,"""Two people were running out of a building filled with debrit and smoke""",disaster_couple,man and woman + fleeing + destroyed building,1,6,1
+osf_files/Objects/suitcase.jpg,survey-text-timed,3,"""people running from world trade center""",disaster_couple,man and woman + fleeing + destroyed building,0,3,0
+osf_files/Objects/suitcase.jpg,survey-text-timed,3,"""""",disaster_couple,man and woman + fleeing + destroyed building,0,0,0
+osf_files/Objects/suitcase.jpg,survey-text-timed,0,"""""",disaster_couple,man and woman + fleeing + destroyed building,0,0,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,1,"""a guy sitting on the ground """,drugs_addictfloor,man + drugs/needle,0,3,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,0,"""A man sitting n the floor with a black eye""",drugs_addictfloor,man + drugs/needle,0,3,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,5,"""A drugged out man with glasses in his pocket""",drugs_addictfloor,man + drugs/needle,1,4,1
+osf_files/Objects/sunglasses.jpg,survey-text-timed,5,"""A man was either dead or passed out. He had a pair of sunglasses in his shirt pocket.""",drugs_addictfloor,man + drugs/needle,1,5,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,2,"""Drug addict person had it in his shirt""",drugs_addictfloor,man + drugs/needle,1,4,1
+osf_files/Objects/sunglasses.jpg,survey-text-timed,5,"""A man sitting on floor with discolored skin. Using drugs. Sunglasses in shirt pocket.""",drugs_addictfloor,man + drugs/needle,1,7,1
+osf_files/Objects/sunglasses.jpg,survey-text-timed,5,"""I don't remember.""",drugs_addictfloor,man + drugs/needle,0,0,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,1,"""This object is not noticed. """,drugs_addictfloor,man + drugs/needle,0,0,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,3,"""I can't remember which picture is associated with this one""",drugs_addictfloor,man + drugs/needle,0,0,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,3,"""that guy hook this glass in h""",drugs_addictfloor,man + drugs/needle,0,1,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,1,"""Man lying against a wall with a hypodermic needle in his hand.""",drugs_addictfloor,man + drugs/needle,1,5,1
+osf_files/Objects/sunglasses.jpg,survey-text-timed,2,"""There was a man sitting on the ground, leaning against the wall, and he had sunglasses in his shirt pocket.  I didn't the the impression that he was dead, but he did not se""",drugs_addictfloor,man + drugs/needle,1,8,1
+osf_files/Objects/sunglasses.jpg,survey-text-timed,1,"""I can't remember.""",drugs_addictfloor,man + drugs/needle,0,0,0
+osf_files/Objects/sunglasses.jpg,survey-text-timed,3,"""a man laying against a wall with a needle next to him""",drugs_addictfloor,man + drugs/needle,1,4,1
+osf_files/Objects/tie.jpg,survey-text-timed,3,"""businessmen running from """,disaster_peoplefleeing,explosion + men running,0,2,0
+osf_files/Objects/tie.jpg,survey-text-timed,1,"""guys walking (I think)""",disaster_peoplefleeing,explosion + men running,0,1,0
+osf_files/Objects/tie.jpg,survey-text-timed,5,"""I can't remember""",disaster_peoplefleeing,explosion + men running,0,0,0
+osf_files/Objects/tie.jpg,survey-text-timed,3,"""There were a bunch of men in suits fleeing from a big burning building (I think it was the 9/11 terrorist attacks)""",disaster_peoplefleeing,explosion + men running,1,7,1
+osf_files/Objects/tie.jpg,survey-text-timed,1,"""Nothing""",disaster_peoplefleeing,explosion + men running,0,0,0
+osf_files/Objects/tie.jpg,survey-text-timed,1,"""Many Person with the tie""",disaster_peoplefleeing,explosion + men running,0,3,0
+osf_files/Objects/tie.jpg,survey-text-timed,5,"""I think this was a 9/11 scene with people running away from the collapsing building. The guy in front had a tie on.""",disaster_peoplefleeing,explosion + men running,1,6,1
+osf_files/Objects/tie.jpg,survey-text-timed,2,"""some persons rushed due to disaster one man wear""",disaster_peoplefleeing,explosion + men running,0,3,0
+osf_files/Objects/tie.jpg,survey-text-timed,1,"""People are running away while the world trade center is falling. """,disaster_peoplefleeing,explosion + men running,1,4,1
+osf_files/Objects/tie.jpg,survey-text-timed,5,"""9/11. People running away from collapsing tower.""",disaster_peoplefleeing,explosion + men running,1,5,1
+osf_files/Objects/tie.jpg,survey-text-timed,5,"""I don't remember.""",disaster_peoplefleeing,explosion + men running,0,0,0
+osf_files/Objects/tie.jpg,survey-text-timed,0,"""""",disaster_peoplefleeing,explosion + men running,0,0,0
+osf_files/Objects/tie.jpg,survey-text-timed,2,"""There were people running away from the dust that happened after the building fell during 911 world towers incident. """,disaster_peoplefleeing,explosion + men running,1,6,1
+osf_files/Objects/tie.jpg,survey-text-timed,3,"""a man wear this type of tie.""",disaster_peoplefleeing,explosion + men running,0,2,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,5,"""A group of people""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,2,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,2,"""There were people burning up on a street corner.  There was a stop light near them. """,fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),1,5,1
+osf_files/Objects/trafficlight.jpg,survey-text-timed,3,"""car accident""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,0,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,3,"""center of the street""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,1,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,1,"""a city scene of some sort...I think it was a buildin""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,2,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,5,"""I don't remember.""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,0,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,1,"""Road""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,1,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,1,"""two groups of men approaching each other at the corner of a building.  Smoke and blood""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),1,7,1
+osf_files/Objects/trafficlight.jpg,survey-text-timed,5,"""""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,0,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,3,"""I can't remember which one this was associated with.""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,0,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,5,"""Some chaotic scene, a traffic light in the middle. I don't remember much.""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,3,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,1,"""Riot teams in a city""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),1,2,1
+osf_files/Objects/trafficlight.jpg,survey-text-timed,2,"""it was on the road middle""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,1,0
+osf_files/Objects/trafficlight.jpg,survey-text-timed,0,"""a really busy street.""",fight_riotsstreetcorner,fire/riot/fight (many ways to describe this),0,2,0
+osf_files/Objects/trafficsign.jpg,survey-text-timed,5,"""A bunch of people near a bridge with signs on it""",death_hungbridge,hanging + bridge,1,3,0
+osf_files/Objects/trafficsign.jpg,survey-text-timed,2,"""Suside on the road""",death_hungbridge,hanging + bridge,1,2,0
+osf_files/Objects/trafficsign.jpg,survey-text-timed,5,"""There was a bridge with some signs on it. 60 or 90 with a red circle. There were several of them.""",death_hungbridge,hanging + bridge,1,5,0
+osf_files/Objects/trafficsign.jpg,survey-text-timed,1,"""Bridge person hanged.""",death_hungbridge,hanging + bridge,1,3,1
+osf_files/Objects/trafficsign.jpg,survey-text-timed,3,"""a person hanging from an overpass with people watching""",death_hungbridge,hanging + bridge,1,4,1
+osf_files/Objects/trafficsign.jpg,survey-text-timed,1,"""I don't remember the scene for this""",death_hungbridge,hanging + bridge,0,0,0
+osf_files/Objects/trafficsign.jpg,survey-text-timed,5,"""a scene with some traffic""",death_hungbridge,hanging + bridge,0,1,0
+osf_files/Objects/trafficsign.jpg,survey-text-timed,3,"""a stop symbol""",death_hungbridge,hanging + bridge,0,0,0
+osf_files/Objects/trafficsign.jpg,survey-text-timed,3,"""There was a man who hanged himself from a bridge in a large city. Many people were in the picture to see what was going on.""",death_hungbridge,hanging + bridge,1,5,1
+osf_files/Objects/trafficsign.jpg,survey-text-timed,5,"""I man hanging dead from an over pass. There were two red signs above him. Many on looker""",death_hungbridge,hanging + bridge,1,7,1
+osf_files/Objects/trafficsign.jpg,survey-text-timed,2,"""There was a scene with a bridge and a person hanging from it.  There were these speed limit signs on the bridge.  It was dark in the scene and there were peo""",death_hungbridge,hanging + bridge,1,7,1
+osf_files/Objects/trafficsign.jpg,survey-text-timed,1,"""Railroad station/train tracks""",death_hungbridge,hanging + bridge,0,0,0
+osf_files/Objects/trafficsign.jpg,survey-text-timed,1,"""People removing a man that has hanged himself from a bridge.""",death_hungbridge,hanging + bridge,1,4,1
+osf_files/Objects/trafficsign.jpg,survey-text-timed,0,"""a person that was hanging from a bridge. """,death_hungbridge,hanging + bridge,1,3,1
+osf_files/Objects/vase.jpg,survey-text-timed,1,"""Inside Room """,sad_childgrave,gravesite (many ways to describe this),0,0,0
+osf_files/Objects/vase.jpg,survey-text-timed,1,"""a bunch of vases all lined up on""",sad_childgrave,gravesite (many ways to describe this),1,2,0
+osf_files/Objects/vase.jpg,survey-text-timed,2,"""Graveyard location """,sad_childgrave,gravesite (many ways to describe this),1,1,1
+osf_files/Objects/vase.jpg,survey-text-timed,1,"""A burial cross with a line of personal items in front of it.""",sad_childgrave,gravesite (many ways to describe this),1,4,1
+osf_files/Objects/vase.jpg,survey-text-timed,5,"""There was a grave with a wooden cross. There were vases lined up on top of grave.""",sad_childgrave,gravesite (many ways to describe this),1,5,1
+osf_files/Objects/vase.jpg,survey-text-timed,5,"""I don't remember.""",sad_childgrave,gravesite (many ways to describe this),0,0,0
+osf_files/Objects/vase.jpg,survey-text-timed,5,"""A burial plot with a cross""",sad_childgrave,gravesite (many ways to describe this),1,2,1
+osf_files/Objects/vase.jpg,survey-text-timed,5,"""A cemetery. Many urns and flowers near grave markers.""",sad_childgrave,gravesite (many ways to describe this),1,4,1
+osf_files/Objects/vase.jpg,survey-text-timed,3,"""There was a memorial for someone who had died, and there were different flowers and vases surrounding the memorial.""",sad_childgrave,gravesite (many ways to describe this),1,3,1
+osf_files/Objects/vase.jpg,survey-text-timed,0,"""""",sad_childgrave,gravesite (many ways to describe this),0,0,0
+osf_files/Objects/vase.jpg,survey-text-timed,2,"""There was a line of vases in the center of the picture.  I can't quite remember exactly what was going on other than seeing the vases in a line on the grou""",sad_childgrave,gravesite (many ways to describe this),1,3,0
+osf_files/Objects/vase.jpg,survey-text-timed,3,"""lot of pot items in the beach""",sad_childgrave,gravesite (many ways to describe this),1,2,0
+osf_files/Objects/vase.jpg,survey-text-timed,3,"""flowers at a gravesite""",sad_childgrave,gravesite (many ways to describe this),1,2,1
+osf_files/Objects/vase.jpg,survey-text-timed,1,"""a grave site with vases near it. """,sad_childgrave,gravesite (many ways to describe this),1,2,1
+osf_files/Objects/vest.jpg,survey-text-timed,5,"""Drowning men""",disaster_flood,men + flood,1,2,1
+osf_files/Objects/vest.jpg,survey-text-timed,1,"""Police standing""",disaster_flood,men + flood,0,1,0
+osf_files/Objects/vest.jpg,survey-text-timed,1,"""""",disaster_flood,men + flood,0,0,0
+osf_files/Objects/vest.jpg,survey-text-timed,2,"""Saving people in disaster situation""",disaster_flood,men + flood,1,3,1
+osf_files/Objects/vest.jpg,survey-text-timed,5,"""There was a man in a war or wreckage carrying another person. The man was wearing a safety jacket.""",disaster_flood,men + flood,1,4,1
+osf_files/Objects/vest.jpg,survey-text-timed,5,"""I don't remember.""",disaster_flood,men + flood,0,0,0
+osf_files/Objects/vest.jpg,survey-text-timed,1,"""Two men pulling another men out of the ground.""",disaster_flood,men + flood,1,5,1
+osf_files/Objects/vest.jpg,survey-text-timed,5,"""3 men is rapid floods. 1 man being pulled away.""",disaster_flood,men + flood,1,5,1
+osf_files/Objects/vest.jpg,survey-text-timed,0,"""A man wearing a red vest with a chaotic backgroud""",disaster_flood,men + flood,1,4,0
+osf_files/Objects/vest.jpg,survey-text-timed,3,"""There were workers helping people out during a flood""",disaster_flood,men + flood,1,3,1
+osf_files/Objects/vest.jpg,survey-text-timed,3,"""a man wear this type of jacket""",disaster_flood,men + flood,0,2,0
+osf_files/Objects/vest.jpg,survey-text-timed,2,"""There were men in this picture doing something, and a man was wearing an orange vest""",disaster_flood,men + flood,0,3,0
+osf_files/Objects/vest.jpg,survey-text-timed,1,"""I can't remember.""",disaster_flood,men + flood,0,0,0
+osf_files/Objects/vest.jpg,survey-text-timed,3,"""people near an accident scene""",disaster_flood,men + flood,0,2,0
+osf_files/Objects/watch.jpg,survey-text-timed,3,"""business man arguing and fighting""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,4,0
+osf_files/Objects/watch.jpg,survey-text-timed,1,"""a guy wearing a watch""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),0,2,0
+osf_files/Objects/watch.jpg,survey-text-timed,1,"""I can't remember""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),0,0,0
+osf_files/Objects/watch.jpg,survey-text-timed,5,"""I don't remember.""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),0,0,0
+osf_files/Objects/watch.jpg,survey-text-timed,5,"""A man was being attacked by a lot of people, some grabbing his face. One of those people attacking him had a rectangular watch on his wrist.""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,7,1
+osf_files/Objects/watch.jpg,survey-text-timed,2,"""Killing a person place had with a man""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),0,0,0
+osf_files/Objects/watch.jpg,survey-text-timed,1,"""Person catch by many person""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,3,0
+osf_files/Objects/watch.jpg,survey-text-timed,5,"""A bunch of asian men grabbing a man's face""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,6,1
+osf_files/Objects/watch.jpg,survey-text-timed,5,"""A man's face being pulled by many hands. Some are wearing watches. """,fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,6,1
+osf_files/Objects/watch.jpg,survey-text-timed,0,"""men touching another man's face, pulling him down. """,fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,5,1
+osf_files/Objects/watch.jpg,survey-text-timed,3,"""There were a bunch of men surrounding another man, and they were all putting their hands on his mouth.""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,5,1
+osf_files/Objects/watch.jpg,survey-text-timed,3,"""a man wear this type of watch""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),0,2,0
+osf_files/Objects/watch.jpg,survey-text-timed,2,"""There was a man who was wearing this watch and there was a struggle.  It was daytime and the watch was not exactly like this, but close.  """,fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,4,1
+osf_files/Objects/watch.jpg,survey-text-timed,1,"""One man with many other men's hands covering his mouth.""",fight_peoplegrabbingface,crowd grabbing man's face (many ways to describe this),1,4,1
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,1,"""A man was in a wheelbarrel followed by other men.""",injury_limps,men + crippled/crutches,1,5,0
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,1,"""Person carried with this""",injury_limps,men + crippled/crutches,1,3,0
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,5,"""There were injured people walking. One of them was in a wheel barrow being carried by a younger person.""",injury_limps,men + crippled/crutches,1,7,1
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,5,"""A group of men""",injury_limps,men + crippled/crutches,0,2,0
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,3,"""There were a bunch of men, who appeared to be in a third world country, and they were all sitting in boats on the ground.""",injury_limps,men + crippled/crutches,1,3,0
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,1,"""Line of men.  One with lower part of his leg missing.  The man in front was sitting.""",injury_limps,men + crippled/crutches,1,6,1
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,5,"""A line of injured men. 1 man was being pushed in this wheel barrel. """,injury_limps,men + crippled/crutches,1,5,1
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,2,"""peoples travelled a man in the cart""",injury_limps,men + crippled/crutches,1,4,0
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,0,"""men in a line, a man without legs sitting on the cartwheel. """,injury_limps,men + crippled/crutches,1,5,1
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,2,"""There were people escaping something, and a man was being pushed in a wheelbarrow.  If I remember correctly, people were injured in the picture.  It was daytime.  """,injury_limps,men + crippled/crutches,1,7,1
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,5,"""A man injured and being carried by a wheelbarrow. """,injury_limps,men + crippled/crutches,1,4,1
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,3,"""near a hole with a body in it""",injury_limps,men + crippled/crutches,0,0,0
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,3,"""a man sitting in this trolley""",injury_limps,men + crippled/crutches,1,3,0
+osf_files/Objects/wheelbarrow.jpg,survey-text-timed,1,"""Someone wheeling someone that is injured away in a wheelbarrow. """,injury_limps,men + crippled/crutches,1,5,1
+osf_files/Objects/whitetowel.jpg,survey-text-timed,1,"""a body wrapped up in a blanket""",sad_washcloth,woman + crying/grieving + body,0,2,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,3,"""woman crying and holding a towel""",sad_washcloth,woman + crying/grieving + body,1,3,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,3,"""that guy use this towel.""",sad_washcloth,woman + crying/grieving + body,0,1,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,5,"""A crying black man""",sad_washcloth,woman + crying/grieving + body,0,2,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,2,"""There was a body wrapped in a sheet or something and on the ground.  The sheet was white. """,sad_washcloth,woman + crying/grieving + body,1,4,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,1,"""a crying woman and in the background a body is wrapped in a white sheet.""",sad_washcloth,woman + crying/grieving + body,1,7,1
+osf_files/Objects/whitetowel.jpg,survey-text-timed,5,"""A dead person wrapped up in a white blanket.""",sad_washcloth,woman + crying/grieving + body,1,4,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,2,"""A body covered with this one""",sad_washcloth,woman + crying/grieving + body,0,2,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,1,"""Woman wiping away tears with a covered body behind her""",sad_washcloth,woman + crying/grieving + body,1,4,1
+osf_files/Objects/whitetowel.jpg,survey-text-timed,0,"""""",sad_washcloth,woman + crying/grieving + body,0,0,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,5,"""A woman crying into a cloth. A dead man behind her.""",sad_washcloth,woman + crying/grieving + body,1,4,1
+osf_files/Objects/whitetowel.jpg,survey-text-timed,5,"""I don't remember.""",sad_washcloth,woman + crying/grieving + body,0,0,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,1,"""Towel with the cloth. """,sad_washcloth,woman + crying/grieving + body,0,1,0
+osf_files/Objects/whitetowel.jpg,survey-text-timed,3,"""There was a woman with a bunch of blankets surrounding her, and she looked to be homeless.""",sad_washcloth,woman + crying/grieving + body,0,1,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,1,"""Men having dogs fight.""",animals_dogfight,dogs + fighting,1,3,1
+osf_files/Objects/woolenhat.jpg,survey-text-timed,3,"""plane crash""",animals_dogfight,dogs + fighting,0,0,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,1,"""two dogs fighting with men all around and encouraging the dogs to fight.""",animals_dogfight,dogs + fighting,1,6,1
+osf_files/Objects/woolenhat.jpg,survey-text-timed,1,"""a guy wearing a hat""",animals_dogfight,dogs + fighting,0,2,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,5,"""can't remember""",animals_dogfight,dogs + fighting,0,0,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,2,"""A man wearied it in a crowed """,animals_dogfight,dogs + fighting,0,3,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,5,"""""",animals_dogfight,dogs + fighting,0,0,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,5,"""I don't remember.""",animals_dogfight,dogs + fighting,0,0,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,1,"""child wore it. """,animals_dogfight,dogs + fighting,0,1,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,0,"""A group of men, one wearing a green beenie""",animals_dogfight,dogs + fighting,0,3,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,5,"""All I know is there was a group of people. Some of them had winter hats on, or some ethnic hats.""",animals_dogfight,dogs + fighting,0,3,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,3,"""near the dog\n""",animals_dogfight,dogs + fighting,0,1,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,3,"""I can't remember which one this is associated with.""",animals_dogfight,dogs + fighting,0,0,0
+osf_files/Objects/woolenhat.jpg,survey-text-timed,2,"""There were people in some kind of struggle. One of the men was wearing a green knit cap in the picture.  """,animals_dogfight,dogs + fighting,0,5,0
